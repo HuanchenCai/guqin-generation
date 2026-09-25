@@ -5,25 +5,27 @@
 :root{--bg:#f5f1e9;--card:#fff;--line:#e3d7c3;--ink:#302b23;--muted:#7a7061;--accent:#9a6a2f;--on:#fff}
 @media (prefers-color-scheme:dark){:root{--bg:#1d1b18;--card:#27241f;--line:#443d33;--ink:#ece5d8;--muted:#a89e8f;--accent:#d9a45f;--on:#1d1b18}}
 *{box-sizing:border-box}
-body{font-family:system-ui,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);max-width:960px;margin:auto;padding:20px 16px 40px}
+body{font-family:system-ui,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);max-width:960px;margin:auto;padding:20px 16px 190px}
 button{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
 button:hover{border-color:var(--accent)}
 header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 h1{font-size:22px;margin:0}.muted{color:var(--muted);font-size:14px}
 .intro{margin:8px 0 18px;line-height:1.6}
-.bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
-.bar h2{font-size:20px;margin:0;flex:1;min-width:180px}
+.group{margin:0 0 22px}.bar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.bar h2{font-size:17px;margin:0;flex:1}.bar button{padding:3px 10px;font-size:13px}
 .cards{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
 @media (max-width:700px){.cards{grid-template-columns:repeat(2,1fr)}}
-.card{background:var(--card);border:2px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;text-align:center}
+.card{background:var(--card);border:2px solid var(--line);border-radius:12px;padding:8px 10px;cursor:pointer;text-align:center}
 .card.current{border-color:var(--accent)}
-.card .name{font-size:22px;font-weight:600}.card.playing .name::after{content:" ▶";color:var(--accent);font-size:15px}
-.track{height:6px;background:var(--line);border-radius:3px;margin:10px 0;position:relative;cursor:pointer}
+.card .name{font-size:18px;font-weight:600}.card.playing .name::after{content:" ▶";color:var(--accent);font-size:15px}
+.track{height:6px;background:var(--line);border-radius:3px;margin:8px 0;position:relative;cursor:pointer}
 .track i{position:absolute;left:0;top:0;bottom:0;background:var(--accent);border-radius:3px}
 .track b{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--muted);left:28.57%}
 .score{font-size:15px;color:var(--muted);min-height:22px}.score.set{color:var(--accent);font-weight:600}
 .flags{font-size:12px;color:var(--muted);min-height:16px}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-top:14px}
+.panel{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--accent);padding:10px 16px 12px;z-index:5;box-shadow:0 -4px 16px #0002}
+.panel>div{max-width:960px;margin:auto}
+.panel .row{margin-bottom:6px}
 .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
 .row .lab{width:44px;color:var(--muted);font-size:14px}
 .pick.on{background:var(--accent);border-color:var(--accent);color:var(--on)}
@@ -36,13 +38,12 @@ kbd{background:var(--card);border:1px solid var(--line);border-radius:4px;paddin
 </style>
 <header><h1>古琴续写盲听</h1><div><span class="muted" id="progress"></span> <button id="export">导出评分</button></div></header>
 <p class="intro muted">开头都来自没参与训练的蔡德允录音。每组 5 个候选，从第 10 秒（模型生成部分）开始播。<b>重点听擦弦噪声是否用过头、像拉锯。</b></p>
-<div class="bar"><h2 id="title"></h2><button id="prev">‹ 上一组</button><span class="muted" id="gpos"></span><button id="next">下一组 ›</button><button id="orig">▶ 原曲开头</button></div>
-<div class="cards" id="cards"></div>
-<div class="panel">
+<div id="groups"></div>
+<div class="panel"><div>
  <div class="row"><span class="lab" id="clabel"></span><span class="muted">总体</span><span id="scores"></span></div>
  <div class="row"><span class="lab">问题</span><span id="tags"></span></div>
- <textarea id="note" rows="2" placeholder="备注（可选）：例如“17 秒突然抽搐”"></textarea>
-</div>
+ <textarea id="note" rows="1" placeholder="备注（可选）：例如“17 秒突然抽搐”"></textarea>
+</div></div>
 <details><summary>快捷键</summary>
 <kbd>空格</kbd> 播放/暂停 · <kbd>1</kbd>–<kbd>5</kbd> 评分（评完自动下一段） · <kbd>←</kbd><kbd>→</kbd> 上/下一段 · <kbd>↑</kbd><kbd>↓</kbd> 上/下一组<br>
 <kbd>S</kbd><kbd>D</kbd><kbd>M</kbd><kbd>G</kbd><kbd>C</kbd> 问题标签 · <kbd>Enter</kbd> 写备注，<kbd>Esc</kbd> 退出 · <kbd>O</kbd> 原曲开头 · <kbd>R</kbd> 重播 · <kbd>B</kbd> 从 0 秒播 · <kbd>J</kbd><kbd>L</kbd> ±5 秒<br>
@@ -68,33 +69,43 @@ function persist(){try{localStorage.setItem(KEY,JSON.stringify(ratings))}catch(e
  $('progress').textContent=`已评 ${Object.values(ratings).filter(r=>r.score).length} / ${all.length}`}
 // Servers without HTTP Range support make audio unseekable; blob URLs always seek.
 const ready=()=>audio.readyState>=1?Promise.resolve():new Promise(ok=>audio.addEventListener('loadedmetadata',ok,{once:true}));
-function seekable(t){for(let i=0;i<audio.seekable.length;i++)if(audio.seekable.start(i)<=t&&audio.seekable.end(i)>=t)return true;return false}
-async function play(file,id,t){playingId=id;const url=blobs[file]||('audio/'+file);
- if(!audio.src.endsWith(url)){audio.src=url;audio.load()}await ready();
- if(t>0&&!seekable(t)&&!blobs[file]){blobs[file]=URL.createObjectURL(await (await fetch('audio/'+file)).blob());audio.src=blobs[file];await ready()}
- if(playingId!==id)return;audio.currentTime=Math.min(t,audio.duration-0.1);audio.play();render()}
+let playToken=0;
+async function play(file,id,t){const token=++playToken;playingId=id;audio.pause();
+ const stale=()=>token!==playToken;
+ if(!blobs[file]&&t>0){// fetch once as blob so seeking works on any server
+  const blob=await (await fetch('audio/'+file)).blob();blobs[file]=blobs[file]||URL.createObjectURL(blob);if(stale())return}
+ const url=blobs[file]||('audio/'+file);
+ if(audio.src!==url&&!audio.src.endsWith('/'+url)){audio.src=url;audio.load()}
+ await ready();if(stale())return;
+ audio.currentTime=Math.min(t,audio.duration-0.1);await audio.play().catch(()=>{});render()}
 const cur=()=>DATA.groups[gi].cards[ci];
 const playCard=(t=PREFIX)=>play(cur().file,cur().id,t);
-function render(){const g=DATA.groups[gi];
- $('title').textContent=`${g.opening.piece} · 种子 ${g.seed}`;$('gpos').textContent=`${gi+1} / ${DATA.groups.length}`;
- $('cards').innerHTML='';
- g.cards.forEach((c,i)=>{const r=ratings[c.id]||{};const d=document.createElement('div');
-  d.className='card'+(i===ci?' current':'')+(playingId===c.id&&!audio.paused?' playing':'');
-  d.innerHTML=`<div class="name">${c.label}</div><div class="track"><b></b><i></i></div><div class="score ${r.score?'set':''}">${r.score?r.score+' 分':'未评'}</div><div class="flags">${(r.issues||[]).join(' · ')}</div>${revealed?`<div class="flags">${DATA.legend[c.variant]}</div>`:''}`;
-  d.onclick=ev=>{if(ev.target.closest('.track'))return;const same=i===ci;ci=i;if(same&&!audio.paused&&playingId===c.id)audio.pause();else playCard();render()};
-  d.querySelector('.track').onclick=ev=>{const f=(ev.clientX-ev.currentTarget.getBoundingClientRect().left)/ev.currentTarget.clientWidth;ci=i;play(c.file,c.id,f*35)};
-  $('cards').append(d)});
- const c=cur(),r=ratings[c.id]||{};$('clabel').textContent=c.label;
+function render(){const box=$('groups');box.innerHTML='';
+ DATA.groups.forEach((g,gidx)=>{const sec=document.createElement('section');sec.className='group';
+  sec.innerHTML=`<div class="bar"><h2>${gidx+1}. ${g.opening.piece} · 种子 ${g.seed}</h2><button>▶ 原曲开头</button></div><div class="cards"></div>`;
+  sec.querySelector('button').onclick=()=>play(g.opening.file,'orig',0);
+  const row=sec.querySelector('.cards');
+  g.cards.forEach((c,i)=>{const r=ratings[c.id]||{};const d=document.createElement('div');
+   const here=gidx===gi&&i===ci;
+   d.className='card'+(here?' current':'')+(playingId===c.id&&!audio.paused?' playing':'');d.dataset.id=c.id;
+   d.innerHTML=`<div class="name">${c.label}</div><div class="track"><b></b><i></i></div><div class="score ${r.score?'set':''}">${r.score?r.score+' 分':'未评'}</div><div class="flags">${(r.issues||[]).join(' · ')}</div>${revealed?`<div class="flags">${DATA.legend[c.variant]}</div>`:''}`;
+   d.onclick=ev=>{if(ev.target.closest('.track'))return;const same=here;gi=gidx;ci=i;if(same&&!audio.paused&&playingId===c.id)audio.pause();else playCard();render()};
+   d.querySelector('.track').onclick=ev=>{const f=(ev.clientX-ev.currentTarget.getBoundingClientRect().left)/ev.currentTarget.clientWidth;gi=gidx;ci=i;play(c.file,c.id,f*35)};
+   row.append(d)});
+  box.append(sec)});
+ const c=cur(),r=ratings[c.id]||{};$('clabel').textContent=`${gi+1}·${c.label}`;
  $('scores').innerHTML=[1,2,3,4,5].map(n=>`<button class="pick ${r.score===n?'on':''}" data-n="${n}">${n}</button>`).join(' ');
  $('scores').querySelectorAll('button').forEach(b=>b.onclick=()=>score(+b.dataset.n));
  $('tags').innerHTML=TAGS.map(t=>`<button class="pick ${(r.issues||[]).includes(t.name)?'on':''}" data-k="${t.k}">${t.name}<kbd>${t.k.toUpperCase()}</kbd></button>`).join(' ');
  $('tags').querySelectorAll('button').forEach(b=>b.onclick=()=>tag(b.dataset.k));
  if(document.activeElement!==$('note'))$('note').value=r.note||'';
  tick()}
-function tick(){const cards=$('cards').children;DATA.groups[gi].cards.forEach((c,i)=>{const bar=cards[i]&&cards[i].querySelector('.track i');
- if(bar)bar.style.width=(playingId===c.id&&audio.duration?audio.currentTime/audio.duration*100:0)+'%'})}
+function reveal(){const el=document.querySelector('.card.current');if(!el)return;const b=el.getBoundingClientRect(),panel=document.querySelector('.panel').offsetHeight;
+ if(b.top<60||b.bottom>innerHeight-panel-10)el.scrollIntoView({block:'center',behavior:'smooth'})}
+function tick(){document.querySelectorAll('.card').forEach(el=>{const bar=el.querySelector('.track i');
+ bar.style.width=(playingId===el.dataset.id&&audio.duration?audio.currentTime/audio.duration*100:0)+'%'})}
 audio.ontimeupdate=tick;audio.onplay=audio.onpause=audio.onended=()=>render();
-function go(g,c=0,autoplay=true){gi=(g+DATA.groups.length)%DATA.groups.length;ci=c;if(autoplay)playCard();else{audio.pause();render()}}
+function go(g,c=0){gi=(g+DATA.groups.length)%DATA.groups.length;ci=c;playCard();render();reveal()}
 function step(d){let i=all.findIndex(x=>x.gi===gi&&x.ci===ci)+d;i=(i+all.length)%all.length;go(all[i].gi,all[i].ci)}
 function nextUnrated(){const s=all.findIndex(x=>x.gi===gi&&x.ci===ci);for(let k=1;k<=all.length;k++){const x=all[(s+k)%all.length];if(!(ratings[x.id]||{}).score)return x}return null}
 function score(n){rec(cur()).score=n;persist();render();toast(`${cur().label}：${n} 分`);
@@ -103,8 +114,6 @@ function tag(k){const t=TAGS.find(t=>t.k===k),r=rec(cur()),i=r.issues.indexOf(t.
  if(i>=0)r.issues.splice(i,1);else r.issues.push(t.name);persist();render();toast((i>=0?'取消：':'标记：')+t.name)}
 $('note').oninput=()=>{rec(cur()).note=$('note').value.trim();persist()};
 $('note').onblur=()=>render();
-$('prev').onclick=()=>go(gi-1,0,false);$('next').onclick=()=>go(gi+1,0,false);
-$('orig').onclick=()=>play(DATA.groups[gi].opening.file,'orig',0);
 $('reveal').onclick=e=>{e.preventDefault();revealed=!revealed;render()};
 document.addEventListener('keydown',ev=>{if(ev.ctrlKey||ev.metaKey||ev.altKey)return;
  if(ev.target.tagName==='TEXTAREA'){if(ev.key==='Escape'){ev.target.blur();ev.preventDefault()}return}
@@ -117,7 +126,7 @@ document.addEventListener('keydown',ev=>{if(ev.ctrlKey||ev.metaKey||ev.altKey)re
  else if(k==='arrowleft'||k==='p'){ev.preventDefault();step(-1)}
  else if(k==='arrowdown'){ev.preventDefault();go(gi+1)}
  else if(k==='arrowup'){ev.preventDefault();go(gi-1)}
- else if(k==='o')$('orig').click();
+ else if(k==='o')play(DATA.groups[gi].opening.file,'orig',0);
  else if(k==='r')playCard(PREFIX);
  else if(k==='b')playCard(0);
  else if(k==='j'||k==='l'){if(audio.src)audio.currentTime=Math.max(0,audio.currentTime+(k==='j'?-5:5))}
