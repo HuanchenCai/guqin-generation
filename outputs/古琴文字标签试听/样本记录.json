@@ -1,0 +1,665 @@
+[
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 84917,
+    "file": "o01_old.flac",
+    "adapter": "full_412",
+    "opening": "open_01.flac",
+    "seconds": 20.5
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 94017,
+    "file": "o02_old.flac",
+    "adapter": "full_412",
+    "opening": "open_02.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 20260925,
+    "file": "o03_old.flac",
+    "adapter": "full_412",
+    "opening": "open_03.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 31415,
+    "file": "o04_old.flac",
+    "adapter": "full_412",
+    "opening": "open_04.flac",
+    "seconds": 5.4
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 27182,
+    "file": "o05_old.flac",
+    "adapter": "full_412",
+    "opening": "open_05.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 16180,
+    "file": "o06_old.flac",
+    "adapter": "full_412",
+    "opening": "open_06.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 57721,
+    "file": "o07_old.flac",
+    "adapter": "full_412",
+    "opening": "open_07.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 14142,
+    "file": "o08_old.flac",
+    "adapter": "full_412",
+    "opening": "open_08.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 17320,
+    "file": "o09_old.flac",
+    "adapter": "full_412",
+    "opening": "open_09.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "old",
+    "prompt": "",
+    "tags": [],
+    "seed": 22360,
+    "file": "o10_old.flac",
+    "adapter": "full_412",
+    "opening": "open_10.flac",
+    "seconds": 5.2
+  },
+  {
+    "part": "text",
+    "code": "old",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: lonely. Scene: night. 意境：孤寂、夜。",
+    "tags": [
+      "孤寂",
+      "夜"
+    ],
+    "seed": 11111,
+    "file": "t01_old.flac",
+    "adapter": "full_412",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "old",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: impassioned, majestic. 意境：激昂、雄浑。",
+    "tags": [
+      "激昂",
+      "雄浑"
+    ],
+    "seed": 22222,
+    "file": "t02_old.flac",
+    "adapter": "full_412",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "old",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: calm. Scene: flowing water. 意境：平静、流水。",
+    "tags": [
+      "平静",
+      "流水"
+    ],
+    "seed": 33333,
+    "file": "t03_old.flac",
+    "adapter": "full_412",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "old",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: joyful. Scene: spring. 意境：欢快、春。",
+    "tags": [
+      "欢快",
+      "春"
+    ],
+    "seed": 44444,
+    "file": "t04_old.flac",
+    "adapter": "full_412",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "old",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: vast. Scene: frontier desert. 意境：苍茫、塞外大漠。",
+    "tags": [
+      "苍茫",
+      "塞外大漠"
+    ],
+    "seed": 55555,
+    "file": "t05_old.flac",
+    "adapter": "full_412",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 84917,
+    "file": "o01_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_01.flac",
+    "seconds": 5.5
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: majestic, impassioned, vast. Scene: river. 意境：雄浑、激昂、苍茫、江河。",
+    "tags": [
+      "雄浑",
+      "激昂",
+      "苍茫",
+      "江河"
+    ],
+    "seed": 84917,
+    "file": "o01_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_01.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: tranquil, calm. Scene: moonlit night. 意境：恬淡、平静、月夜。",
+    "tags": [
+      "恬淡",
+      "平静",
+      "月夜"
+    ],
+    "seed": 84917,
+    "file": "o01_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_01.flac",
+    "seconds": 5.4
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 94017,
+    "file": "o02_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_02.flac",
+    "seconds": 5.2
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: drunken, carefree. Scene: immortals. 意境：醉、洒脱、仙境。",
+    "tags": [
+      "醉",
+      "洒脱",
+      "仙境"
+    ],
+    "seed": 94017,
+    "file": "o02_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_02.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: melancholy, lonely. Scene: night. 意境：忧伤、孤寂、夜。",
+    "tags": [
+      "忧伤",
+      "孤寂",
+      "夜"
+    ],
+    "seed": 94017,
+    "file": "o02_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_02.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 20260925,
+    "file": "o03_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_03.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: carefree, tranquil. Scene: river. 意境：洒脱、恬淡、江河。",
+    "tags": [
+      "洒脱",
+      "恬淡",
+      "江河"
+    ],
+    "seed": 20260925,
+    "file": "o03_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_03.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: sorrowful and indignant, impassioned. Scene: frontier desert. 意境：悲愤、激昂、塞外大漠。",
+    "tags": [
+      "悲愤",
+      "激昂",
+      "塞外大漠"
+    ],
+    "seed": 20260925,
+    "file": "o03_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_03.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 31415,
+    "file": "o04_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_04.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: lively. Scene: immortals, birds. 意境：灵动、仙境、飞鸟。",
+    "tags": [
+      "灵动",
+      "仙境",
+      "飞鸟"
+    ],
+    "seed": 31415,
+    "file": "o04_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_04.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: melancholy, lonely. Scene: night. 意境：忧伤、孤寂、夜。",
+    "tags": [
+      "忧伤",
+      "孤寂",
+      "夜"
+    ],
+    "seed": 31415,
+    "file": "o04_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_04.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 27182,
+    "file": "o05_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_05.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: tranquil. Scene: countryside, fisherman and woodcutter. 意境：恬淡、田园、渔樵。",
+    "tags": [
+      "恬淡",
+      "田园",
+      "渔樵"
+    ],
+    "seed": 27182,
+    "file": "o05_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_05.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: impassioned, majestic. Scene: wind. 意境：激昂、雄浑、风。",
+    "tags": [
+      "激昂",
+      "雄浑",
+      "风"
+    ],
+    "seed": 27182,
+    "file": "o05_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_05.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 16180,
+    "file": "o06_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_06.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: joyful, lively. Scene: spring. 意境：欢快、灵动、春。",
+    "tags": [
+      "欢快",
+      "灵动",
+      "春"
+    ],
+    "seed": 16180,
+    "file": "o06_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_06.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: lonely, melancholy. Scene: autumn. 意境：孤寂、忧伤、秋。",
+    "tags": [
+      "孤寂",
+      "忧伤",
+      "秋"
+    ],
+    "seed": 16180,
+    "file": "o06_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_06.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 57721,
+    "file": "o07_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_07.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: sorrowful and indignant, melancholy. Scene: river. 意境：悲愤、忧伤、江河。",
+    "tags": [
+      "悲愤",
+      "忧伤",
+      "江河"
+    ],
+    "seed": 57721,
+    "file": "o07_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_07.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: joyful, lively. Scene: spring. 意境：欢快、灵动、春。",
+    "tags": [
+      "欢快",
+      "灵动",
+      "春"
+    ],
+    "seed": 57721,
+    "file": "o07_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_07.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 14142,
+    "file": "o08_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_08.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: tranquil, carefree. Scene: birds, river. 意境：恬淡、洒脱、飞鸟、江河。",
+    "tags": [
+      "恬淡",
+      "洒脱",
+      "飞鸟",
+      "江河"
+    ],
+    "seed": 14142,
+    "file": "o08_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_08.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: sorrowful and indignant, impassioned. Scene: frontier desert. 意境：悲愤、激昂、塞外大漠。",
+    "tags": [
+      "悲愤",
+      "激昂",
+      "塞外大漠"
+    ],
+    "seed": 14142,
+    "file": "o08_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_08.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 17320,
+    "file": "o09_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_09.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: vast, melancholy. Scene: clouds, river. 意境：苍茫、云、江河、忧伤。",
+    "tags": [
+      "苍茫",
+      "云",
+      "江河",
+      "忧伤"
+    ],
+    "seed": 17320,
+    "file": "o09_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_09.flac",
+    "seconds": 5.2
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: joyful, lively. Scene: spring. 意境：欢快、灵动、春。",
+    "tags": [
+      "欢快",
+      "灵动",
+      "春"
+    ],
+    "seed": 17320,
+    "file": "o09_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_09.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "none",
+    "prompt": "",
+    "tags": [],
+    "seed": 22360,
+    "file": "o10_none.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_10.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "match",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: vast. Scene: autumn, birds. 意境：苍茫、秋、飞鸟。",
+    "tags": [
+      "苍茫",
+      "秋",
+      "飞鸟"
+    ],
+    "seed": 22360,
+    "file": "o10_match.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_10.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "continue",
+    "code": "opposite",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: joyful. Scene: countryside, spring. 意境：欢快、田园、春。",
+    "tags": [
+      "欢快",
+      "田园",
+      "春"
+    ],
+    "seed": 22360,
+    "file": "o10_opposite.flac",
+    "adapter": "full_412_captioned",
+    "opening": "open_10.flac",
+    "seconds": 5.3
+  },
+  {
+    "part": "text",
+    "code": "new",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: lonely. Scene: night. 意境：孤寂、夜。",
+    "tags": [
+      "孤寂",
+      "夜"
+    ],
+    "seed": 11111,
+    "file": "t01_new.flac",
+    "adapter": "full_412_captioned",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "new",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: impassioned, majestic. 意境：激昂、雄浑。",
+    "tags": [
+      "激昂",
+      "雄浑"
+    ],
+    "seed": 22222,
+    "file": "t02_new.flac",
+    "adapter": "full_412_captioned",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "new",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: calm. Scene: flowing water. 意境：平静、流水。",
+    "tags": [
+      "平静",
+      "流水"
+    ],
+    "seed": 33333,
+    "file": "t03_new.flac",
+    "adapter": "full_412_captioned",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "new",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: joyful. Scene: spring. 意境：欢快、春。",
+    "tags": [
+      "欢快",
+      "春"
+    ],
+    "seed": 44444,
+    "file": "t04_new.flac",
+    "adapter": "full_412_captioned",
+    "opening": null,
+    "seconds": 3.5
+  },
+  {
+    "part": "text",
+    "code": "new",
+    "prompt": "Solo guqin, Chinese seven-string zither. Mood: vast. Scene: frontier desert. 意境：苍茫、塞外大漠。",
+    "tags": [
+      "苍茫",
+      "塞外大漠"
+    ],
+    "seed": 55555,
+    "file": "t05_new.flac",
+    "adapter": "full_412_captioned",
+    "opening": null,
+    "seconds": 3.5
+  }
+]

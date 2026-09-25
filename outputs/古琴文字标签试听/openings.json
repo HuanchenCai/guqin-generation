@@ -1,0 +1,185 @@
+[
+  {
+    "file": "open_01.flac",
+    "artist": "查阜西",
+    "piece": "大江东去",
+    "source": "CD第1册/CD11/查阜西-大江东去.wav",
+    "start_seconds": 40,
+    "seed": 84917,
+    "match": [
+      "雄浑",
+      "激昂",
+      "苍茫",
+      "江河"
+    ],
+    "opposite": [
+      "恬淡",
+      "平静",
+      "月夜"
+    ]
+  },
+  {
+    "file": "open_02.flac",
+    "artist": "乐瑛",
+    "piece": "岳阳三醉-残",
+    "source": "CD第3册/41/乐瑛-岳阳三醉-残.wav",
+    "start_seconds": 40,
+    "seed": 94017,
+    "match": [
+      "醉",
+      "洒脱",
+      "仙境"
+    ],
+    "opposite": [
+      "忧伤",
+      "孤寂",
+      "夜"
+    ]
+  },
+  {
+    "file": "open_03.flac",
+    "artist": "张子谦",
+    "piece": "泛沧浪",
+    "source": "CD第2册/28/张子谦-泛沧浪.wav",
+    "start_seconds": 40,
+    "seed": 20260925,
+    "match": [
+      "洒脱",
+      "恬淡",
+      "江河"
+    ],
+    "opposite": [
+      "悲愤",
+      "激昂",
+      "塞外大漠"
+    ]
+  },
+  {
+    "file": "open_04.flac",
+    "artist": "詹澄秋",
+    "piece": "鹤舞洞天",
+    "source": "CD第1册/CD06/詹澄秋-鹤舞洞天.wav",
+    "start_seconds": 40,
+    "seed": 31415,
+    "match": [
+      "灵动",
+      "仙境",
+      "飞鸟"
+    ],
+    "opposite": [
+      "忧伤",
+      "孤寂",
+      "夜"
+    ]
+  },
+  {
+    "file": "open_05.flac",
+    "artist": "胥桐华",
+    "piece": "耕莘钓渭",
+    "source": "CD第3册/44/胥桐华-耕莘钓渭.wav",
+    "start_seconds": 40,
+    "seed": 27182,
+    "match": [
+      "恬淡",
+      "田园",
+      "渔樵"
+    ],
+    "opposite": [
+      "激昂",
+      "雄浑",
+      "风"
+    ]
+  },
+  {
+    "file": "open_06.flac",
+    "artist": "喻绍泽",
+    "piece": "桃李园序",
+    "source": "CD第2册/38/喻绍泽-桃李园序.wav",
+    "start_seconds": 40,
+    "seed": 16180,
+    "match": [
+      "欢快",
+      "灵动",
+      "春"
+    ],
+    "opposite": [
+      "孤寂",
+      "忧伤",
+      "秋"
+    ]
+  },
+  {
+    "file": "open_07.flac",
+    "artist": "吴振平",
+    "piece": "屈原问渡",
+    "source": "CD第3册/46/吴振平-屈原问渡.wav",
+    "start_seconds": 40,
+    "seed": 57721,
+    "match": [
+      "悲愤",
+      "忧伤",
+      "江河"
+    ],
+    "opposite": [
+      "欢快",
+      "灵动",
+      "春"
+    ]
+  },
+  {
+    "file": "open_08.flac",
+    "artist": "朱龙庵",
+    "piece": "鸥鹭忘机1",
+    "source": "CD第3册/47/朱龙庵-鸥鹭忘机1.wav",
+    "start_seconds": 40,
+    "seed": 14142,
+    "match": [
+      "恬淡",
+      "洒脱",
+      "飞鸟",
+      "江河"
+    ],
+    "opposite": [
+      "悲愤",
+      "激昂",
+      "塞外大漠"
+    ]
+  },
+  {
+    "file": "open_09.flac",
+    "artist": "李传爱",
+    "piece": "潇湘水云",
+    "source": "CD第4册/61/李传爱-潇湘水云.wav",
+    "start_seconds": 40,
+    "seed": 17320,
+    "match": [
+      "苍茫",
+      "云",
+      "江河",
+      "忧伤"
+    ],
+    "opposite": [
+      "欢快",
+      "灵动",
+      "春"
+    ]
+  },
+  {
+    "file": "open_10.flac",
+    "artist": "管平湖",
+    "piece": "秋鸿",
+    "source": "CD第1册/CD18/管平湖-秋鸿.wav",
+    "start_seconds": 40,
+    "seed": 22360,
+    "match": [
+      "苍茫",
+      "秋",
+      "飞鸟"
+    ],
+    "opposite": [
+      "欢快",
+      "田园",
+      "春"
+    ]
+  }
+]
