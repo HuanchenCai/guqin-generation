@@ -21,12 +21,31 @@ from guqin_noise_features import clip_report
 
 WORK = Path(__file__).resolve().parent
 ROOT = WORK / "guqin_aligned_412"
-OUT = WORK.parent / "outputs" / "古琴推理调参"
-AUDIO = OUT / "audio"
-LIBRARY = Path("Y:/Music/古琴曲/CD第3册")
-OPENINGS = ["42/蔡德允-关山月.wav", "42/蔡德允-平沙落雁1.wav", "42/蔡德允-梅花三弄.wav",
-            "42/蔡德允-良宵引.wav", "43/蔡德允-潇湘水云1.wav", "43/蔡德允-阳关三叠.wav"]
-SEEDS = (84917, 94017, 20260925)
+LIBRARY = Path("Y:/Music/古琴曲")
+# Opening sets: (output folder, [(relative path, seeds)]).
+# "caidy": 6 蔡德允 pieces x 3 seeds. NOTE: 蔡德允 is in the 412 training set,
+# so these are unseen only for the old 222-clip adapter.
+# "diverse": 10 recordings outside both the 412 and 222 training sets, each a
+# different performer and piece, one seed each (user asked not to repeat).
+SETS = {
+    "caidy": ("古琴推理调参", [(f"CD第3册/{p}", (84917, 94017, 20260925)) for p in (
+        "42/蔡德允-关山月.wav", "42/蔡德允-平沙落雁1.wav", "42/蔡德允-梅花三弄.wav",
+        "42/蔡德允-良宵引.wav", "43/蔡德允-潇湘水云1.wav", "43/蔡德允-阳关三叠.wav")]),
+    "diverse": ("古琴推理调参_分散开头", [
+        ("CD第1册/CD11/查阜西-大江东去.wav", (84917,)),
+        ("CD第3册/41/乐瑛-岳阳三醉-残.wav", (94017,)),
+        ("CD第2册/28/张子谦-泛沧浪.wav", (20260925,)),
+        ("CD第1册/CD06/詹澄秋-鹤舞洞天.wav", (31415,)),
+        ("CD第3册/44/胥桐华-耕莘钓渭.wav", (27182,)),
+        ("CD第2册/38/喻绍泽-桃李园序.wav", (16180,)),
+        ("CD第3册/46/吴振平-屈原问渡.wav", (57721,)),
+        ("CD第3册/47/朱龙庵-鸥鹭忘机1.wav", (14142,)),
+        ("CD第4册/61/李传爱-潇湘水云.wav", (17320,)),
+        ("CD第1册/CD18/管平湖-秋鸿.wav", (22360,)),
+    ]),
+}
+SET = "caidy"
+OUT = AUDIO = OPENINGS = None
 FULL = ROOT / "full_412" / "epoch=1-step=2764.safetensors"
 OLD = WORK / "sa3_feedback_bulk" / "medium_run" / "epoch=4-step=1000.safetensors"
 # (code, description, model, adapter, strength, lora_interval, steps)
@@ -42,7 +61,7 @@ VARIANTS = [
 def prepare_openings() -> list[dict]:
     AUDIO.mkdir(parents=True, exist_ok=True)
     rows = []
-    for index, rel in enumerate(OPENINGS, 1):
+    for index, (rel, seeds) in enumerate(OPENINGS, 1):
         audio, rate = sf.read(LIBRARY / rel, dtype="float32", always_2d=True)
         start = 40
         while start + 10 < len(audio) / rate:
@@ -52,13 +71,22 @@ def prepare_openings() -> list[dict]:
             start += 10
         name = f"open_{index:02d}.flac"
         sf.write(AUDIO / name, window, rate, subtype="PCM_16")
-        rows.append({"file": name, "piece": Path(rel).stem.split("-", 1)[1],
-                     "artist": "蔡德允", "source": rel, "start_seconds": start})
+        artist, piece = Path(rel).stem.split("-", 1)
+        rows.append({"file": name, "piece": piece, "artist": artist, "source": rel,
+                     "start_seconds": start, "seeds": list(seeds)})
     return rows
 
 
 def main() -> None:
-    only = set(sys.argv[1:])
+    global OUT, AUDIO, OPENINGS
+    args = sys.argv[1:]
+    name = args.pop(args.index("--set") + 1) if "--set" in args else SET
+    if "--set" in args:
+        args.remove("--set")
+    folder, OPENINGS = SETS[name]
+    OUT = WORK.parent / "outputs" / folder
+    AUDIO = OUT / "audio"
+    only = set(args)
     openings = prepare_openings()
     records_path = OUT / "样本记录.json"
     records = json.loads(records_path.read_text(encoding="utf-8")) if records_path.exists() else []
@@ -79,7 +107,7 @@ def main() -> None:
         for index, opening in enumerate(openings, 1):
             context, rate = sf.read(AUDIO / opening["file"], dtype="float32", always_2d=True)
             prefix = torch.from_numpy(context.T.copy())
-            for seed in SEEDS:
+            for seed in opening["seeds"]:
                 name = f"o{index:02d}_{seed}_{code}.flac"
                 if name in done:
                     continue
@@ -92,7 +120,7 @@ def main() -> None:
                 audio = result[0].detach().float().cpu().T.numpy()
                 sf.write(AUDIO / name, audio, rate, format="FLAC", subtype="PCM_16")
                 record = {"variant": code, "title": title, "opening": opening["file"],
-                          "piece": opening["piece"], "seed": seed, "file": name,
+                          "piece": opening["piece"], "artist": opening["artist"], "seed": seed, "file": name,
                           "strength": strength, "interval": interval, "steps": steps,
                           "model": base, "adapter": adapter.name,
                           "seconds": round(time.monotonic() - started, 1),
