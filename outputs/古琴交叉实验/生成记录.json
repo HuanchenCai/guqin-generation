@@ -1,0 +1,74 @@
+[
+  {
+    "file": "1995较新录音_原版.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+    "source_start_seconds": 4,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84917,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "1995较新录音_古琴微调.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+    "source_start_seconds": 4,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84917,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "未参与训练录音_原版.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start_seconds": 5,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84918,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "未参与训练录音_古琴微调.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start_seconds": 5,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84918,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "1991中期录音_原版.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_06_part_01.flac",
+    "source_start_seconds": 4,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84917,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "1991中期录音_古琴微调.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_06_part_01.flac",
+    "source_start_seconds": 4,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84917,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "1988较旧录音_原版.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_08_part_01.flac",
+    "source_start_seconds": 4,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84917,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  },
+  {
+    "file": "1988较旧录音_古琴微调.wav",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_08_part_01.flac",
+    "source_start_seconds": 4,
+    "condition": "10 seconds audio only, no text",
+    "generation_seed": 84917,
+    "seconds": 21.94,
+    "continuation_starts_seconds": 10
+  }
+]

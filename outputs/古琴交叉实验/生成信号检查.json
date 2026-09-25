@@ -1,0 +1,194 @@
+[
+  {
+    "recording": "1995较新录音",
+    "model": "原版",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.0806,
+      "flatness": 0.0145,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.1387,
+      "flatness": 0.035,
+      "clipping_fraction": 2e-05
+    },
+    "rms_ratio": 1.72
+  },
+  {
+    "recording": "1995较新录音",
+    "model": "古琴微调",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.0803,
+      "flatness": 0.0141,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0262,
+      "flatness": 0.0146,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.33
+  },
+  {
+    "recording": "1995较新录音",
+    "model": "SA3纯音频续写",
+    "seconds": 22.0,
+    "context": {
+      "rms": 0.0846,
+      "flatness": 0.0179,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0818,
+      "flatness": 0.0479,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.97
+  },
+  {
+    "recording": "未参与训练录音",
+    "model": "原版",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.0688,
+      "flatness": 0.0227,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.1586,
+      "flatness": 0.0586,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 2.31
+  },
+  {
+    "recording": "未参与训练录音",
+    "model": "古琴微调",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.0688,
+      "flatness": 0.0221,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0289,
+      "flatness": 0.0133,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.42
+  },
+  {
+    "recording": "未参与训练录音",
+    "model": "SA3纯音频续写",
+    "seconds": 22.0,
+    "context": {
+      "rms": 0.0741,
+      "flatness": 0.0302,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0686,
+      "flatness": 0.0699,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.93
+  },
+  {
+    "recording": "1991中期录音",
+    "model": "原版",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.1034,
+      "flatness": 0.034,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.116,
+      "flatness": 0.0572,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 1.12
+  },
+  {
+    "recording": "1991中期录音",
+    "model": "古琴微调",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.1033,
+      "flatness": 0.033,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0258,
+      "flatness": 0.0154,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.25
+  },
+  {
+    "recording": "1991中期录音",
+    "model": "SA3纯音频续写",
+    "seconds": 22.0,
+    "context": {
+      "rms": 0.1131,
+      "flatness": 0.0215,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0425,
+      "flatness": 0.0797,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.38
+  },
+  {
+    "recording": "1988较旧录音",
+    "model": "原版",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.1154,
+      "flatness": 0.0134,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.1028,
+      "flatness": 0.0121,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.89
+  },
+  {
+    "recording": "1988较旧录音",
+    "model": "古琴微调",
+    "seconds": 21.94,
+    "context": {
+      "rms": 0.1153,
+      "flatness": 0.0121,
+      "clipping_fraction": 0.0
+    },
+    "continuation": {
+      "rms": 0.0285,
+      "flatness": 0.0153,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.25
+  },
+  {
+    "recording": "1988较旧录音",
+    "model": "SA3纯音频续写",
+    "seconds": 22.0,
+    "context": {
+      "rms": 0.1185,
+      "flatness": 0.0114,
+      "clipping_fraction": 3e-05
+    },
+    "continuation": {
+      "rms": 0.0557,
+      "flatness": 0.0508,
+      "clipping_fraction": 0.0
+    },
+    "rms_ratio": 0.47
+  }
+]

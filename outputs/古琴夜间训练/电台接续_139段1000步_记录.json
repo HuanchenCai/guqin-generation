@@ -1,0 +1,81 @@
+{
+  "model": "small-music",
+  "adapter": ".\\work\\sa3_overnight\\union_run\\epoch=7-step=1000.safetensors",
+  "prompt": "",
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+  "source_start_seconds": 5,
+  "file": "电台接续_139段1000步_560秒.flac",
+  "total_seconds": 560.0,
+  "chunks": [
+    {
+      "chunk": 1,
+      "seed": 94017,
+      "mask_start_seconds": 10,
+      "generation_seconds": 21.38,
+      "signal": {
+        "mean_rms_dbfs": -19.81,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 1e-05
+      }
+    },
+    {
+      "chunk": 2,
+      "seed": 94018,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.8,
+      "signal": {
+        "mean_rms_dbfs": -18.45,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 2e-05
+      }
+    },
+    {
+      "chunk": 3,
+      "seed": 94019,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.8,
+      "signal": {
+        "mean_rms_dbfs": -14.9,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.0003
+      }
+    },
+    {
+      "chunk": 4,
+      "seed": 94020,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.7,
+      "signal": {
+        "mean_rms_dbfs": -12.26,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.00221
+      }
+    },
+    {
+      "chunk": 5,
+      "seed": 94021,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.78,
+      "signal": {
+        "mean_rms_dbfs": -9.87,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.01208
+      },
+      "stop_reason": "signal check failed"
+    }
+  ],
+  "excerpts": [
+    {
+      "file": "电台接续_139段1000步_选段1.flac",
+      "start_seconds": 20
+    },
+    {
+      "file": "电台接续_139段1000步_选段2.flac",
+      "start_seconds": 270
+    },
+    {
+      "file": "电台接续_139段1000步_选段3.flac",
+      "start_seconds": 530
+    }
+  ]
+}

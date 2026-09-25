@@ -1,0 +1,43 @@
+{
+  "model": "medium",
+  "adapter": null,
+  "prompt": "",
+  "level_dbfs": null,
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+  "source_start_seconds": 5,
+  "file": "电台接续_Medium原版单次_300秒.flac",
+  "total_seconds": 300.0,
+  "chunks": [
+    {
+      "chunk": 1,
+      "seed": 94017,
+      "mask_start_seconds": 10,
+      "generation_seconds": 36.83,
+      "raw_signal": {
+        "mean_rms_dbfs": -19.54,
+        "near_silent_seconds_fraction": 0.003,
+        "clipped_fraction": 0.0
+      },
+      "level_gain_db": 0.0,
+      "signal": {
+        "mean_rms_dbfs": -19.54,
+        "near_silent_seconds_fraction": 0.003,
+        "clipped_fraction": 0.0
+      }
+    }
+  ],
+  "excerpts": [
+    {
+      "file": "电台接续_Medium原版单次_选段1.flac",
+      "start_seconds": 20
+    },
+    {
+      "file": "电台接续_Medium原版单次_选段2.flac",
+      "start_seconds": 140
+    },
+    {
+      "file": "电台接续_Medium原版单次_选段3.flac",
+      "start_seconds": 270
+    }
+  ]
+}

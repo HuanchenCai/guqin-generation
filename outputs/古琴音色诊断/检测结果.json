@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+  "original_rate": 44100,
+  "codec_rate": 32000,
+  "original_rms": 0.09555075317621231,
+  "reconstruction_rms": 0.09172675013542175,
+  "code_shape": [
+    1,
+    1,
+    4,
+    1500
+  ]
+}

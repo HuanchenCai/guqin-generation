@@ -1,0 +1,46 @@
+[
+  {
+    "label": "1995较新录音",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+    "source_start": 4,
+    "seed": 84917,
+    "prompt": "empty",
+    "context_seconds": 10,
+    "continuation_seconds": 12,
+    "model": "Stable Audio 3 Small Music",
+    "audio_representation": "SAME-S 44.1kHz stereo latent"
+  },
+  {
+    "label": "未参与训练录音",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start": 5,
+    "seed": 84918,
+    "prompt": "empty",
+    "context_seconds": 10,
+    "continuation_seconds": 12,
+    "model": "Stable Audio 3 Small Music",
+    "audio_representation": "SAME-S 44.1kHz stereo latent"
+  },
+  {
+    "label": "1991中期录音",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_06_part_01.flac",
+    "source_start": 4,
+    "seed": 84919,
+    "prompt": "empty",
+    "context_seconds": 10,
+    "continuation_seconds": 12,
+    "model": "Stable Audio 3 Small Music",
+    "audio_representation": "SAME-S 44.1kHz stereo latent"
+  },
+  {
+    "label": "1988较旧录音",
+    "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_08_part_01.flac",
+    "source_start": 4,
+    "seed": 84920,
+    "prompt": "empty",
+    "context_seconds": 10,
+    "continuation_seconds": 12,
+    "model": "Stable Audio 3 Small Music",
+    "audio_representation": "SAME-S 44.1kHz stereo latent"
+  }
+]

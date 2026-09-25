@@ -1,0 +1,120 @@
+[
+  {
+    "duration_seconds": 35,
+    "file": "未见录音_Medium123段1000步_94017.flac",
+    "source": "held-out Cai Deyun, seconds 5–15 as context",
+    "seed": 94017,
+    "model": "SA3 Medium + 123-clip LoRA, 1000 steps",
+    "generated_only": {
+      "mean_rms_dbfs": -19.76,
+      "clipped_fraction": 5e-05
+    },
+    "intervals": [
+      {
+        "start_seconds": 10,
+        "end_seconds": 30,
+        "mean_rms_dbfs": -19.12,
+        "clipped_fraction": 7e-05
+      },
+      {
+        "start_seconds": 30,
+        "end_seconds": 35,
+        "mean_rms_dbfs": -24.08,
+        "clipped_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "duration_seconds": 60,
+    "file": "未见录音_长度诊断60秒_94017.flac",
+    "source": "held-out Cai Deyun, seconds 5–15 as context",
+    "seed": 94017,
+    "model": "SA3 Medium + 123-clip LoRA, 1000 steps",
+    "generated_only": {
+      "mean_rms_dbfs": -16.46,
+      "clipped_fraction": 0.0014
+    },
+    "intervals": [
+      {
+        "start_seconds": 10,
+        "end_seconds": 30,
+        "mean_rms_dbfs": -16.72,
+        "clipped_fraction": 0.00041
+      },
+      {
+        "start_seconds": 30,
+        "end_seconds": 60,
+        "mean_rms_dbfs": -16.3,
+        "clipped_fraction": 0.00206
+      }
+    ]
+  },
+  {
+    "duration_seconds": 120,
+    "file": "未见录音_长度诊断120秒_94017.flac",
+    "source": "held-out Cai Deyun, seconds 5–15 as context",
+    "seed": 94017,
+    "model": "SA3 Medium + 123-clip LoRA, 1000 steps",
+    "generated_only": {
+      "mean_rms_dbfs": -13.77,
+      "clipped_fraction": 0.00165
+    },
+    "intervals": [
+      {
+        "start_seconds": 10,
+        "end_seconds": 30,
+        "mean_rms_dbfs": -17.05,
+        "clipped_fraction": 0.00063
+      },
+      {
+        "start_seconds": 30,
+        "end_seconds": 60,
+        "mean_rms_dbfs": -13.29,
+        "clipped_fraction": 0.00127
+      },
+      {
+        "start_seconds": 60,
+        "end_seconds": 120,
+        "mean_rms_dbfs": -13.29,
+        "clipped_fraction": 0.00217
+      }
+    ]
+  },
+  {
+    "duration_seconds": 300,
+    "file": "电台接续_Medium123段1000步单次_300秒.flac",
+    "source": "held-out Cai Deyun, seconds 5–15 as context",
+    "seed": 94017,
+    "model": "SA3 Medium + 123-clip LoRA, 1000 steps",
+    "generated_only": {
+      "mean_rms_dbfs": -12.28,
+      "clipped_fraction": 0.00606
+    },
+    "intervals": [
+      {
+        "start_seconds": 10,
+        "end_seconds": 30,
+        "mean_rms_dbfs": -19.67,
+        "clipped_fraction": 0.00076
+      },
+      {
+        "start_seconds": 30,
+        "end_seconds": 60,
+        "mean_rms_dbfs": -13.25,
+        "clipped_fraction": 0.0045
+      },
+      {
+        "start_seconds": 60,
+        "end_seconds": 120,
+        "mean_rms_dbfs": -12.75,
+        "clipped_fraction": 0.00606
+      },
+      {
+        "start_seconds": 120,
+        "end_seconds": 300,
+        "mean_rms_dbfs": -11.64,
+        "clipped_fraction": 0.00691
+      }
+    ]
+  }
+]

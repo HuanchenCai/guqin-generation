@@ -1,0 +1,62 @@
+[
+  {
+    "recording": "1995较新录音",
+    "codec": "EnCodec",
+    "spectral_convergence": 0.3534
+  },
+  {
+    "recording": "1995较新录音",
+    "codec": "DAC",
+    "spectral_convergence": 0.1591
+  },
+  {
+    "recording": "1995较新录音",
+    "codec": "SAME",
+    "spectral_convergence": 0.1395
+  },
+  {
+    "recording": "未参与训练录音",
+    "codec": "EnCodec",
+    "spectral_convergence": 0.3753
+  },
+  {
+    "recording": "未参与训练录音",
+    "codec": "DAC",
+    "spectral_convergence": 0.1823
+  },
+  {
+    "recording": "未参与训练录音",
+    "codec": "SAME",
+    "spectral_convergence": 0.1853
+  },
+  {
+    "recording": "1991中期录音",
+    "codec": "EnCodec",
+    "spectral_convergence": 0.3755
+  },
+  {
+    "recording": "1991中期录音",
+    "codec": "DAC",
+    "spectral_convergence": 0.1684
+  },
+  {
+    "recording": "1991中期录音",
+    "codec": "SAME",
+    "spectral_convergence": 0.165
+  },
+  {
+    "recording": "1988较旧录音",
+    "codec": "EnCodec",
+    "spectral_convergence": 0.1847
+  },
+  {
+    "recording": "1988较旧录音",
+    "codec": "DAC",
+    "spectral_convergence": 0.0961
+  },
+  {
+    "recording": "1988较旧录音",
+    "codec": "SAME",
+    "spectral_convergence": 0.0665
+  }
+]

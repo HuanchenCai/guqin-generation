@@ -1,0 +1,9 @@
+{
+  "candidate_count": 21,
+  "continuation_count": 21,
+  "free_count": 16,
+  "source": "蔡德允《平沙落雁》训练集之外的30秒片段",
+  "reference_audio": "batch/reference_10s.mp3",
+  "description": "相同文字提示的四种意境与相同10秒音频开头续写；一个音频一个总分。",
+  "limitation": "不同模型训练语料、参数量及生成时长不同，不能由试听结果独立推断表征优劣。"
+}

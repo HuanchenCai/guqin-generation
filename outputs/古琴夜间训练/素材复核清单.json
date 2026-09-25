@@ -1,0 +1,186 @@
+[
+  {
+    "file": "素材复核_01.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\58\\张育瑾-关山月.wav",
+    "performer": "张育瑾",
+    "title": "关山月",
+    "model_flag": "speech",
+    "score_margin": 0.168
+  },
+  {
+    "file": "素材复核_02.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\58\\张育瑾-长门怨2.wav",
+    "performer": "张育瑾",
+    "title": "长门怨2",
+    "model_flag": "speech",
+    "score_margin": 0.22
+  },
+  {
+    "file": "素材复核_03.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\58\\张育瑾-长门怨3.wav",
+    "performer": "张育瑾",
+    "title": "长门怨3",
+    "model_flag": "speech",
+    "score_margin": 0.232
+  },
+  {
+    "file": "素材复核_04.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\59\\孙毓芹-凤求凰.wav",
+    "performer": "孙毓芹",
+    "title": "凤求凰",
+    "model_flag": "speech",
+    "score_margin": 0.202
+  },
+  {
+    "file": "素材复核_05.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\59\\孙毓芹-太古引.wav",
+    "performer": "孙毓芹",
+    "title": "太古引",
+    "model_flag": "speech",
+    "score_margin": 0.127
+  },
+  {
+    "file": "素材复核_06.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\59\\孙毓芹-归去来辞.wav",
+    "performer": "孙毓芹",
+    "title": "归去来辞",
+    "model_flag": "speech",
+    "score_margin": 0.157
+  },
+  {
+    "file": "素材复核_07.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\59\\孙毓芹-梅花三弄.wav",
+    "performer": "孙毓芹",
+    "title": "梅花三弄",
+    "model_flag": "speech",
+    "score_margin": 0.119
+  },
+  {
+    "file": "素材复核_08.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\59\\孙毓芹-梧叶舞秋风1.wav",
+    "performer": "孙毓芹",
+    "title": "梧叶舞秋风1",
+    "model_flag": "speech",
+    "score_margin": 0.303
+  },
+  {
+    "file": "素材复核_09.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\60\\孙毓芹-潇湘水云2.wav",
+    "performer": "孙毓芹",
+    "title": "潇湘水云2",
+    "model_flag": "speech",
+    "score_margin": 0.124
+  },
+  {
+    "file": "素材复核_10.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\60\\孙毓芹-醉渔唱晚.wav",
+    "performer": "孙毓芹",
+    "title": "醉渔唱晚",
+    "model_flag": "speech",
+    "score_margin": 0.145
+  },
+  {
+    "file": "素材复核_11.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\60\\孙毓芹-阳关三叠.wav",
+    "performer": "孙毓芹",
+    "title": "阳关三叠",
+    "model_flag": "speech",
+    "score_margin": 0.111
+  },
+  {
+    "file": "素材复核_12.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\62\\陈天乐-四大景.wav",
+    "performer": "陈天乐",
+    "title": "四大景",
+    "model_flag": "guqin_voice",
+    "score_margin": 0.119
+  },
+  {
+    "file": "素材复核_13.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\63\\谢孝苹-山居吟.wav",
+    "performer": "谢孝苹",
+    "title": "山居吟",
+    "model_flag": "ensemble",
+    "score_margin": 0.167
+  },
+  {
+    "file": "素材复核_14.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\65\\姚丙炎-楚歌2.wav",
+    "performer": "姚丙炎",
+    "title": "楚歌2",
+    "model_flag": "speech",
+    "score_margin": 0.13
+  },
+  {
+    "file": "素材复核_15.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\66\\姚丙炎-古怨.wav",
+    "performer": "姚丙炎",
+    "title": "古怨",
+    "model_flag": "speech",
+    "score_margin": 0.28
+  },
+  {
+    "file": "素材复核_16.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\66\\姚丙炎-古风操.wav",
+    "performer": "姚丙炎",
+    "title": "古风操",
+    "model_flag": "speech",
+    "score_margin": 0.163
+  },
+  {
+    "file": "素材复核_17.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\67\\姚丙炎-华胥引2.wav",
+    "performer": "姚丙炎",
+    "title": "华胥引2",
+    "model_flag": "speech",
+    "score_margin": 0.19
+  },
+  {
+    "file": "素材复核_18.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\67\\姚丙炎-明君.wav",
+    "performer": "姚丙炎",
+    "title": "明君",
+    "model_flag": "speech",
+    "score_margin": 0.169
+  },
+  {
+    "file": "素材复核_19.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\67\\姚丙炎-胡笳十八拍2.wav",
+    "performer": "姚丙炎",
+    "title": "胡笳十八拍2",
+    "model_flag": "speech",
+    "score_margin": 0.135
+  },
+  {
+    "file": "素材复核_20.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\68\\姚丙炎-屈原问渡.wav",
+    "performer": "姚丙炎",
+    "title": "屈原问渡",
+    "model_flag": "speech",
+    "score_margin": 0.193
+  },
+  {
+    "file": "素材复核_21.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\68\\姚丙炎-平沙落雁2.wav",
+    "performer": "姚丙炎",
+    "title": "平沙落雁2",
+    "model_flag": "guqin_voice",
+    "score_margin": 0.134
+  },
+  {
+    "file": "素材复核_22.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\68\\姚丙炎-忘忧1.wav",
+    "performer": "姚丙炎",
+    "title": "忘忧1",
+    "model_flag": "speech",
+    "score_margin": 0.31
+  },
+  {
+    "file": "素材复核_23.flac",
+    "source": "Y:\\Music\\古琴曲\\CD第4册\\68\\姚丙炎-秋宵步月.wav",
+    "performer": "姚丙炎",
+    "title": "秋宵步月",
+    "model_flag": "speech",
+    "score_margin": 0.309
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+  "method": "MusicGen codec-token continuation without intermediate waveform re-encoding",
+  "condition": "A single solo Chinese seven-string guqin, no voice or other instruments.",
+  "sample_rate": 32000,
+  "chunks": [
+    {
+      "chunk": 1,
+      "seed": 10301,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.06985,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 38.7
+    },
+    {
+      "chunk": 2,
+      "seed": 10302,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.05601,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 23.3
+    },
+    {
+      "chunk": 3,
+      "seed": 10303,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.1327,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 23.4
+    },
+    {
+      "chunk": 4,
+      "seed": 10304,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.10594,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 24.6
+    },
+    {
+      "chunk": 5,
+      "seed": 10305,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.09872,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 22.8
+    },
+    {
+      "chunk": 6,
+      "seed": 10306,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.137,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 24.9
+    }
+  ],
+  "total_seconds": 123.64
+}

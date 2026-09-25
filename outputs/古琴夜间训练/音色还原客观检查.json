@@ -1,0 +1,44 @@
+[
+  {
+    "source": "较新录音",
+    "codec": "DAC",
+    "log_spectral_distance_2048_db": 1.11,
+    "log_spectral_distance_8192_db": 0.98,
+    "quiet_highpass_change_db": -0.13
+  },
+  {
+    "source": "较新录音",
+    "codec": "SAME-S",
+    "log_spectral_distance_2048_db": 1.25,
+    "log_spectral_distance_8192_db": 1.1,
+    "quiet_highpass_change_db": -1.47
+  },
+  {
+    "source": "较新录音",
+    "codec": "SAME-L",
+    "log_spectral_distance_2048_db": 1.23,
+    "log_spectral_distance_8192_db": 0.99,
+    "quiet_highpass_change_db": -0.46
+  },
+  {
+    "source": "未见录音",
+    "codec": "DAC",
+    "log_spectral_distance_2048_db": 1.54,
+    "log_spectral_distance_8192_db": 1.29,
+    "quiet_highpass_change_db": -2.24
+  },
+  {
+    "source": "未见录音",
+    "codec": "SAME-S",
+    "log_spectral_distance_2048_db": 1.7,
+    "log_spectral_distance_8192_db": 1.44,
+    "quiet_highpass_change_db": -3.58
+  },
+  {
+    "source": "未见录音",
+    "codec": "SAME-L",
+    "log_spectral_distance_2048_db": 1.65,
+    "log_spectral_distance_8192_db": 1.33,
+    "quiet_highpass_change_db": -0.78
+  }
+]

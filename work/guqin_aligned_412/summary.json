@@ -1,0 +1,11 @@
+{
+  "source_recordings": 412,
+  "windows": 2764,
+  "window_samples": 2641920,
+  "window_seconds": 59.90748,
+  "split_windows": {
+    "train": 2217,
+    "validation": 276,
+    "test": 271
+  }
+}

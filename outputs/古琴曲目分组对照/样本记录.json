@@ -1,0 +1,386 @@
+[
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_01.flac",
+    "piece": "长清",
+    "artist": "张子谦",
+    "seed": 84917,
+    "file": "v01_84917_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 31.75,
+    "signal": {
+      "rms_dbfs": -19.77,
+      "peak": 1.0,
+      "clipped_fraction": 0.00036
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_01.flac",
+    "piece": "长清",
+    "artist": "张子谦",
+    "seed": 94017,
+    "file": "v01_94017_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.62,
+    "signal": {
+      "rms_dbfs": -22.27,
+      "peak": 0.8101,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_02.flac",
+    "piece": "关山月",
+    "artist": "刘景韶",
+    "seed": 84917,
+    "file": "v02_84917_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.59,
+    "signal": {
+      "rms_dbfs": -23.82,
+      "peak": 0.9019,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_02.flac",
+    "piece": "关山月",
+    "artist": "刘景韶",
+    "seed": 94017,
+    "file": "v02_94017_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.58,
+    "signal": {
+      "rms_dbfs": -23.48,
+      "peak": 0.791,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_03.flac",
+    "piece": "跃进歌声",
+    "artist": "喻绍泽",
+    "seed": 84917,
+    "file": "v03_84917_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.8,
+    "signal": {
+      "rms_dbfs": -18.66,
+      "peak": 1.0,
+      "clipped_fraction": 0.00012
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_03.flac",
+    "piece": "跃进歌声",
+    "artist": "喻绍泽",
+    "seed": 94017,
+    "file": "v03_94017_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.69,
+    "signal": {
+      "rms_dbfs": -20.32,
+      "peak": 1.0,
+      "clipped_fraction": 9e-05
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_04.flac",
+    "piece": "广陵散",
+    "artist": "姚丙炎",
+    "seed": 84917,
+    "file": "v04_84917_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.84,
+    "signal": {
+      "rms_dbfs": -21.33,
+      "peak": 1.0,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "A",
+    "training": "官方默认遮蔽",
+    "source": "validation_04.flac",
+    "piece": "广陵散",
+    "artist": "姚丙炎",
+    "seed": 94017,
+    "file": "v04_94017_A.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 6.14,
+    "signal": {
+      "rms_dbfs": -21.69,
+      "peak": 0.874,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_01.flac",
+    "piece": "长清",
+    "artist": "张子谦",
+    "seed": 84917,
+    "file": "v01_84917_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 6.05,
+    "signal": {
+      "rms_dbfs": -21.54,
+      "peak": 1.0,
+      "clipped_fraction": 0.00018
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_01.flac",
+    "piece": "长清",
+    "artist": "张子谦",
+    "seed": 94017,
+    "file": "v01_94017_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.88,
+    "signal": {
+      "rms_dbfs": -25.91,
+      "peak": 0.9482,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_02.flac",
+    "piece": "关山月",
+    "artist": "刘景韶",
+    "seed": 84917,
+    "file": "v02_84917_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 6.44,
+    "signal": {
+      "rms_dbfs": -23.24,
+      "peak": 1.0,
+      "clipped_fraction": 2e-05
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_02.flac",
+    "piece": "关山月",
+    "artist": "刘景韶",
+    "seed": 94017,
+    "file": "v02_94017_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 6.27,
+    "signal": {
+      "rms_dbfs": -24.04,
+      "peak": 0.7256,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_03.flac",
+    "piece": "跃进歌声",
+    "artist": "喻绍泽",
+    "seed": 84917,
+    "file": "v03_84917_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.94,
+    "signal": {
+      "rms_dbfs": -19.87,
+      "peak": 1.0,
+      "clipped_fraction": 0.0001
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_03.flac",
+    "piece": "跃进歌声",
+    "artist": "喻绍泽",
+    "seed": 94017,
+    "file": "v03_94017_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.66,
+    "signal": {
+      "rms_dbfs": -21.72,
+      "peak": 1.0,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_04.flac",
+    "piece": "广陵散",
+    "artist": "姚丙炎",
+    "seed": 84917,
+    "file": "v04_84917_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.69,
+    "signal": {
+      "rms_dbfs": -22.4,
+      "peak": 1.0,
+      "clipped_fraction": 1e-05
+    }
+  },
+  {
+    "variant": "B",
+    "training": "偏重前缀续写",
+    "source": "validation_04.flac",
+    "piece": "广陵散",
+    "artist": "姚丙炎",
+    "seed": 94017,
+    "file": "v04_94017_B.flac",
+    "checkpoint": "epoch=1-step=2217.ckpt",
+    "generated_seconds": 5.39,
+    "signal": {
+      "rms_dbfs": -24.18,
+      "peak": 0.6558,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_01.flac",
+    "piece": "长清",
+    "artist": "张子谦",
+    "seed": 84917,
+    "file": "v01_84917_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.64,
+    "signal": {
+      "rms_dbfs": -21.42,
+      "peak": 1.0,
+      "clipped_fraction": 0.0001
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_01.flac",
+    "piece": "长清",
+    "artist": "张子谦",
+    "seed": 94017,
+    "file": "v01_94017_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.38,
+    "signal": {
+      "rms_dbfs": -26.99,
+      "peak": 0.5791,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_02.flac",
+    "piece": "关山月",
+    "artist": "刘景韶",
+    "seed": 84917,
+    "file": "v02_84917_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.36,
+    "signal": {
+      "rms_dbfs": -25.13,
+      "peak": 0.8613,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_02.flac",
+    "piece": "关山月",
+    "artist": "刘景韶",
+    "seed": 94017,
+    "file": "v02_94017_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.41,
+    "signal": {
+      "rms_dbfs": -24.84,
+      "peak": 0.5845,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_03.flac",
+    "piece": "跃进歌声",
+    "artist": "喻绍泽",
+    "seed": 84917,
+    "file": "v03_84917_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.45,
+    "signal": {
+      "rms_dbfs": -18.71,
+      "peak": 1.0,
+      "clipped_fraction": 0.00019
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_03.flac",
+    "piece": "跃进歌声",
+    "artist": "喻绍泽",
+    "seed": 94017,
+    "file": "v03_94017_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.38,
+    "signal": {
+      "rms_dbfs": -22.63,
+      "peak": 0.7275,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_04.flac",
+    "piece": "广陵散",
+    "artist": "姚丙炎",
+    "seed": 84917,
+    "file": "v04_84917_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.44,
+    "signal": {
+      "rms_dbfs": -22.98,
+      "peak": 0.9585,
+      "clipped_fraction": 0.0
+    }
+  },
+  {
+    "variant": "C",
+    "training": "412 首全量",
+    "source": "validation_04.flac",
+    "piece": "广陵散",
+    "artist": "姚丙炎",
+    "seed": 94017,
+    "file": "v04_94017_C.flac",
+    "checkpoint": "epoch=1-step=2764.ckpt",
+    "generated_seconds": 5.47,
+    "signal": {
+      "rms_dbfs": -24.98,
+      "peak": 0.6914,
+      "clipped_fraction": 0.0
+    }
+  }
+]

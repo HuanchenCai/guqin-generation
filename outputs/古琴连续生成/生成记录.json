@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+  "source_seconds": 10,
+  "condition": "A single solo Chinese seven-string guqin, no voice or other instruments.",
+  "chunks": [
+    {
+      "chunk": 1,
+      "seed": 9301,
+      "added_seconds": 18.89,
+      "rms_before": 0.07992,
+      "rms_new": 0.0526,
+      "elapsed_seconds": 40.4
+    },
+    {
+      "chunk": 2,
+      "seed": 9302,
+      "added_seconds": 18.89,
+      "rms_before": 0.03661,
+      "rms_new": 0.01407,
+      "elapsed_seconds": 22.7
+    },
+    {
+      "chunk": 3,
+      "seed": 9303,
+      "added_seconds": 18.89,
+      "rms_before": 0.01027,
+      "rms_new": 0.01238,
+      "elapsed_seconds": 22.9
+    },
+    {
+      "chunk": 4,
+      "seed": 9304,
+      "added_seconds": 18.89,
+      "rms_before": 0.01258,
+      "rms_new": 0.00662,
+      "elapsed_seconds": 22.1
+    },
+    {
+      "chunk": 5,
+      "seed": 9305,
+      "added_seconds": 18.89,
+      "rms_before": 0.00196,
+      "rms_new": 0.00154,
+      "elapsed_seconds": 27.0
+    },
+    {
+      "chunk": 6,
+      "seed": 9306,
+      "added_seconds": 18.89,
+      "rms_before": 0.00089,
+      "rms_new": 0.00148,
+      "elapsed_seconds": 24.4
+    }
+  ],
+  "sample_rate": 32000,
+  "total_seconds": 123.34
+}

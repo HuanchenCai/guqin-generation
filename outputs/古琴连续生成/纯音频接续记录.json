@@ -1,0 +1,36 @@
+{
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_v2\\audio\\source_01_part_04.flac",
+  "method": "MusicGen codec-token continuation without intermediate waveform re-encoding",
+  "condition": "audio only; no text prompt",
+  "sample_rate": 32000,
+  "chunks": [
+    {
+      "chunk": 1,
+      "seed": 10301,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.08312,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 31.2
+    },
+    {
+      "chunk": 2,
+      "seed": 10302,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.0614,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 24.1
+    },
+    {
+      "chunk": 3,
+      "seed": 10303,
+      "new_tokens": 947,
+      "new_seconds": 18.94,
+      "rms_new": 0.07684,
+      "prompt_token_agreement": 1.0,
+      "elapsed_seconds": 23.9
+    }
+  ],
+  "total_seconds": 66.82
+}

@@ -1,0 +1,11 @@
+{
+  "total": 571,
+  "explicit": 285,
+  "assumed_usable": 286,
+  "final": {
+    "keep": 412,
+    "reject": 159
+  },
+  "kept_holdout_artist": 23,
+  "kept_for_training_after_holdout": 389
+}

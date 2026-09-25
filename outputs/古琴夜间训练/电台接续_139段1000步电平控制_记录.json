@@ -1,0 +1,111 @@
+{
+  "model": "small-music",
+  "adapter": ".\\work\\sa3_overnight\\union_run\\epoch=7-step=1000.safetensors",
+  "prompt": "",
+  "level_dbfs": -20.0,
+  "source": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+  "source_start_seconds": 5,
+  "file": "电台接续_139段1000步电平控制_560秒.flac",
+  "total_seconds": 560.0,
+  "chunks": [
+    {
+      "chunk": 1,
+      "seed": 94017,
+      "mask_start_seconds": 10,
+      "generation_seconds": 20.12,
+      "raw_signal": {
+        "mean_rms_dbfs": -19.81,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 1e-05
+      },
+      "level_gain_db": -0.19,
+      "signal": {
+        "mean_rms_dbfs": -20.0,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.0
+      }
+    },
+    {
+      "chunk": 2,
+      "seed": 94018,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.84,
+      "raw_signal": {
+        "mean_rms_dbfs": -18.53,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 2e-05
+      },
+      "level_gain_db": -1.47,
+      "signal": {
+        "mean_rms_dbfs": -19.99,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.0
+      }
+    },
+    {
+      "chunk": 3,
+      "seed": 94019,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.91,
+      "raw_signal": {
+        "mean_rms_dbfs": -16.01,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 7e-05
+      },
+      "level_gain_db": -3.99,
+      "signal": {
+        "mean_rms_dbfs": -19.99,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.0
+      }
+    },
+    {
+      "chunk": 4,
+      "seed": 94020,
+      "mask_start_seconds": 8,
+      "generation_seconds": 6.88,
+      "raw_signal": {
+        "mean_rms_dbfs": -15.47,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 3e-05
+      },
+      "level_gain_db": -4.53,
+      "signal": {
+        "mean_rms_dbfs": -19.95,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.0
+      }
+    },
+    {
+      "chunk": 5,
+      "seed": 94021,
+      "mask_start_seconds": 8,
+      "generation_seconds": 7.0,
+      "raw_signal": {
+        "mean_rms_dbfs": -12.59,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.00122
+      },
+      "level_gain_db": -7.41,
+      "signal": {
+        "mean_rms_dbfs": -19.97,
+        "near_silent_seconds_fraction": 0.0,
+        "clipped_fraction": 0.0
+      }
+    }
+  ],
+  "excerpts": [
+    {
+      "file": "电台接续_139段1000步电平控制_选段1.flac",
+      "start_seconds": 20
+    },
+    {
+      "file": "电台接续_139段1000步电平控制_选段2.flac",
+      "start_seconds": 270
+    },
+    {
+      "file": "电台接续_139段1000步电平控制_选段3.flac",
+      "start_seconds": 530
+    }
+  ]
+}

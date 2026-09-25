@@ -1,0 +1,16 @@
+{
+  "all_manifest_windows": 2764,
+  "encoded_unique_windows": 2755,
+  "duplicate_replacements": 9,
+  "pure_digital_silence_skipped": [
+    "4d4d4f5fa758889c_003.flac",
+    "4d4d4f5fa758889c_004.flac",
+    "4d4d4f5fa758889c_005.flac",
+    "4d4d4f5fa758889c_006.flac",
+    "4d4d4f5fa758889c_007.flac",
+    "4d4d4f5fa758889c_008.flac",
+    "4d4d4f5fa758889c_009.flac",
+    "4d4d4f5fa758889c_010.flac",
+    "4d4d4f5fa758889c_011.flac"
+  ]
+}

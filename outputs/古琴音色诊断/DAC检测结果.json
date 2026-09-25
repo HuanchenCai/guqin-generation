@@ -1,0 +1,10 @@
+{
+  "codec": "DAC 44.1kHz",
+  "code_shape": [
+    1,
+    9,
+    2584
+  ],
+  "original_rms": 0.09555075317621231,
+  "reconstruction_rms": 0.0968288779258728
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "start_seconds": 0,
+    "rms": 0.0846,
+    "flatness": 0.0177,
+    "clipped_fraction": 0.0
+  },
+  {
+    "start_seconds": 10,
+    "rms": 0.0705,
+    "flatness": 0.0229,
+    "clipped_fraction": 0.0
+  },
+  {
+    "start_seconds": 20,
+    "rms": 0.0731,
+    "flatness": 0.0241,
+    "clipped_fraction": 0.0
+  },
+  {
+    "start_seconds": 30,
+    "rms": 0.0769,
+    "flatness": 0.0333,
+    "clipped_fraction": 0.0
+  },
+  {
+    "start_seconds": 40,
+    "rms": 0.0778,
+    "flatness": 0.0236,
+    "clipped_fraction": 0.0
+  },
+  {
+    "start_seconds": 50,
+    "rms": 0.0423,
+    "flatness": 0.0685,
+    "clipped_fraction": 0.0
+  }
+]

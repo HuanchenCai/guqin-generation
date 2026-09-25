@@ -1,0 +1,46 @@
+[
+  {
+    "file": "未见录音_Medium222段1000步_84917.flac",
+    "source": "未见录音",
+    "source_path": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start_seconds": 5,
+    "context_seconds": 10,
+    "generated_seconds": 25,
+    "model": "medium",
+    "adapter": "work\\sa3_feedback_bulk\\medium_run\\epoch=4-step=1000.safetensors",
+    "adapter_strength": 1.0,
+    "seed": 84917,
+    "steps": 8,
+    "prompt": "",
+    "generation_seconds": 24.09,
+    "signal": {
+      "seconds": 35.0,
+      "mean_rms_dbfs": -18.61,
+      "quiet_second_fraction": 0.0,
+      "clipped_fraction": 5e-05,
+      "peak": 1.0
+    }
+  },
+  {
+    "file": "未见录音_Medium222段1000步_94017.flac",
+    "source": "未见录音",
+    "source_path": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start_seconds": 5,
+    "context_seconds": 10,
+    "generated_seconds": 25,
+    "model": "medium",
+    "adapter": "work\\sa3_feedback_bulk\\medium_run\\epoch=4-step=1000.safetensors",
+    "adapter_strength": 1.0,
+    "seed": 94017,
+    "steps": 8,
+    "prompt": "",
+    "generation_seconds": 5.62,
+    "signal": {
+      "seconds": 35.0,
+      "mean_rms_dbfs": -18.94,
+      "quiet_second_fraction": 0.0,
+      "clipped_fraction": 6e-05,
+      "peak": 1.0
+    }
+  }
+]

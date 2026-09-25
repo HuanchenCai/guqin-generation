@@ -1,0 +1,18 @@
+[
+  {
+    "codec": "MusicGen EnCodec 32k",
+    "mean_log_spectral_errors": [
+      0.0328,
+      0.0423,
+      0.0684
+    ]
+  },
+  {
+    "codec": "DAC 44.1k",
+    "mean_log_spectral_errors": [
+      0.0206,
+      0.0273,
+      0.0473
+    ]
+  }
+]

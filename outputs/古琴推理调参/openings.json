@@ -1,0 +1,44 @@
+[
+  {
+    "file": "open_01.flac",
+    "piece": "关山月",
+    "artist": "蔡德允",
+    "source": "42/蔡德允-关山月.wav",
+    "start_seconds": 40
+  },
+  {
+    "file": "open_02.flac",
+    "piece": "平沙落雁1",
+    "artist": "蔡德允",
+    "source": "42/蔡德允-平沙落雁1.wav",
+    "start_seconds": 40
+  },
+  {
+    "file": "open_03.flac",
+    "piece": "梅花三弄",
+    "artist": "蔡德允",
+    "source": "42/蔡德允-梅花三弄.wav",
+    "start_seconds": 40
+  },
+  {
+    "file": "open_04.flac",
+    "piece": "良宵引",
+    "artist": "蔡德允",
+    "source": "42/蔡德允-良宵引.wav",
+    "start_seconds": 40
+  },
+  {
+    "file": "open_05.flac",
+    "piece": "潇湘水云1",
+    "artist": "蔡德允",
+    "source": "43/蔡德允-潇湘水云1.wav",
+    "start_seconds": 40
+  },
+  {
+    "file": "open_06.flac",
+    "piece": "阳关三叠",
+    "artist": "蔡德允",
+    "source": "43/蔡德允-阳关三叠.wav",
+    "start_seconds": 40
+  }
+]

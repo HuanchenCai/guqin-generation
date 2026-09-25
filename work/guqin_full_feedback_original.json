@@ -1,0 +1,1716 @@
+{
+  "experiment": "guqin_full_recordings_v1",
+  "source": "Y:Music古琴曲",
+  "state": {
+    "CD第1册\\CD01\\Hsuh LuYuan-四大景.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:53:51.818Z"
+    },
+    "CD第4册\\70\\刘毅志-归去来辞.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:53:57.147Z"
+    },
+    "CD第4册\\74\\北京古琴研究会-古琴历史录音.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:53:58.375Z"
+    },
+    "CD第1册\\CD10\\向笙阶-春闺怨.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:00.366Z"
+    },
+    "CD第3册\\39\\吴宗汉-关山月.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:02.332Z"
+    },
+    "CD第3册\\39\\吴宗汉-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:03.417Z"
+    },
+    "CD第3册\\39\\吴宗汉-挟仙游.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:04.379Z"
+    },
+    "CD第3册\\39\\吴宗汉-梅花三弄.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:05.678Z"
+    },
+    "CD第3册\\39\\吴宗汉-梧叶舞秋风.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:06.711Z"
+    },
+    "CD第3册\\39\\吴宗汉-玉楼春晓.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:07.024Z"
+    },
+    "CD第3册\\39\\吴宗汉-秋夜长.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:07.239Z"
+    },
+    "CD第3册\\39\\吴宗汉-良宵引.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:07.501Z"
+    },
+    "CD第3册\\39\\吴宗汉-长门怨.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:08.017Z"
+    },
+    "CD第3册\\39\\吴宗汉-风雷引.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:10.202Z"
+    },
+    "CD第3册\\46\\吴振平-屈原问渡.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:15.345Z"
+    },
+    "CD第3册\\46\\吴振平-幽兰.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:50.651Z"
+    },
+    "CD第3册\\46\\吴振平-梅花三弄-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:52.821Z"
+    },
+    "CD第3册\\46\\吴振平-电影李时珍.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:55.308Z"
+    },
+    "CD第3册\\46\\吴振平-苏门长啸.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:58.277Z"
+    },
+    "CD第4册\\62\\孙培章-良宵引.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:54:59.458Z"
+    },
+    "CD第4册\\62\\孙培章-阳关三叠.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:01.019Z"
+    },
+    "CD第3册\\44\\庄剑丞-潇湘水云-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:02.597Z"
+    },
+    "CD第1册\\CD13\\张友鹤-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:06.766Z"
+    },
+    "CD第2册\\30\\张子谦-天风环珮1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:08.490Z"
+    },
+    "CD第2册\\30\\张子谦-天风环珮2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:09.825Z"
+    },
+    "CD第2册\\29\\张子谦-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:10.580Z"
+    },
+    "CD第2册\\31\\张子谦-忆故人.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:12.390Z"
+    },
+    "CD第2册\\29\\张子谦-梅花三弄1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:13.912Z"
+    },
+    "CD第2册\\29\\张子谦-梅花三弄2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:14.914Z"
+    },
+    "CD第2册\\29\\张子谦-梅花三弄3.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:16.587Z"
+    },
+    "CD第2册\\28\\张子谦-楚歌1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:17.520Z"
+    },
+    "CD第2册\\28\\张子谦-楚歌2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:19.332Z"
+    },
+    "CD第2册\\30\\张子谦-樵歌.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:21.552Z"
+    },
+    "CD第2册\\28\\张子谦-泛沧浪.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:23.855Z"
+    },
+    "CD第2册\\31\\张子谦-渔歌.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:28.577Z"
+    },
+    "CD第2册\\31\\张子谦-潇湘水云-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:29.554Z"
+    },
+    "CD第2册\\30\\张子谦-秋塞吟-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:30.348Z"
+    },
+    "CD第2册\\30\\张子谦-秋鸿1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:31.745Z"
+    },
+    "CD第2册\\30\\张子谦-秋鸿2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:34.518Z"
+    },
+    "CD第2册\\28\\张子谦-良宵引1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:38.177Z"
+    },
+    "CD第2册\\28\\张子谦-良宵引2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:39.593Z"
+    },
+    "CD第2册\\28\\张子谦-酒狂1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:40.732Z"
+    },
+    "CD第2册\\28\\张子谦-酒狂2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:42.086Z"
+    },
+    "CD第2册\\28\\张子谦-长清1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:43.428Z"
+    },
+    "CD第2册\\28\\张子谦-长清2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:44.207Z"
+    },
+    "CD第2册\\28\\张子谦-飞鸣吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:45.821Z"
+    },
+    "CD第2册\\28\\张子谦-龙翔操1-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:46.679Z"
+    },
+    "CD第2册\\28\\张子谦-龙翔操2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:48.475Z"
+    },
+    "CD第2册\\28\\张子谦-龙翔操3.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:49.386Z"
+    },
+    "CD第2册\\28\\张子谦-龙翔操4.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:51.309Z"
+    },
+    "CD第3册\\47\\朱龙庵-平沙落雁.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:53.115Z"
+    },
+    "CD第3册\\47\\朱龙庵-忆故人.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:53.951Z"
+    },
+    "CD第3册\\47\\朱龙庵-普庵咒.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:55.323Z"
+    },
+    "CD第3册\\47\\朱龙庵-梧叶舞秋风.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:57.096Z"
+    },
+    "CD第3册\\47\\朱龙庵-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:55:58.479Z"
+    },
+    "CD第3册\\47\\朱龙庵-秋江夜泊.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:00.206Z"
+    },
+    "CD第3册\\47\\朱龙庵-长门怨.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:03.160Z"
+    },
+    "CD第3册\\47\\朱龙庵-鸥鹭忘机1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:04.224Z"
+    },
+    "CD第3册\\47\\朱龙庵-鸥鹭忘机2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:06.845Z"
+    },
+    "CD第4册\\61\\李传爱-潇湘水云.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:09.210Z"
+    },
+    "CD第4册\\57\\李璠-平沙落雁1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:10.780Z"
+    },
+    "CD第4册\\57\\李璠-平沙落雁2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:16.594Z"
+    },
+    "CD第4册\\57\\李璠-潇湘水云.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:30.617Z"
+    },
+    "CD第4册\\57\\李璠-长门怨.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:34.349Z"
+    },
+    "CD第4册\\57\\李璠-高山1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:35.459Z"
+    },
+    "CD第4册\\57\\李璠-高山2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:36.728Z"
+    },
+    "CD第4册\\57\\李璠-鸥鹭忘机.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:38.135Z"
+    },
+    "CD第2册\\22\\杨新伦-乌夜啼.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:39.501Z"
+    },
+    "CD第2册\\22\\杨新伦-怀古.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:41.715Z"
+    },
+    "CD第2册\\22\\杨新伦-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:45.611Z"
+    },
+    "CD第2册\\22\\杨新伦-玉树临风.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:47.163Z"
+    },
+    "CD第2册\\22\\杨新伦-碧涧流泉.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:49.490Z"
+    },
+    "CD第2册\\22\\杨新伦-高山.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:55.042Z"
+    },
+    "CD第2册\\22\\杨新伦-鸥鹭忘机.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:57.115Z"
+    },
+    "CD第3册\\56\\王凤襄-秋江夜泊.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:58.102Z"
+    },
+    "CD第3册\\56\\王凤襄-秋风词.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:58.827Z"
+    },
+    "CD第3册\\56\\王凤襄-良宵引.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:56:59.617Z"
+    },
+    "CD第4册\\73\\王绍舜-关山月.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:02.654Z"
+    },
+    "CD第4册\\73\\王绍舜-梧叶舞秋风.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:04.739Z"
+    },
+    "CD第4册\\73\\王绍舜-渔樵问答.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:06.935Z"
+    },
+    "CD第4册\\73\\王绍舜-潇湘水云.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:08.487Z"
+    },
+    "CD第4册\\73\\王绍舜-胡笳十八拍.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:11.688Z"
+    },
+    "CD第4册\\73\\王绍舜-阳关三叠.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:13.713Z"
+    },
+    "CD第1册\\CD10\\程独清-归去来辞.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:14.579Z"
+    },
+    "CD第1册\\CD05\\章志荪-客窗夜话.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:16.084Z"
+    },
+    "CD第1册\\CD13\\胡莹堂-平沙落雁1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:18.180Z"
+    },
+    "CD第1册\\CD13\\胡莹堂-平沙落雁2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:19.175Z"
+    },
+    "CD第1册\\CD13\\胡莹堂-忆故人.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:20.752Z"
+    },
+    "CD第1册\\CD13\\胡莹堂-普庵咒-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:22.655Z"
+    },
+    "CD第1册\\CD10\\胡莹堂-渔歌.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:26.059Z"
+    },
+    "CD第1册\\CD13\\胡莹堂-醉渔唱晚.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:27.921Z"
+    },
+    "CD第1册\\CD13\\胡莹堂-长门怨.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:29.236Z"
+    },
+    "CD第3册\\44\\胥桐华-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:30.714Z"
+    },
+    "CD第3册\\44\\胥桐华-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:31.538Z"
+    },
+    "CD第3册\\44\\胥桐华-盘州.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:32.256Z"
+    },
+    "CD第3册\\44\\胥桐华-耕莘钓渭.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:33.093Z"
+    },
+    "CD第3册\\44\\胥桐华-醉渔唱晚-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:38.732Z"
+    },
+    "CD第3册\\42\\蔡德允-关山月.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:39.754Z"
+    },
+    "CD第3册\\42\\蔡德允-古琴吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:40.518Z"
+    },
+    "CD第3册\\42\\蔡德允-平沙落雁1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:41.486Z"
+    },
+    "CD第3册\\42\\蔡德允-平沙落雁2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:42.113Z"
+    },
+    "CD第3册\\43\\蔡德允-忆故人.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:43.290Z"
+    },
+    "CD第3册\\42\\蔡德允-慨古吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:44.002Z"
+    },
+    "CD第3册\\42\\蔡德允-普庵咒.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:46.445Z"
+    },
+    "CD第3册\\42\\蔡德允-梅花三弄.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:48.253Z"
+    },
+    "CD第3册\\43\\蔡德允-梧叶舞秋风.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:49.050Z"
+    },
+    "CD第3册\\42\\蔡德允-水仙操.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:49.729Z"
+    },
+    "CD第3册\\43\\蔡德允-渔樵问答.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:50.736Z"
+    },
+    "CD第3册\\43\\蔡德允-湘江怨.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:51.693Z"
+    },
+    "CD第3册\\43\\蔡德允-潇湘水云1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:54.287Z"
+    },
+    "CD第3册\\43\\蔡德允-潇湘水云2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:54.908Z"
+    },
+    "CD第3册\\43\\蔡德允-玉楼春晓.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:55.859Z"
+    },
+    "CD第3册\\42\\蔡德允-精忠词.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:56.678Z"
+    },
+    "CD第3册\\42\\蔡德允-胡笳十八拍.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:57.394Z"
+    },
+    "CD第3册\\42\\蔡德允-良宵引.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:58.068Z"
+    },
+    "CD第3册\\43\\蔡德允-醉渔唱晚1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:57:58.611Z"
+    },
+    "CD第3册\\43\\蔡德允-醉渔唱晚2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:00.175Z"
+    },
+    "CD第3册\\42\\蔡德允-长门怨.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:00.914Z"
+    },
+    "CD第3册\\43\\蔡德允-阳关三叠.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:01.689Z"
+    },
+    "CD第3册\\43\\蔡德允-阳春.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:02.643Z"
+    },
+    "CD第3册\\42\\蔡德允-龙翔操.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:03.497Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-听泉吟1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:06.978Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-听泉吟2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:08.482Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-平沙落雁1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:09.585Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-平沙落雁2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:10.407Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-归去来辞.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:12.095Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-挟仙游.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:13.020Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-捣衣.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:14.362Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-水仙操.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:15.527Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-流水.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:16.351Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:17.277Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-潇湘水云.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:28.951Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-石上流泉.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:30.633Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-秋江夜泊.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:32.257Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-良宵引.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:33.368Z"
+    },
+    "CD第1册\\CD07\\詹澄秋-释谈章.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:41.502Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-长门怨.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:45.508Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-高山1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:46.553Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-高山2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:50.046Z"
+    },
+    "CD第1册\\CD06\\詹澄秋-鹤舞洞天.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:51.893Z"
+    },
+    "CD第4册\\70\\邵元复-关山月.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:55.537Z"
+    },
+    "CD第4册\\70\\邵元复-凤求凰.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:57.605Z"
+    },
+    "CD第4册\\70\\邵元复-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:58:59.316Z"
+    },
+    "CD第4册\\71\\邵元复-忆故人.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:07.901Z"
+    },
+    "CD第4册\\71\\邵元复-挟仙游.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:08.673Z"
+    },
+    "CD第4册\\70\\邵元复-捣衣.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:09.435Z"
+    },
+    "CD第4册\\70\\邵元复-极乐吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:16.543Z"
+    },
+    "CD第4册\\70\\邵元复-梅花三弄.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:17.522Z"
+    },
+    "CD第4册\\71\\邵元复-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:19.867Z"
+    },
+    "CD第4册\\71\\邵元复-潇湘水云.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:22.438Z"
+    },
+    "CD第4册\\71\\邵元复-玉楼春晓.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:28.365Z"
+    },
+    "CD第4册\\71\\邵元复-秋夜长.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:29.933Z"
+    },
+    "CD第4册\\71\\邵元复-秋江夜泊.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:31.326Z"
+    },
+    "CD第4册\\71\\邵元复-秋风词.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:33.016Z"
+    },
+    "CD第4册\\70\\邵元复-长门怨.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:34.184Z"
+    },
+    "CD第4册\\71\\邵元复-阳关三叠.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:35.382Z"
+    },
+    "CD第4册\\70\\邵元复-风雷引.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:36.576Z"
+    },
+    "CD第1册\\CD10\\郑颖孙-长门怨.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:37.995Z"
+    },
+    "CD第1册\\CD04\\郭同甫-山居吟.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:38.859Z"
+    },
+    "CD第1册\\CD04\\郭同甫-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:39.622Z"
+    },
+    "CD第1册\\CD04\\郭同甫-水仙操.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:40.253Z"
+    },
+    "CD第1册\\CD13\\金致淇-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:41.015Z"
+    },
+    "CD第1册\\CD13\\金致淇-鹿鸣操.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:41.806Z"
+    },
+    "CD第1册\\CD05\\陈维斌-普庵咒.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:45.376Z"
+    },
+    "CD第1册\\CD01\\马景洛-凤鸣朝阳.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:50.444Z"
+    },
+    "CD第1册\\CD01\\马景洛-双鹤听泉.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:53.813Z"
+    },
+    "CD第1册\\CD01\\马景洛-客窗夜话.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:54.766Z"
+    },
+    "CD第1册\\CD01\\马景洛-梧叶舞秋风.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:55.764Z"
+    },
+    "CD第1册\\CD01\\马景洛-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:56.601Z"
+    },
+    "CD第1册\\CD01\\马景洛-风云际会.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:57.822Z"
+    },
+    "CD第1册\\CD05\\黄渔仙-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T22:59:58.765Z"
+    },
+    "CD第1册\\CD08\\溥雪斋-酒狂.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:13.054Z"
+    },
+    "CD第1册\\CD08\\溥雪斋-鸥鹭忘机.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:14.015Z"
+    },
+    "CD第2册\\34\\王生香-中秋月.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:16.718Z"
+    },
+    "CD第2册\\34\\王生香-古交行.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:23.958Z"
+    },
+    "CD第3册\\40\\乐瑛-列子御风.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:29.949Z"
+    },
+    "CD第3册\\40\\乐瑛-平沙落雁1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:30.912Z"
+    },
+    "CD第3册\\40\\乐瑛-平沙落雁2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:00:32.200Z"
+    },
+    "CD第3册\\40\\乐瑛-沧海龙吟1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:48.821Z"
+    },
+    "CD第3册\\40\\乐瑛-沧海龙吟2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:50.536Z"
+    },
+    "CD第3册\\40\\乐瑛-秋塞吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:51.783Z"
+    },
+    "CD第3册\\54\\侯作吾-高山流水.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:53.542Z"
+    },
+    "CD第2册\\32\\关仲航-平沙落雁.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:54.866Z"
+    },
+    "CD第2册\\32\\关仲航-水仙操.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:56.849Z"
+    },
+    "CD第2册\\32\\关仲航-渔樵问答.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:03:58.345Z"
+    },
+    "CD第2册\\32\\关仲航-潇湘水云.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:00.418Z"
+    },
+    "CD第2册\\33\\刘少椿-墨子悲丝.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:02.400Z"
+    },
+    "CD第2册\\33\\刘少椿-山居吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:03.557Z"
+    },
+    "CD第2册\\33\\刘少椿-平沙落雁.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:04.666Z"
+    },
+    "CD第2册\\33\\刘少椿-梅花三弄1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:05.800Z"
+    },
+    "CD第2册\\33\\刘少椿-梅花三弄2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:06.030Z"
+    },
+    "CD第2册\\33\\刘少椿-梧叶舞秋风.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:07.192Z"
+    },
+    "CD第2册\\33\\刘少椿-樵歌.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:08.377Z"
+    },
+    "CD第2册\\33\\刘少椿-良宵引.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:09.449Z"
+    },
+    "CD第2册\\33\\刘少椿-酒狂.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:10.512Z"
+    },
+    "CD第2册\\33\\刘少椿-龙翔操.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:11.768Z"
+    },
+    "CD第2册\\35\\刘景韶-关山月.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:13.138Z"
+    },
+    "CD第2册\\35\\刘景韶-平沙落雁1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:14.271Z"
+    },
+    "CD第2册\\35\\刘景韶-平沙落雁2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:15.809Z"
+    },
+    "CD第2册\\35\\刘景韶-归去来辞.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:17.383Z"
+    },
+    "CD第2册\\35\\刘景韶-捣衣.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:18.598Z"
+    },
+    "CD第2册\\35\\刘景韶-搔首问天1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:19.666Z"
+    },
+    "CD第2册\\35\\刘景韶-搔首问天2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:20.780Z"
+    },
+    "CD第2册\\35\\刘景韶-樵歌.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:21.601Z"
+    },
+    "CD第1册\\CD03\\卢家炳-午夜焚修.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:23.499Z"
+    },
+    "CD第1册\\CD03\\卢家炳-孤鸿.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:25.071Z"
+    },
+    "CD第1册\\CD03\\卢家炳-平沙落雁1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:26.419Z"
+    },
+    "CD第1册\\CD03\\卢家炳-平沙落雁2.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:28.052Z"
+    },
+    "CD第1册\\CD03\\卢家炳-归去来辞.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:29.036Z"
+    },
+    "CD第1册\\CD03\\卢家炳-月下吟.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:30.040Z"
+    },
+    "CD第1册\\CD03\\卢家炳-水仙操1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:32.094Z"
+    },
+    "CD第1册\\CD03\\卢家炳-水仙操2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:33.675Z"
+    },
+    "CD第1册\\CD03\\卢家炳-碧云深.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:36.227Z"
+    },
+    "CD第1册\\CD03\\卢家炳-释谈章.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:37.520Z"
+    },
+    "CD第3册\\49\\卫仲乐-平沙落雁.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:38.935Z"
+    },
+    "CD第3册\\49\\卫仲乐-普庵咒.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:40.107Z"
+    },
+    "CD第3册\\49\\卫仲乐-醉渔唱晚4.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:49.424Z"
+    },
+    "CD第3册\\49\\卫仲乐-阳关三叠1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:51.718Z"
+    },
+    "CD第3册\\49\\卫仲乐-阳关三叠2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:52.661Z"
+    },
+    "CD第3册\\51\\吴兆基-普庵咒1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:57.133Z"
+    },
+    "CD第3册\\51\\吴兆基-普庵咒2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:04:58.692Z"
+    },
+    "CD第3册\\45\\吴景略-忆故人.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:10.795Z"
+    },
+    "CD第3册\\45\\吴景略-梧叶舞秋风.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:14.119Z"
+    },
+    "CD第3册\\45\\吴景略-渔樵问答.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:15.367Z"
+    },
+    "CD第3册\\45\\吴景略-潇湘水云.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:16.385Z"
+    },
+    "CD第3册\\45\\吴景略-离骚.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:18.375Z"
+    },
+    "CD第3册\\45\\吴景略-阳关三叠.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:19.497Z"
+    },
+    "CD第1册\\CD02\\夏一峰-渔歌.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:37.054Z"
+    },
+    "CD第1册\\CD02\\夏一峰-阳关三叠.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:40.189Z"
+    },
+    "CD第1册\\CD02\\夏一峰-风雷引.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:43.825Z"
+    },
+    "CD第1册\\CD04\\夏莲居-长安一片月.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:49.319Z"
+    },
+    "CD第4册\\67\\姚丙炎-华胥引2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:52.102Z"
+    },
+    "CD第4册\\67\\姚丙炎-明君.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:52.934Z"
+    },
+    "CD第4册\\67\\姚丙炎-酒狂1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:05:58.027Z"
+    },
+    "CD第4册\\67\\姚丙炎-酒狂4.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:06:01.411Z"
+    },
+    "CD第4册\\59\\孙毓芹-凤求凰.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:06:03.362Z"
+    },
+    "CD第4册\\59\\孙毓芹-乌夜啼.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:06:05.582Z"
+    },
+    "CD第4册\\59\\孙毓芹-梧叶舞秋风1.wav": {
+      "decision": "keep",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:07:31.815Z"
+    },
+    "CD第1册\\CD09\\徐元白-普庵咒.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:07:38.849Z"
+    },
+    "CD第3册\\56\\杨清如-古寺钟声.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:13.544Z"
+    },
+    "CD第3册\\56\\杨清如-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:14.278Z"
+    },
+    "CD第3册\\56\\杨清如-慨古吟.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:15.211Z"
+    },
+    "CD第3册\\56\\杨清如-醉渔唱晚.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:15.785Z"
+    },
+    "CD第3册\\56\\杨清如-阳关三叠1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:16.596Z"
+    },
+    "CD第3册\\56\\杨清如-阳关三叠2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:17.345Z"
+    },
+    "CD第3册\\56\\杨清如-阳关三叠3.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:18.137Z"
+    },
+    "CD第1册\\CD12\\查阜西-潇湘水云1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:29.336Z"
+    },
+    "CD第3册\\54\\梁在平-梅花三弄-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:08:35.110Z"
+    },
+    "CD第1册\\CD19\\管平湖-四大景.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:09:49.584Z"
+    },
+    "CD第1册\\CD19\\管平湖-阳春.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:09:58.858Z"
+    },
+    "CD第3册\\55\\许光毅-凤求凰.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:12:46.024Z"
+    },
+    "CD第2册\\32\\高松如-平沙落雁.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:44.000Z"
+    },
+    "CD第2册\\32\\高松如-归去来辞.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:45.179Z"
+    },
+    "CD第2册\\32\\高松如-梧叶舞秋风.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:46.008Z"
+    },
+    "CD第2册\\32\\高松如-流水.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:47.383Z"
+    },
+    "CD第2册\\32\\高松如-秋江夜泊.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:49.478Z"
+    },
+    "CD第2册\\32\\高松如-良宵引.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:50.197Z"
+    },
+    "CD第2册\\32\\高松如-长门怨.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:50.892Z"
+    },
+    "CD第1册\\CD05\\龙琴舫-观音咒.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:56.332Z"
+    },
+    "CD第3册\\41\\乐瑛-岳阳三醉-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:13:58.230Z"
+    },
+    "CD第3册\\41\\乐瑛-渔樵问答2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:02.214Z"
+    },
+    "CD第3册\\41\\乐瑛-阳关三叠.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:05.101Z"
+    },
+    "CD第3册\\41\\乐瑛-韦编三绝2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:07.595Z"
+    },
+    "CD第2册\\38\\喻绍泽-桃李园序.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:35.645Z"
+    },
+    "CD第2册\\38\\喻绍泽-梧叶舞秋风.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:37.415Z"
+    },
+    "CD第2册\\38\\喻绍泽-醉渔晚唱2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:50.378Z"
+    },
+    "CD第2册\\38\\喻绍泽-阳春.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:51.093Z"
+    },
+    "CD第2册\\36\\喻绍泽-高山1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:52.080Z"
+    },
+    "CD第4册\\68\\姚丙炎-乌夜啼1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:14:54.180Z"
+    },
+    "CD第4册\\68\\姚丙炎-屈原问渡.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:13.594Z"
+    },
+    "CD第4册\\68\\姚丙炎-平沙落雁2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:15.698Z"
+    },
+    "CD第4册\\69\\姚丙炎-忆故人-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:19.396Z"
+    },
+    "CD第4册\\68\\姚丙炎-忘忧1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:22.014Z"
+    },
+    "CD第4册\\65\\姚丙炎-楚歌2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:26.983Z"
+    },
+    "CD第4册\\60\\孙毓芹-醉渔唱晚.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:48.465Z"
+    },
+    "CD第4册\\60\\孙毓芹-醉渔晚唱.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:50.753Z"
+    },
+    "CD第4册\\60\\孙毓芹-阳关三叠.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:51.987Z"
+    },
+    "CD第1册\\CD10\\徐元白-渔樵问答1-残.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:15:52.763Z"
+    },
+    "CD第2册\\21\\徐立孙-搔首问天2.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:16:04.550Z"
+    },
+    "CD第1册\\CD11\\查阜西-大江东去.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:16:12.842Z"
+    },
+    "CD第1册\\CD11\\查阜西-普庵咒.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:16:15.486Z"
+    },
+    "CD第1册\\CD18\\管平湖-秋鸿.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:16:53.644Z"
+    },
+    "CD第1册\\CD16\\管平湖-获麟1.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:16:59.714Z"
+    },
+    "CD第2册\\23\\顾梅羹-离骚.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:17:24.833Z"
+    },
+    "CD第2册\\25\\顾梅羹-秋塞吟.wav": {
+      "decision": "reject",
+      "comment": "",
+      "ranges": "",
+      "updatedAt": "2026-09-24T23:17:26.251Z"
+    }
+  }
+}

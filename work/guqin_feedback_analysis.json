@@ -1,0 +1,24 @@
+{
+  "candidate_artists_reviewed": 76,
+  "first_decisions": {
+    "可用于训练": 48,
+    "有氛围，待处理": 6,
+    "不适合训练": 22
+  },
+  "second_excerpts": 53,
+  "second_first_rejected": 12,
+  "second_first_atmospheric": 4,
+  "second_first_accepted": 37,
+  "confirmed_track_count": 47,
+  "confirmed_hours": 4.24,
+  "updated_status_counts": {
+    "代表片段已评可用：待全曲抽查": 47,
+    "同来源代表曲可用：本曲待复听": 353,
+    "已试听不适合：曲目级排除": 22,
+    "同来源代表曲不适合：换曲复核": 66,
+    "同来源有氛围：本曲待复听": 53,
+    "已试听有氛围：暂不进干净训练集": 6,
+    "评估留出：整位演奏者不进训练": 24,
+    "暂不训练：既定排除": 67
+  }
+}

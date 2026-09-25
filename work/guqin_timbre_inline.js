@@ -1,0 +1,1 @@
+document.querySelectorAll('.chapters').forEach(group=>{const player=group.parentElement.querySelector('audio');group.querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{player.currentTime=Number(button.dataset.time);player.play()}))});

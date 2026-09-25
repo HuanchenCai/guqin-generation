@@ -1,0 +1,29 @@
+# Whitelist: only code, notes and small metadata are tracked.
+# Audio, latents, checkpoints and upstream clones (~85 GB) stay out.
+/*
+!/.gitignore
+!/README.md
+
+!/work/
+/work/*
+!/work/*.py
+!/work/*.js
+!/work/*.json
+!/work/*.md
+!/work/guqin_aligned_412/
+/work/guqin_aligned_412/*
+!/work/guqin_aligned_412/*.json
+!/work/guqin_aligned_412/*.csv
+!/work/guqin_aligned_412/eval_contexts/
+/work/guqin_aligned_412/eval_contexts/*
+!/work/guqin_aligned_412/eval_contexts/index.json
+
+!/outputs/
+/outputs/*
+!/outputs/*.md
+!/outputs/*/
+/outputs/*/*
+!/outputs/*/*.md
+!/outputs/*/*.json
+!/outputs/*/*.csv
+!/outputs/*/index.html

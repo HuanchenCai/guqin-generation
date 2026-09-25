@@ -1,0 +1,23 @@
+{
+  "seed": "guqin-piece-split-20260925-v1",
+  "tracks": 412,
+  "piece_groups": 110,
+  "splits": {
+    "train": {
+      "tracks": 329,
+      "pieces": 88,
+      "hours": 33.98
+    },
+    "validation": {
+      "tracks": 42,
+      "pieces": 11,
+      "hours": 4.25
+    },
+    "test": {
+      "tracks": 41,
+      "pieces": 11,
+      "hours": 4.24
+    }
+  },
+  "piece_leakage": 0
+}

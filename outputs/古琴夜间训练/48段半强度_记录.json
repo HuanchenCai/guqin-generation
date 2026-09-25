@@ -1,0 +1,24 @@
+[
+  {
+    "file": "未见录音_48段半强度_84917.flac",
+    "source": "未见录音",
+    "source_path": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start_seconds": 5,
+    "context_seconds": 10,
+    "generated_seconds": 25,
+    "model": "small-music",
+    "adapter": ".\\work\\sa3_overnight\\small_run\\epoch=10-step=500.safetensors",
+    "adapter_strength": 0.5,
+    "seed": 84917,
+    "steps": 8,
+    "prompt": "",
+    "generation_seconds": 5.7,
+    "signal": {
+      "seconds": 35.0,
+      "mean_rms_dbfs": -18.24,
+      "quiet_second_fraction": 0.04,
+      "clipped_fraction": 3e-05,
+      "peak": 1.0
+    }
+  }
+]

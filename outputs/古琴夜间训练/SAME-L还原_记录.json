@@ -1,0 +1,22 @@
+[
+  {
+    "source": "较新录音",
+    "file": "较新录音_SAME-L还原.flac",
+    "representation": "SAME-L",
+    "latent_shape": [
+      1,
+      256,
+      108
+    ]
+  },
+  {
+    "source": "未见录音",
+    "file": "未见录音_SAME-L还原.flac",
+    "representation": "SAME-L",
+    "latent_shape": [
+      1,
+      256,
+      108
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "model": "Magenta RealTime 2 Base",
+  "runtime": "multimodalart PyTorch port, bfloat16, official Google weights",
+  "conditioning": "audio style tokens from held-out guqin; no text or MIDI",
+  "duration_seconds": 39.96,
+  "load_seconds": 56.3,
+  "chunk_generation_times_seconds": [
+    80.96,
+    64.65
+  ],
+  "rms_dbfs": -26.85,
+  "peak": 0.4335,
+  "near_clip_fraction": 0.0,
+  "output": "/mnt/c/Users/huanc/Documents/Codex/2026-09-23/nas-20-mb/work/magenta_rt2_wsl/magenta_mrt2_base_torch_audio_style_40.wav"
+}

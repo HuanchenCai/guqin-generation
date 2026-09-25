@@ -1,0 +1,403 @@
+{
+  "experiment": "guqin_recording_screen_v1",
+  "state": {
+    "CD第4册\\74\\朱惜辰-挟仙游.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD02\\夏一峰-静观吟2.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD03\\卢家炳-平沙落雁2.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\48\\陈心园-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD06\\詹澄秋-流水.wav": {
+      "decision": "不适合训练",
+      "issues": [
+        "底噪明显"
+      ],
+      "comment": "可能只是这一首"
+    },
+    "CD第1册\\CD01\\马景洛-凤鸣朝阳.wav": {
+      "decision": "有氛围，待处理",
+      "issues": [],
+      "comment": "有轻微底噪"
+    },
+    "CD第2册\\34\\程午嘉-关山月.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD09\\徐元白-墨子悲丝.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\37\\喻绍泽-佩兰1.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\51\\吴兆基-平沙落雁1.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\67\\姚丙炎-华胥引1.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD19\\管平湖-乌夜啼.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\59\\孙毓芹-乌夜啼.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\24\\顾梅羹-平沙落雁3.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\20\\徐立孙-公社之春.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\49\\卫仲乐-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\31\\张子谦-忆故人.wav": {
+      "decision": "有氛围，待处理",
+      "issues": [],
+      "comment": "有一点点闷"
+    },
+    "CD第2册\\35\\刘景韶-关山月.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\42\\蔡德允-平沙落雁2.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\40\\乐瑛-列子御风.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\70\\邵元复-平沙落雁.wav": {
+      "decision": "有氛围，待处理",
+      "issues": [
+        "底噪明显",
+        "爆音或失真"
+      ],
+      "comment": ""
+    },
+    "CD第2册\\26\\杨葆元-归去来辞.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\33\\刘少椿-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\55\\许光毅-关山月.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\39\\吴宗汉-关山月.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\34\\周吉荪-良宵引.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD08\\沈草农-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\22\\黄雪辉-忆故人.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD08\\溥雪斋-普庵咒.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD05\\汪孟舒-广寒秋.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\61\\汪振华-归去来辞.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD05\\龙琴舫-捣衣.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD12\\查阜西-醉渔唱晚.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\32\\高松如-渔樵问答.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\47\\朱龙庵-普庵咒.wav": {
+      "decision": "不适合训练",
+      "issues": [
+        "爆音或失真"
+      ],
+      "comment": ""
+    },
+    "CD第3册\\45\\吴景略-普庵咒.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第2册\\22\\杨新伦-高山.wav": {
+      "decision": "有氛围，待处理",
+      "issues": [
+        "底噪明显"
+      ],
+      "comment": ""
+    },
+    "CD第1册\\CD10\\胡莹堂-渔歌.wav": {
+      "decision": "不适合训练",
+      "issues": [
+        "爆音或失真"
+      ],
+      "comment": ""
+    },
+    "CD第2册\\34\\王生香-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\62\\孙培章-阳关三叠.wav": {
+      "decision": "不适合训练",
+      "issues": [
+        "过闷"
+      ],
+      "comment": ""
+    },
+    "CD第2册\\32\\关仲航-渔樵问答.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\54\\侯作吾-高山流水.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD10\\向笙阶-春闺怨.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD13\\张友鹤-平沙落雁.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\44\\庄剑丞-潇湘水云-残.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\61\\李传爱-潇湘水云.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\54\\梁在平-梅花三弄-残.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\55\\胡兰-普庵咒.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\74\\毓邻初-风雷引.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\56\\莫尚德-忆故人.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD10\\郑颖孙-长门怨.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\61\\陈蕾士-乌夜啼.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\62\\陈天乐-四大景.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\64\\高仲钧-广寒游.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\57\\李璠-高山2.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\72\\邓文权-良宵引.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\56\\杨清如-阳关三叠1.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\73\\王绍舜-胡笳十八拍.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\46\\吴振平-幽兰.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\62\\陈阅聪-长门怨.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\44\\胥桐华-平沙落雁.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD04\\夏莲居-风入松.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第3册\\56\\王凤襄-秋江夜泊.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\64\\吴兆奇-白雪.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD04\\郭同甫-平沙落雁.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\61\\翁瘦苍-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD13\\金致淇-平沙落雁.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD01\\Hsuh LuYuan-四大景.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\70\\刘毅志-归去来辞.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\74\\北京古琴研究会-古琴历史录音.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD05\\根如-平沙落雁.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD05\\章志荪-客窗夜话.wav": {
+      "decision": "有氛围，待处理",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD10\\程独清-归去来辞.wav": {
+      "decision": "有氛围，待处理",
+      "issues": [],
+      "comment": "有点噼啪声"
+    },
+    "CD第3册\\54\\胡斗东-平沙落雁-残.wav": {
+      "decision": "可用于训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD05\\陈维斌-普庵咒.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第1册\\CD05\\黄渔仙-平沙落雁.wav": {
+      "decision": "不适合训练",
+      "issues": [],
+      "comment": ""
+    },
+    "CD第4册\\63\\谢孝苹-梅花三弄.wav": {
+      "decision": "",
+      "issues": [],
+      "comment": "这首歌还可以"
+    }
+  }
+}

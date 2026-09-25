@@ -1,0 +1,24 @@
+[
+  {
+    "file": "未见录音_长度诊断120秒_94017.flac",
+    "source": "未见录音",
+    "source_path": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_holdout_reference.flac",
+    "source_start_seconds": 5,
+    "context_seconds": 10,
+    "generated_seconds": 110,
+    "model": "medium",
+    "adapter": ".\\work\\sa3_overnight\\medium_quieter_run\\epoch=8-step=1000.safetensors",
+    "adapter_strength": 1.0,
+    "seed": 94017,
+    "steps": 8,
+    "prompt": "",
+    "generation_seconds": 29.58,
+    "signal": {
+      "seconds": 120.0,
+      "mean_rms_dbfs": -13.77,
+      "quiet_second_fraction": 0.0,
+      "clipped_fraction": 0.00165,
+      "peak": 1.0
+    }
+  }
+]
