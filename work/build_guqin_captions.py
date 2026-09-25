@@ -95,7 +95,7 @@ def main() -> None:
         style = style_for(md_path.stem)
         metadata["prompt"] = caption(style, tags[piece], row["artist"])
         counts[style] += 1
-        (TARGET / md_path.name).write_text(json.dumps(metadata, ensure_ascii=False), encoding="utf-8")
+        (TARGET / md_path.name).write_text(json.dumps(metadata), encoding="utf-8")
         latent = TARGET / md_path.with_suffix(".npy").name
         if not latent.exists():
             os.link(md_path.with_suffix(".npy"), latent)
