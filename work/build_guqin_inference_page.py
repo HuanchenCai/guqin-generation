@@ -101,8 +101,11 @@ const ready=()=>audio.readyState>=1?Promise.resolve():new Promise(ok=>audio.addE
 let playToken=0;
 async function play(file,id,t){const token=++playToken;playingId=id;audio.pause();
  const stale=()=>token!==playToken;
- if(!blobs[file]&&t>0){// fetch once as blob so seeking works on any server
-  const blob=await (await fetch('audio/'+file)).blob();blobs[file]=blobs[file]||URL.createObjectURL(blob);if(stale())return}
+ // Over http, fetch once as a blob so seeking works even without Range support.
+ // file:// pages cannot fetch, but the browser seeks local files natively.
+ if(!blobs[file]&&t>0&&location.protocol!=='file:'){
+  try{const blob=await (await fetch('audio/'+file)).blob();blobs[file]=blobs[file]||URL.createObjectURL(blob)}catch(e){}
+  if(stale())return}
  const url=blobs[file]||('audio/'+file);
  if(audio.src!==url&&!audio.src.endsWith('/'+url)){audio.src=url;audio.load()}
  await ready();if(stale())return;
