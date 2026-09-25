@@ -31,44 +31,111 @@ PAGE = '''<!doctype html><html lang="zh-CN"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>古琴推理调参</title>
 <style>
-:root{--bg:#f5f1e9;--card:#fff;--soft:#faf8f3;--line:#e3d7c3;--ink:#302b23;--muted:#6b6255;--accent:#9a6a2f}
-@media (prefers-color-scheme:dark){:root{--bg:#1d1b18;--card:#27241f;--soft:#2e2a24;--line:#443d33;--ink:#ece5d8;--muted:#a89e8f;--accent:#d9a45f}}
-body{font-family:system-ui,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);max-width:1180px;margin:auto;padding:24px 16px}
+:root{--bg:#f5f1e9;--card:#fff;--soft:#faf8f3;--line:#e3d7c3;--ink:#302b23;--muted:#6b6255;--accent:#9a6a2f;--focus:#c7842f;--kbd:#ece4d6}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1b18;--card:#27241f;--soft:#2e2a24;--line:#443d33;--ink:#ece5d8;--muted:#a89e8f;--accent:#d9a45f;--focus:#e8a652;--kbd:#3a342c}}
+body{font-family:system-ui,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);max-width:1180px;margin:auto;padding:24px 16px 80px}
 h1{font-size:26px;margin:0 0 6px}p{line-height:1.7}
 .note{background:var(--card);border-left:4px solid var(--accent);padding:10px 16px;margin:16px 0}
 .toolbar{position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:2;display:flex;gap:10px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.keys{font-size:13px;color:var(--muted);line-height:2}
+kbd{background:var(--kbd);border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px;font:12px ui-monospace,Consolas,monospace;color:var(--ink)}
 .set{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:16px 0;padding:16px}
 .set h2{margin:0 0 4px;font-size:19px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:10px}
-.clip{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:10px}
-.clip.done{border-color:var(--accent)}audio{width:100%;margin-top:6px}
+.clip{background:var(--soft);border:2px solid var(--line);border-radius:10px;padding:10px;cursor:pointer}
+.clip.done{border-color:var(--accent)}.clip.current{border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus) 35%,transparent)}
+.clip.playing strong::after{content:" ▶";color:var(--focus)}
+audio{width:100%;margin-top:6px}
 label{display:block;margin:6px 0;font-size:14px}select,button{font:inherit;padding:6px 9px}
 .tag{font-size:12px;color:var(--muted)}small{color:var(--muted)}
+.opening{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.opening audio{flex:1;min-width:220px}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:6px 14px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:.92}
 </style>
 <h1>古琴续写 · 推理调参盲听</h1>
 <p>所有开头都来自<strong>蔡德允</strong>，她的录音没有进入任何一版训练，所以这里全部是未见录音。每组固定同一个 10 秒开头和随机种子，模型接 25 秒；五个候选只差推理设置或适配器，顺序已打乱。</p>
 <div class="note">重点听：<b>擦弦/走手的短促噪声</b>是不是用过头、听起来像拉锯。有这个问题请勾“拉锯感”，这是我接下来训练自动筛选器的标签。其他问题（重复、机械音、跑调、音量突变）勾“其他故障”。不必全部听完，评多少都有用。</div>
-<div class="toolbar"><button id="export">导出评分 JSON</button><button id="reveal">显示候选对应关系</button><span id="progress"></span></div>
-<div id="mount"></div>
+<div class="toolbar">
+ <button id="export">导出评分 JSON</button><button id="reveal">显示候选对应关系</button>
+ <label style="margin:0"><input type="checkbox" id="skip" checked> 候选从第 10 秒开始</label>
+ <label style="margin:0"><input type="checkbox" id="advance" checked> 评分后自动下一段</label>
+ <span id="progress"></span>
+ <div class="keys" style="flex-basis:100%">
+  <kbd>空格</kbd> 播放/暂停 · <kbd>1</kbd>–<kbd>5</kbd> 评分 · <kbd>S</kbd> 拉锯感 · <kbd>X</kbd> 其他故障 ·
+  <kbd>→</kbd>/<kbd>N</kbd> 下一段 · <kbd>←</kbd>/<kbd>P</kbd> 上一段 · <kbd>U</kbd> 下一段未评分 ·
+  <kbd>R</kbd> 从第 10 秒重播 · <kbd>B</kbd> 从头播（含开头） · <kbd>O</kbd> 播原曲开头 ·
+  <kbd>J</kbd>/<kbd>L</kbd> 后退/前进 5 秒 · <kbd>↓</kbd>/<kbd>↑</kbd> 下一组/上一组
+ </div>
+</div>
+<div id="mount"></div><div class="toast" id="toast"></div>
 <script>
-const DATA=__DATA__;const KEY='guqin_inference_sweep_v1';let ratings={};
-try{ratings=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
-let revealed=false;
+const DATA=__DATA__;const KEY='guqin_inference_sweep_v1';const PREFIX=10;
+let ratings={};try{ratings=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+const pref=(k,d)=>{try{const v=localStorage.getItem(KEY+':'+k);return v===null?d:v==='1'}catch(e){return d}};
+const setPref=(k,v)=>{try{localStorage.setItem(KEY+':'+k,v?'1':'0')}catch(e){}};
+const skip=document.getElementById('skip'),advance=document.getElementById('advance');
+skip.checked=pref('skip',true);advance.checked=pref('advance',true);
+skip.onchange=()=>setPref('skip',skip.checked);advance.onchange=()=>setPref('advance',advance.checked);
+let revealed=false,cur=-1;const cards=[];const openings=[];
+const toastEl=document.getElementById('toast');let toastTimer;
+const toast=t=>{toastEl.textContent=t;toastEl.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toastEl.classList.remove('show'),900)};
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(ratings))}catch(e){}
- const n=Object.values(ratings).filter(x=>x.score).length;const total=DATA.groups.reduce((a,g)=>a+g.cards.length,0);
- document.getElementById('progress').textContent=`已评分 ${n}/${total} 段`};
+ const n=Object.values(ratings).filter(x=>x.score).length;
+ document.getElementById('progress').textContent=`已评分 ${n}/${cards.length} 段`};
+const allAudio=()=>document.querySelectorAll('audio');
+const pauseOthers=a=>allAudio().forEach(x=>{if(x!==a)x.pause()});
+const canSeek=(a,t)=>{for(let i=0;i<a.seekable.length;i++)if(a.seekable.start(i)<=t&&a.seekable.end(i)>=t)return true;return false};
+const metadata=a=>a.readyState>=1?Promise.resolve():new Promise(ok=>{a.addEventListener('loadedmetadata',ok,{once:true});a.preload='auto';a.load()});
+// Servers without HTTP Range support make audio unseekable; a blob URL is always seekable.
+async function ensureSeekable(a,t){await metadata(a);if(t<=0||canSeek(a,t)||a.src.startsWith('blob:'))return;
+ const blob=await (await fetch(a.src)).blob();a.src=URL.createObjectURL(blob);await metadata(a)}
+async function playFrom(a,t){pauseOthers(a);await ensureSeekable(a,t);a.currentTime=Math.min(t,Math.max(0,a.duration-0.1));pauseOthers(a);a.play()}
+function select(i,{play=true,scroll=true}={}){if(i<0||i>=cards.length)return;
+ if(cur>=0)cards[cur].el.classList.remove('current');cur=i;const c=cards[i];c.el.classList.add('current');
+ if(scroll)c.el.scrollIntoView({block:'center',behavior:'smooth'});
+ if(play)playFrom(c.audio,skip.checked?PREFIX:0)}
+function nextUnrated(from){for(let k=1;k<=cards.length;k++){const j=(from+k)%cards.length;if(!(ratings[cards[j].id]||{}).score)return j}return -1}
+function update(c){const e={score:Number(c.sel.value)||null,saw:c.saw.checked,other:c.other.checked,variant:c.variant};
+ ratings[c.id]=e;c.el.classList.toggle('done',!!e.score);save()}
 const mount=document.getElementById('mount');
-for(const g of DATA.groups){const box=document.createElement('section');box.className='set';
- box.innerHTML=`<h2>${g.opening.piece} · 种子 ${g.seed}</h2><small>蔡德允原曲 ${g.opening.start_seconds} 秒起的 10 秒开头</small><label>原曲开头 <audio controls preload="none" src="audio/${g.opening.file}"></audio></label><div class="grid"></div>`;
- const grid=box.querySelector('.grid');
+DATA.groups.forEach((g,gi)=>{const box=document.createElement('section');box.className='set';
+ box.innerHTML=`<h2>${g.opening.piece} · 种子 ${g.seed}</h2><small>蔡德允原曲 ${g.opening.start_seconds} 秒起的 10 秒开头</small><div class="opening"><span>原曲开头</span><audio controls preload="none" src="audio/${g.opening.file}"></audio></div><div class="grid"></div>`;
+ openings.push(box.querySelector('.opening audio'));const grid=box.querySelector('.grid');
  for(const c of g.cards){const e=ratings[c.id]||{};const d=document.createElement('div');d.className='clip'+(e.score?' done':'');
   d.innerHTML=`<strong>候选 ${c.label}</strong> <span class="tag" data-v="${c.variant}"></span><audio controls preload="none" src="audio/${c.file}"></audio>
   <label>总体 <select><option value="">待评分</option>${[1,2,3,4,5].map(n=>`<option value="${n}">${n} / 5</option>`).join('')}</select></label>
   <label><input type="checkbox" class="saw"> 拉锯感（擦弦噪声过多）</label><label><input type="checkbox" class="other"> 其他故障</label>`;
-  const sel=d.querySelector('select'),saw=d.querySelector('.saw'),other=d.querySelector('.other');
-  sel.value=e.score||'';saw.checked=!!e.saw;other.checked=!!e.other;
-  const up=()=>{ratings[c.id]={score:Number(sel.value)||null,saw:saw.checked,other:other.checked,variant:c.variant};d.classList.toggle('done',!!sel.value);save()};
-  sel.onchange=up;saw.onchange=up;other.onchange=up;grid.append(d)}
- mount.append(box)}
+  const item={...c,group:gi,el:d,audio:d.querySelector('audio'),sel:d.querySelector('select'),saw:d.querySelector('.saw'),other:d.querySelector('.other')};
+  const idx=cards.length;cards.push(item);
+  item.sel.value=e.score||'';item.saw.checked=!!e.saw;item.other.checked=!!e.other;
+  item.sel.onchange=()=>update(item);item.saw.onchange=()=>update(item);item.other.onchange=()=>update(item);
+  d.addEventListener('click',ev=>{if(ev.target.closest('audio,select,input,label'))return;select(idx,{scroll:false})});
+  // Native play button: jump past the shared prefix when starting from the top.
+  item.audio.addEventListener('play',()=>{pauseOthers(item.audio);if(cur!==idx)select(idx,{play:false,scroll:false});
+   if(skip.checked&&item.audio.currentTime<0.5){item.audio.pause();playFrom(item.audio,PREFIX)}});
+  item.audio.addEventListener('playing',()=>d.classList.add('playing'));
+  ['pause','ended'].forEach(t=>item.audio.addEventListener(t,()=>d.classList.remove('playing')));
+  grid.append(d)}
+ mount.append(box)});
+openings.forEach(a=>a.addEventListener('play',()=>pauseOthers(a)));
+document.addEventListener('keydown',ev=>{
+ if(ev.ctrlKey||ev.metaKey||ev.altKey)return;
+ const tag=(ev.target.tagName||'').toLowerCase();if(tag==='select'||(tag==='input'&&ev.target.type!=='checkbox'))return;
+ const k=ev.key.toLowerCase();const c=cur>=0?cards[cur]:null;
+ const need=()=>{if(!c){select(0,{play:false});return true}return false};
+ if(k===' '){ev.preventDefault();if(need())return;const a=c.audio;if(a.paused){if(a.currentTime<0.5||a.ended)playFrom(a,skip.checked?PREFIX:0);else{pauseOthers(a);a.play()}}else a.pause()}
+ else if(/^[1-5]$/.test(k)){if(need())return;c.sel.value=k;update(c);toast(`候选 ${c.label}：${k} 分`);
+  if(advance.checked){const j=nextUnrated(cur);setTimeout(()=>{if(j>=0)select(j);else{c.audio.pause();toast('全部评完了，记得导出')}},250)}}
+ else if(k==='s'){if(need())return;c.saw.checked=!c.saw.checked;update(c);toast(c.saw.checked?'已标记拉锯感':'取消拉锯感')}
+ else if(k==='x'){if(need())return;c.other.checked=!c.other.checked;update(c);toast(c.other.checked?'已标记其他故障':'取消其他故障')}
+ else if(k==='arrowright'||k==='n'){ev.preventDefault();select(cur+1)}
+ else if(k==='arrowleft'||k==='p'){ev.preventDefault();select(Math.max(0,cur-1))}
+ else if(k==='u'){const j=nextUnrated(cur);if(j>=0)select(j);else toast('没有未评分的了')}
+ else if(k==='arrowdown'||k==='arrowup'){ev.preventDefault();const g=(c?c.group:-1)+(k==='arrowdown'?1:-1);const j=cards.findIndex(x=>x.group===g);if(j>=0)select(j)}
+ else if(k==='r'){if(need())return;playFrom(c.audio,PREFIX)}
+ else if(k==='b'){if(need())return;playFrom(c.audio,0)}
+ else if(k==='o'){if(need())return;playFrom(openings[c.group],0)}
+ else if(k==='j'||k==='l'){if(need())return;const a=c.audio;a.currentTime=Math.max(0,a.currentTime+(k==='j'?-5:5))}
+});
 document.getElementById('export').onclick=()=>{const blob=new Blob([JSON.stringify({schema:'guqin-inference-sweep-v1',ratings,generated_at:new Date().toISOString()},null,2)],{type:'application/json'});
  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='古琴推理调参评分.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
 document.getElementById('reveal').onclick=()=>{revealed=!revealed;document.querySelectorAll('.tag').forEach(t=>t.textContent=revealed?DATA.legend[t.dataset.v]:'')};
