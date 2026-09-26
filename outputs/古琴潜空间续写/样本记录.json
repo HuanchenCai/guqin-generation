@@ -1,0 +1,149 @@
+{
+  "checkpoint": "step010000.pt",
+  "continuations": [
+    {
+      "file": "open_01.flac",
+      "seconds": 10.0,
+      "rms_dbfs": -16.6,
+      "clipped_percent": 0.008,
+      "piece": "沧海龙吟1",
+      "artist": "乐瑛",
+      "source": "CD第3册\\40\\乐瑛-沧海龙吟1.wav",
+      "latent_lm": {
+        "file": "c01_latent_lm.flac",
+        "seconds": 60.0,
+        "rms_dbfs": -18.4,
+        "clipped_percent": 0.007
+      },
+      "sa3": {
+        "file": "c01_sa3.flac"
+      }
+    },
+    {
+      "file": "open_02.flac",
+      "seconds": 10.0,
+      "rms_dbfs": -26.7,
+      "clipped_percent": 0.0,
+      "piece": "渔樵问答",
+      "artist": "关仲航",
+      "source": "CD第2册\\32\\关仲航-渔樵问答.wav",
+      "latent_lm": {
+        "file": "c02_latent_lm.flac",
+        "seconds": 60.0,
+        "rms_dbfs": -26.1,
+        "clipped_percent": 0.0
+      },
+      "sa3": {
+        "file": "c02_sa3.flac"
+      }
+    },
+    {
+      "file": "open_03.flac",
+      "seconds": 10.0,
+      "rms_dbfs": -22.6,
+      "clipped_percent": 0.0,
+      "piece": "山居吟",
+      "artist": "刘少椿",
+      "source": "CD第2册\\33\\刘少椿-山居吟.wav",
+      "latent_lm": {
+        "file": "c03_latent_lm.flac",
+        "seconds": 60.0,
+        "rms_dbfs": -27.1,
+        "clipped_percent": 0.0
+      },
+      "sa3": {
+        "file": "c03_sa3.flac"
+      }
+    },
+    {
+      "file": "open_04.flac",
+      "seconds": 10.0,
+      "rms_dbfs": -19.1,
+      "clipped_percent": 0.0,
+      "piece": "孤鸿",
+      "artist": "卢家炳",
+      "source": "CD第1册\\CD03\\卢家炳-孤鸿.wav",
+      "latent_lm": {
+        "file": "c04_latent_lm.flac",
+        "seconds": 60.0,
+        "rms_dbfs": -23.5,
+        "clipped_percent": 0.0
+      },
+      "sa3": {
+        "file": "c04_sa3.flac"
+      }
+    },
+    {
+      "file": "open_05.flac",
+      "seconds": 10.0,
+      "rms_dbfs": -15.6,
+      "clipped_percent": 0.014,
+      "piece": "忆故人2",
+      "artist": "吴兆基",
+      "source": "CD第3册\\52\\吴兆基-忆故人2.wav",
+      "latent_lm": {
+        "file": "c05_latent_lm.flac",
+        "seconds": 60.0,
+        "rms_dbfs": -16.4,
+        "clipped_percent": 0.014
+      },
+      "sa3": {
+        "file": "c05_sa3.flac"
+      }
+    },
+    {
+      "file": "open_06.flac",
+      "seconds": 10.0,
+      "rms_dbfs": -15.2,
+      "clipped_percent": 0.01,
+      "piece": "桃源春晓",
+      "artist": "杨葆元",
+      "source": "CD第2册\\27\\杨葆元-桃源春晓.wav",
+      "latent_lm": {
+        "file": "c06_latent_lm.flac",
+        "seconds": 60.0,
+        "rms_dbfs": -19.9,
+        "clipped_percent": 0.002
+      },
+      "sa3": {
+        "file": "c06_sa3.flac"
+      }
+    }
+  ],
+  "endless": [
+    {
+      "temperature": 0.8,
+      "file": "endless_t0.8.flac",
+      "seconds": 309.9,
+      "rms_dbfs": -26.0,
+      "clipped_percent": 0.001
+    },
+    {
+      "temperature": 1.0,
+      "file": "endless_t1.0.flac",
+      "seconds": 309.9,
+      "rms_dbfs": -23.1,
+      "clipped_percent": 0.002
+    }
+  ],
+  "free": [
+    {
+      "file": "free_1.flac",
+      "seconds": 59.9,
+      "rms_dbfs": -22.9,
+      "clipped_percent": 0.0
+    },
+    {
+      "file": "free_2.flac",
+      "seconds": 59.9,
+      "rms_dbfs": -24.8,
+      "clipped_percent": 0.0
+    },
+    {
+      "file": "free_3.flac",
+      "seconds": 59.9,
+      "rms_dbfs": -25.8,
+      "clipped_percent": 0.0
+    }
+  ]
+}
