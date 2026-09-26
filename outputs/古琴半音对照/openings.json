@@ -1,0 +1,90 @@
+[
+  {
+    "file": "open_01.flac",
+    "artist": "胡莹堂",
+    "piece": "忆故人",
+    "source": "CD第1册\\CD13\\胡莹堂-忆故人.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: longing, melancholy. Scene: night. 意境：思念、忧伤、夜。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: longing, melancholy. Scene: night. 意境：思念、忧伤、夜。 Pentatonic mode, gong on E: E, F#, G#, B, C#. 五声调式，E 宫。"
+    }
+  },
+  {
+    "file": "open_02.flac",
+    "artist": "杨葆元",
+    "piece": "渔樵问答",
+    "source": "CD第2册\\27\\杨葆元-渔樵问答.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: carefree, tranquil. Scene: fisherman and woodcutter, mountains. 意境：洒脱、恬淡、渔樵、高山。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: carefree, tranquil. Scene: fisherman and woodcutter, mountains. 意境：洒脱、恬淡、渔樵、高山。 Pentatonic mode, gong on C: C, D, E, G, A. 五声调式，C 宫。"
+    }
+  },
+  {
+    "file": "open_03.flac",
+    "artist": "管平湖",
+    "piece": "获麟2",
+    "source": "CD第1册\\CD16\\管平湖-获麟2.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: melancholy, sorrowful and indignant. 意境：忧伤、悲愤。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: melancholy, sorrowful and indignant. 意境：忧伤、悲愤。 Pentatonic mode, gong on D: D, E, F#, A, B. 五声调式，D 宫。"
+    }
+  },
+  {
+    "file": "open_04.flac",
+    "artist": "顾梅羹",
+    "piece": "孔子读易1",
+    "source": "CD第2册\\23\\顾梅羹-孔子读易1.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: solemn, meditative, calm. 意境：庄严、禅意、平静。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: solemn, meditative, calm. 意境：庄严、禅意、平静。 Pentatonic mode, gong on B: B, C#, D#, F#, G#. 五声调式，B 宫。"
+    }
+  },
+  {
+    "file": "open_05.flac",
+    "artist": "乐瑛",
+    "piece": "沧海龙吟1",
+    "source": "CD第3册\\40\\乐瑛-沧海龙吟1.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: majestic, vast. Scene: river. 意境：雄浑、苍茫、江河。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: majestic, vast. Scene: river. 意境：雄浑、苍茫、江河。 Pentatonic mode, gong on E: E, F#, G#, B, C#. 五声调式，E 宫。"
+    }
+  },
+  {
+    "file": "open_06.flac",
+    "artist": "刘少椿",
+    "piece": "山居吟",
+    "source": "CD第2册\\33\\刘少椿-山居吟.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: tranquil, calm. Scene: mountains. 意境：恬淡、平静、高山。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: tranquil, calm. Scene: mountains. 意境：恬淡、平静、高山。 Pentatonic mode, gong on E: E, F#, G#, B, C#. 五声调式，E 宫。"
+    }
+  },
+  {
+    "file": "open_07.flac",
+    "artist": "卢家炳",
+    "piece": "孤鸿",
+    "source": "CD第1册\\CD03\\卢家炳-孤鸿.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: lonely, vast. Scene: birds. 意境：孤寂、苍茫、飞鸟。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: lonely, vast. Scene: birds. 意境：孤寂、苍茫、飞鸟。 Pentatonic mode, gong on A#: A#, C, D, F, G. 五声调式，A# 宫。"
+    }
+  },
+  {
+    "file": "open_08.flac",
+    "artist": "查阜西",
+    "piece": "洞庭秋思",
+    "source": "CD第1册\\CD11\\查阜西-洞庭秋思.wav",
+    "prompts": {
+      "A": "",
+      "B": "Solo guqin, Chinese seven-string zither. Mood: longing. Scene: autumn, river. 意境：思念、秋、江河。",
+      "C": "Solo guqin, Chinese seven-string zither. Mood: longing. Scene: autumn, river. 意境：思念、秋、江河。 Pentatonic mode, gong on E: E, F#, G#, B, C#. 五声调式，E 宫。"
+    }
+  }
+]

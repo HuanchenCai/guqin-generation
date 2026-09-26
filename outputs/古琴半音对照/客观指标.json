@@ -1,0 +1,21 @@
+{
+  "real_openings_attack_out_of_mode": 0.355,
+  "A": {
+    "attack_out_of_mode": 0.322,
+    "fit_to_opening_mode": 0.703,
+    "own_fit": 0.729,
+    "attacks_per_s": 1.41
+  },
+  "B": {
+    "attack_out_of_mode": 0.32,
+    "fit_to_opening_mode": 0.62,
+    "own_fit": 0.654,
+    "attacks_per_s": 1.388
+  },
+  "C": {
+    "attack_out_of_mode": 0.358,
+    "fit_to_opening_mode": 0.617,
+    "own_fit": 0.653,
+    "attacks_per_s": 1.362
+  }
+}
