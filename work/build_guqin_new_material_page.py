@@ -60,10 +60,28 @@ def main() -> None:
         target.append(card(f'public/{row["file"]}', row["file"].split("_", 1)[1].rsplit(".", 1)[0].replace("_", " "),
                            note, link(path), seconds))
     dvds = []
+    dedupe = json.loads((WORK / "guqin_dvd_dedupe_summary.json").read_text(encoding="utf-8"))
     for path in sorted((WORK / "guqin_dvd_audio").glob("DVD*.flac")):
         seconds = duration(path)
-        dvds.append(card(f"dvd/{path.name}", path.stem, f"Y 盘 DVD 音轨，MP2 有损 48 kHz · {clock(seconds)}",
-                         link(path), seconds))
+        info = dedupe.get(path.stem, {})
+        dup = sorted(set(info.get("dup_training", [])) | set(info.get("dup_other_cd", [])))
+        ranges = []
+        for t in dup:  # each query covers t..t+12 s; merge queries 30 s apart
+            if ranges and t - ranges[-1][1] <= 30:
+                ranges[-1][1] = t + 12
+            else:
+                ranges.append([t, t + 12])
+        first_pass = [h for h in json.loads((WORK / "guqin_dvd_dedupe.json").read_text(encoding="utf-8"))
+                      if h["dvd"] == path.stem and h["dvd_seconds"] in set(info.get("dup_training", []))]
+        sources = sorted({h["cd_artist"] + "《" + h["cd_piece"] + "》（已在训练集）" for h in first_pass}
+                         | {Path(x.replace("\\", "/")).stem for x in info.get("other_cd_sources", [])})
+        note = f"Y 盘 DVD 音轨，MP2 有损 48 kHz · {clock(seconds)}"
+        if ranges:
+            note += (" · <strong>与 CD 重复：</strong>" + "、".join(f"{clock(a)}–{clock(b)}" for a, b in ranges)
+                     + "（" + "、".join(sources) + "）")
+        else:
+            note += " · 未发现与 CD 重复"
+        dvds.append(card(f"dvd/{path.name}", path.stem, note, link(path), seconds))
     script = '''
 const key='guqin_new_material_v1';let state={};try{state=JSON.parse(localStorage.getItem(key)||'{}')}catch{};
 const save=()=>{try{localStorage.setItem(key,JSON.stringify(state))}catch{}};
@@ -83,7 +101,7 @@ document.querySelector('#export').onclick=()=>{const blob=new Blob([JSON.stringi
             '<header><div><h1>古琴新素材待审</h1><p>公开授权下载的录音和 Y 盘 DVD 音轨。这里的内容都没有进入训练，由你逐个判断。</p></div></header><main>'
             '<div class="intro">公开授权录音大多来自 Wikimedia Commons 上琴人 Charlie Huang 自己上传的演奏（CC BY / CC BY-SA / 公有领域），'
             '另有 Internet Archive 两条；每张卡片标了来源、作者和授权链接，若使用需要署名，CC BY-SA 与 CC BY-NC-SA 另有附加条件。'
-            'DVD 音轨是整张盘的连续音频，可能夹有讲解或其他乐器，请用“部分可用”并写出时间段。</div>'
+            'DVD 音轨是整张盘的连续音频，可能夹有讲解或其他乐器，请用“部分可用”并写出时间段。已自动与 638 首 CD 录音比对：12 张 DVD 与 412 首训练录音基本不重复，只有 DVD01、DVD06 有几段与未入训的 CD 录音（含合奏）重复，卡片上已标出。</div>'
             + section("公开授权 · 完整曲目", "一分钟以上的录音。", pieces)
             + section("DVD 音轨", "每张 DVD 一条连续音轨，可用按钮跳到不同位置抽查。", dvds)
             + section("公开授权 · 短片段", "调弦、泛音等示范短片段，通常太短不适合训练，列出供参考。", clips)

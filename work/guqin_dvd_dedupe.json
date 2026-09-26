@@ -1,0 +1,9371 @@
+[
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 30.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 60.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 90.0,
+  "r": 0.698,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第2册\\37\\喻绍泽-梅花三弄.wav",
+  "cd_seconds": 326.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 120.0,
+  "r": 0.79,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 218.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 150.0,
+  "r": 0.739,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 303.3
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 180.0,
+  "r": 0.891,
+  "cd_artist": "卢家炳",
+  "cd_piece": "归去来辞",
+  "cd_source": "CD第1册\\CD03\\卢家炳-归去来辞.wav",
+  "cd_seconds": 232.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 210.0,
+  "r": 0.85,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水4",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水4.wav",
+  "cd_seconds": 279.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 240.0,
+  "r": 0.886,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 270.0,
+  "r": 0.896,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 300.0,
+  "r": 0.924,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 330.0,
+  "r": 0.906,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 376.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 360.0,
+  "r": 0.923,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 390.0,
+  "r": 0.886,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 136.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 420.0,
+  "r": 0.908,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 450.0,
+  "r": 0.914,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 241.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 480.0,
+  "r": 0.916,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 208.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 510.0,
+  "r": 0.924,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 540.0,
+  "r": 0.926,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 570.0,
+  "r": 0.907,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 252.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 600.0,
+  "r": 0.855,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 47.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 630.0,
+  "r": 0.866,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 261.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 660.0,
+  "r": 0.867,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 257.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 690.0,
+  "r": 0.898,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 720.0,
+  "r": 0.841,
+  "cd_artist": "杨新伦",
+  "cd_piece": "碧涧流泉",
+  "cd_source": "CD第2册\\22\\杨新伦-碧涧流泉.wav",
+  "cd_seconds": 166.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 750.0,
+  "r": 0.823,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 33.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 780.0,
+  "r": 0.874,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 257.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 810.0,
+  "r": 0.923,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 840.0,
+  "r": 0.881,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 325.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 870.0,
+  "r": 0.739,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄2",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄2.wav",
+  "cd_seconds": 328.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 900.0,
+  "r": 0.828,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 125.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 930.0,
+  "r": 0.847,
+  "cd_artist": "刘少椿",
+  "cd_piece": "梅花三弄2",
+  "cd_source": "CD第2册\\33\\刘少椿-梅花三弄2.wav",
+  "cd_seconds": 299.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 960.0,
+  "r": 0.818,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 275.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 990.0,
+  "r": 0.851,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1020.0,
+  "r": 0.854,
+  "cd_artist": "蔡德允",
+  "cd_piece": "胡笳十八拍",
+  "cd_source": "CD第3册\\42\\蔡德允-胡笳十八拍.wav",
+  "cd_seconds": 235.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1050.0,
+  "r": 0.859,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 21.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1080.0,
+  "r": 0.792,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神1",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神1.wav",
+  "cd_seconds": 408.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1110.0,
+  "r": 0.888,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 248.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1140.0,
+  "r": 0.847,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 34.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1170.0,
+  "r": 0.849,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 90.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1200.0,
+  "r": 0.928,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1230.0,
+  "r": 0.856,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 500.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1260.0,
+  "r": 0.797,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 299.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1290.0,
+  "r": 0.824,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 255.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1320.0,
+  "r": 0.869,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 263.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1350.0,
+  "r": 0.879,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 242.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1380.0,
+  "r": 0.886,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 260.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1410.0,
+  "r": 0.847,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 299.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1440.0,
+  "r": 0.876,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1470.0,
+  "r": 0.805,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "孔子读易2",
+  "cd_source": "CD第2册\\23\\顾梅羹-孔子读易2.wav",
+  "cd_seconds": 304.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1500.0,
+  "r": 0.787,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "幽兰",
+  "cd_source": "CD第4册\\69\\姚丙炎-幽兰.wav",
+  "cd_seconds": 412.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1530.0,
+  "r": 0.856,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 239.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1560.0,
+  "r": 0.814,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 258.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1590.0,
+  "r": 0.802,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 39.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1620.0,
+  "r": 0.812,
+  "cd_artist": "杨新伦",
+  "cd_piece": "怀古",
+  "cd_source": "CD第2册\\22\\杨新伦-怀古.wav",
+  "cd_seconds": 90.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1650.0,
+  "r": 0.775,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "忆故人2",
+  "cd_source": "CD第2册\\25\\顾梅羹-忆故人2.wav",
+  "cd_seconds": 374.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1680.0,
+  "r": 0.794,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 55.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1710.0,
+  "r": 0.796,
+  "cd_artist": "吴兆基",
+  "cd_piece": "潇湘水云1",
+  "cd_source": "CD第3册\\52\\吴兆基-潇湘水云1.wav",
+  "cd_seconds": 88.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1740.0,
+  "r": 0.785,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "幽兰",
+  "cd_source": "CD第4册\\69\\姚丙炎-幽兰.wav",
+  "cd_seconds": 408.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1770.0,
+  "r": 0.818,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 233.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1800.0,
+  "r": 0.693,
+  "cd_artist": "刘少椿",
+  "cd_piece": "梅花三弄2",
+  "cd_source": "CD第2册\\33\\刘少椿-梅花三弄2.wav",
+  "cd_seconds": 357.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1830.0,
+  "r": 0.795,
+  "cd_artist": "蔡德允",
+  "cd_piece": "胡笳十八拍",
+  "cd_source": "CD第3册\\42\\蔡德允-胡笳十八拍.wav",
+  "cd_seconds": 235.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1860.0,
+  "r": 0.766,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "乌夜啼2",
+  "cd_source": "CD第4册\\68\\姚丙炎-乌夜啼2.wav",
+  "cd_seconds": 462.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1890.0,
+  "r": 0.8,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1920.0,
+  "r": 0.925,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 85.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1950.0,
+  "r": 0.85,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 270.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 1980.0,
+  "r": 0.813,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "酒狂",
+  "cd_source": "CD第2册\\36\\喻绍泽-酒狂.wav",
+  "cd_seconds": 2.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2010.0,
+  "r": 0.802,
+  "cd_artist": "陈心园",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\48\\陈心园-风雷引.wav",
+  "cd_seconds": 81.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2040.0,
+  "r": 0.847,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 280.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2070.0,
+  "r": 0.816,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\49\\卫仲乐-普庵咒.wav",
+  "cd_seconds": 124.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2100.0,
+  "r": 0.795,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 292.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2130.0,
+  "r": 0.841,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\49\\卫仲乐-普庵咒.wav",
+  "cd_seconds": 317.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2160.0,
+  "r": 0.853,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 269.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2190.0,
+  "r": 0.899,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 358.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2220.0,
+  "r": 0.872,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 294.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2250.0,
+  "r": 0.822,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 285.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2280.0,
+  "r": 0.905,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2310.0,
+  "r": 0.891,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 345.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2340.0,
+  "r": 0.835,
+  "cd_artist": "管平湖",
+  "cd_piece": "龙翔操",
+  "cd_source": "CD第1册\\CD17\\管平湖-龙翔操.wav",
+  "cd_seconds": 102.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2370.0,
+  "r": 0.881,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 370.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2400.0,
+  "r": 0.858,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 348.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2430.0,
+  "r": 0.871,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 257.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2460.0,
+  "r": 0.973,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 646.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2490.0,
+  "r": 0.959,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 145.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2520.0,
+  "r": 0.956,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2550.0,
+  "r": 0.952,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 146.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2580.0,
+  "r": 0.948,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 144.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2610.0,
+  "r": 0.953,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 267.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2640.0,
+  "r": 0.959,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2670.0,
+  "r": 0.959,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 271.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2700.0,
+  "r": 0.938,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 297.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2730.0,
+  "r": 0.95,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 270.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2760.0,
+  "r": 0.952,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2790.0,
+  "r": 0.953,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 297.3
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2820.0,
+  "r": 0.953,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 199.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2850.0,
+  "r": 0.957,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 248.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2880.0,
+  "r": 0.988,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 88.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2910.0,
+  "r": 0.773,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 292.5
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2940.0,
+  "r": 0.803,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 249.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 2970.0,
+  "r": 0.795,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 298.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3000.0,
+  "r": 0.786,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 217.2
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3030.0,
+  "r": 0.791,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 251.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3060.0,
+  "r": 0.8,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 39.6
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3090.0,
+  "r": 0.772,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.3
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3120.0,
+  "r": 0.816,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 266.3
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3150.0,
+  "r": 0.815,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "胡笳十八拍2",
+  "cd_source": "CD第4册\\67\\姚丙炎-胡笳十八拍2.wav",
+  "cd_seconds": 630.0
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3180.0,
+  "r": 0.833,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3210.0,
+  "r": 0.779,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 303.9
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3240.0,
+  "r": 0.98,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 642.3
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3270.0,
+  "r": 0.883,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 278.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3300.0,
+  "r": 0.852,
+  "cd_artist": "陈心园",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\48\\陈心园-风雷引.wav",
+  "cd_seconds": 78.3
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3330.0,
+  "r": 0.892,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3360.0,
+  "r": 0.835,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.4
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3390.0,
+  "r": 0.865,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 206.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3420.0,
+  "r": 0.881,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 213.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3450.0,
+  "r": 0.852,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 274.1
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3480.0,
+  "r": 0.884,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 215.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3510.0,
+  "r": 0.86,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 276.7
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3540.0,
+  "r": 0.884,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 218.8
+ },
+ {
+  "dvd": "DVD01",
+  "dvd_seconds": 3570.0,
+  "r": 0.869,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 181.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 30.0,
+  "r": 0.794,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 330.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 60.0,
+  "r": 0.881,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 339.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 90.0,
+  "r": 0.864,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 216.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 120.0,
+  "r": 0.878,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 150.0,
+  "r": 0.893,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 180.0,
+  "r": 0.895,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 115.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 210.0,
+  "r": 0.877,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 225.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 240.0,
+  "r": 0.904,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 270.0,
+  "r": 0.889,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 300.0,
+  "r": 0.902,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 297.9
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 330.0,
+  "r": 0.912,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 292.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 360.0,
+  "r": 0.928,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 390.0,
+  "r": 0.906,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 247.9
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 420.0,
+  "r": 0.872,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 293.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 450.0,
+  "r": 0.876,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 273.3
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 480.0,
+  "r": 0.909,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 324.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 510.0,
+  "r": 0.898,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 540.0,
+  "r": 0.882,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 209.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 570.0,
+  "r": 0.902,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 373.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 600.0,
+  "r": 0.887,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 239.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 630.0,
+  "r": 0.892,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 660.0,
+  "r": 0.868,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 331.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 690.0,
+  "r": 0.896,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 245.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 720.0,
+  "r": 0.91,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 292.9
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 750.0,
+  "r": 0.908,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 780.0,
+  "r": 0.898,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 323.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 810.0,
+  "r": 0.894,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 298.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 840.0,
+  "r": 0.859,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "汉宫秋月-残",
+  "cd_source": "CD第2册\\23\\顾梅羹-汉宫秋月-残.wav",
+  "cd_seconds": 350.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 870.0,
+  "r": 0.912,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 218.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 900.0,
+  "r": 0.909,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 279.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 930.0,
+  "r": 0.897,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 213.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 960.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 112.3
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 990.0,
+  "r": 0.853,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 116.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1020.0,
+  "r": 0.775,
+  "cd_artist": "陈心园",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\48\\陈心园-风雷引.wav",
+  "cd_seconds": 109.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1050.0,
+  "r": 0.766,
+  "cd_artist": "吴兆基",
+  "cd_piece": "忆故人2",
+  "cd_source": "CD第3册\\52\\吴兆基-忆故人2.wav",
+  "cd_seconds": 27.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1080.0,
+  "r": 0.948,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 638.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1110.0,
+  "r": 0.879,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 261.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1140.0,
+  "r": 0.856,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 19.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1170.0,
+  "r": 0.863,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 224.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1200.0,
+  "r": 0.903,
+  "cd_artist": "张子谦",
+  "cd_piece": "秋鸿2",
+  "cd_source": "CD第2册\\30\\张子谦-秋鸿2.wav",
+  "cd_seconds": 63.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1230.0,
+  "r": 0.841,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 113.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1260.0,
+  "r": 0.888,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 56.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1290.0,
+  "r": 0.921,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 247.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1320.0,
+  "r": 0.923,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.3
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1350.0,
+  "r": 0.948,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1380.0,
+  "r": 0.941,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 294.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1410.0,
+  "r": 0.948,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.3
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1440.0,
+  "r": 0.937,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 246.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1470.0,
+  "r": 0.897,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 244.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1500.0,
+  "r": 0.913,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 37.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1530.0,
+  "r": 0.884,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1560.0,
+  "r": 0.897,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 373.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1590.0,
+  "r": 0.844,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 226.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1620.0,
+  "r": 0.889,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 227.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1650.0,
+  "r": 0.875,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "幽兰",
+  "cd_source": "CD第2册\\38\\喻绍泽-幽兰.wav",
+  "cd_seconds": 237.9
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1680.0,
+  "r": 0.871,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 103.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1710.0,
+  "r": 0.839,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 312.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1740.0,
+  "r": 0.786,
+  "cd_artist": "邵元复",
+  "cd_piece": "凤求凰",
+  "cd_source": "CD第4册\\70\\邵元复-凤求凰.wav",
+  "cd_seconds": 5.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1770.0,
+  "r": 0.842,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 20.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1800.0,
+  "r": 0.879,
+  "cd_artist": "詹澄秋",
+  "cd_piece": "高山2",
+  "cd_source": "CD第1册\\CD06\\詹澄秋-高山2.wav",
+  "cd_seconds": 29.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1830.0,
+  "r": 0.882,
+  "cd_artist": "胡兰",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\55\\胡兰-普庵咒.wav",
+  "cd_seconds": 529.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1860.0,
+  "r": 0.872,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 247.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1890.0,
+  "r": 0.839,
+  "cd_artist": "蔡德允",
+  "cd_piece": "醉渔唱晚2",
+  "cd_source": "CD第3册\\43\\蔡德允-醉渔唱晚2.wav",
+  "cd_seconds": 98.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1920.0,
+  "r": 0.81,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 206.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1950.0,
+  "r": 0.887,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 250.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 1980.0,
+  "r": 0.851,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 103.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2010.0,
+  "r": 0.877,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 247.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2040.0,
+  "r": 0.882,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 246.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2070.0,
+  "r": 0.895,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 103.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2100.0,
+  "r": 0.893,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 245.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2130.0,
+  "r": 0.877,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 245.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2160.0,
+  "r": 0.882,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "幽兰",
+  "cd_source": "CD第2册\\38\\喻绍泽-幽兰.wav",
+  "cd_seconds": 232.3
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2190.0,
+  "r": 0.837,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "幽兰",
+  "cd_source": "CD第2册\\38\\喻绍泽-幽兰.wav",
+  "cd_seconds": 234.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2220.0,
+  "r": 0.895,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2250.0,
+  "r": 0.844,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 249.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2280.0,
+  "r": 0.849,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "汉宫秋月-残",
+  "cd_source": "CD第2册\\23\\顾梅羹-汉宫秋月-残.wav",
+  "cd_seconds": 6.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2310.0,
+  "r": 0.833,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 224.0
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2340.0,
+  "r": 0.882,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 45.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2370.0,
+  "r": 0.882,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 239.6
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2400.0,
+  "r": 0.973,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 88.8
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2430.0,
+  "r": 0.803,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 257.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2460.0,
+  "r": 0.811,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 346.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2490.0,
+  "r": 0.802,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\49\\卫仲乐-普庵咒.wav",
+  "cd_seconds": 296.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2520.0,
+  "r": 0.796,
+  "cd_artist": "杨葆元",
+  "cd_piece": "水仙操2",
+  "cd_source": "CD第2册\\27\\杨葆元-水仙操2.wav",
+  "cd_seconds": 430.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2550.0,
+  "r": 0.788,
+  "cd_artist": "王生香",
+  "cd_piece": "长门怨",
+  "cd_source": "CD第2册\\34\\王生香-长门怨.wav",
+  "cd_seconds": 177.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2580.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 261.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2610.0,
+  "r": 0.855,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 261.4
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2640.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 327.3
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2670.0,
+  "r": 0.82,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 253.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2700.0,
+  "r": 0.851,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2730.0,
+  "r": 0.81,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.7
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2760.0,
+  "r": 0.833,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 304.5
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2790.0,
+  "r": 0.909,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 297.9
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2820.0,
+  "r": 0.873,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 247.1
+ },
+ {
+  "dvd": "DVD02",
+  "dvd_seconds": 2850.0,
+  "r": 0.804,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\49\\卫仲乐-普庵咒.wav",
+  "cd_seconds": 339.3
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 30.0,
+  "r": 0.954,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 60.0,
+  "r": 0.946,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 90.0,
+  "r": 0.95,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 120.0,
+  "r": 0.951,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 150.0,
+  "r": 0.952,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 180.0,
+  "r": 0.939,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 210.0,
+  "r": 0.928,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 359.7
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 240.0,
+  "r": 0.935,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 270.0,
+  "r": 0.941,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 253.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 300.0,
+  "r": 0.932,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 213.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 330.0,
+  "r": 0.934,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 360.0,
+  "r": 0.944,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 206.8
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 390.0,
+  "r": 0.946,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 420.0,
+  "r": 0.869,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 268.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 450.0,
+  "r": 0.955,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 480.0,
+  "r": 0.94,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 510.0,
+  "r": 0.928,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 278.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 540.0,
+  "r": 0.93,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 250.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 570.0,
+  "r": 0.934,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 262.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 600.0,
+  "r": 0.929,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 249.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 630.0,
+  "r": 0.917,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 251.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 660.0,
+  "r": 0.948,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 253.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 690.0,
+  "r": 0.933,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 720.0,
+  "r": 0.926,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 750.0,
+  "r": 0.92,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 780.0,
+  "r": 0.934,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 214.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 810.0,
+  "r": 0.934,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 215.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 840.0,
+  "r": 0.947,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 870.0,
+  "r": 0.945,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 900.0,
+  "r": 0.946,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 930.0,
+  "r": 0.931,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 960.0,
+  "r": 0.945,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 990.0,
+  "r": 0.937,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1020.0,
+  "r": 0.913,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 287.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1050.0,
+  "r": 0.909,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 148.9
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1080.0,
+  "r": 0.921,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 33.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1110.0,
+  "r": 0.933,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 251.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1140.0,
+  "r": 0.883,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 249.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1170.0,
+  "r": 0.926,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1200.0,
+  "r": 0.927,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 249.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1230.0,
+  "r": 0.943,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 249.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1260.0,
+  "r": 0.942,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1290.0,
+  "r": 0.94,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 145.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1320.0,
+  "r": 0.932,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 203.9
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1350.0,
+  "r": 0.905,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 229.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1380.0,
+  "r": 0.932,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 208.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1410.0,
+  "r": 0.906,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 255.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1440.0,
+  "r": 0.939,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 250.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1470.0,
+  "r": 0.931,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 214.3
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1500.0,
+  "r": 0.939,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 255.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1530.0,
+  "r": 0.942,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.2
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1560.0,
+  "r": 0.924,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.6
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1590.0,
+  "r": 0.934,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 337.8
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1620.0,
+  "r": 0.925,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1650.0,
+  "r": 0.923,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 252.8
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1680.0,
+  "r": 0.937,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 209.8
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1710.0,
+  "r": 0.944,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1740.0,
+  "r": 0.899,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 260.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1770.0,
+  "r": 0.937,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.4
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1800.0,
+  "r": 0.965,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.0
+ },
+ {
+  "dvd": "DVD03",
+  "dvd_seconds": 1830.0,
+  "r": 0.967,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 246.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 30.0,
+  "r": 0.894,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 377.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 60.0,
+  "r": 0.905,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 284.1
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 90.0,
+  "r": 0.911,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 298.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 120.0,
+  "r": 0.882,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 372.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 150.0,
+  "r": 0.905,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 180.0,
+  "r": 0.899,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 262.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 210.0,
+  "r": 0.891,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 233.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 240.0,
+  "r": 0.878,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 264.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 270.0,
+  "r": 0.901,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 300.0,
+  "r": 0.909,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 35.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 330.0,
+  "r": 0.909,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 294.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 360.0,
+  "r": 0.901,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 245.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 390.0,
+  "r": 0.902,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 250.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 420.0,
+  "r": 0.922,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 234.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 450.0,
+  "r": 0.911,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 264.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 480.0,
+  "r": 0.877,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 36.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 510.0,
+  "r": 0.862,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 31.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 540.0,
+  "r": 0.896,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.5
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 570.0,
+  "r": 0.924,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 294.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 600.0,
+  "r": 0.921,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 300.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 630.0,
+  "r": 0.924,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.1
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 660.0,
+  "r": 0.912,
+  "cd_artist": "张子谦",
+  "cd_piece": "长清1",
+  "cd_source": "CD第2册\\28\\张子谦-长清1.wav",
+  "cd_seconds": 223.1
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 690.0,
+  "r": 0.875,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 302.5
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 720.0,
+  "r": 0.904,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 224.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 750.0,
+  "r": 0.873,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 300.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 780.0,
+  "r": 0.872,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 204.5
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 810.0,
+  "r": 0.895,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 281.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 840.0,
+  "r": 0.906,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 325.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 870.0,
+  "r": 0.83,
+  "cd_artist": "张子谦",
+  "cd_piece": "长清1",
+  "cd_source": "CD第2册\\28\\张子谦-长清1.wav",
+  "cd_seconds": 337.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 900.0,
+  "r": 0.872,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 59.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 930.0,
+  "r": 0.862,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 352.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 960.0,
+  "r": 0.837,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 19.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 990.0,
+  "r": 0.843,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 27.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1020.0,
+  "r": 0.845,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 297.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1050.0,
+  "r": 0.861,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 296.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1080.0,
+  "r": 0.829,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 296.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1110.0,
+  "r": 0.818,
+  "cd_artist": "詹澄秋",
+  "cd_piece": "高山2",
+  "cd_source": "CD第1册\\CD06\\詹澄秋-高山2.wav",
+  "cd_seconds": 276.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1140.0,
+  "r": 0.88,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 373.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1170.0,
+  "r": 0.868,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 32.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1200.0,
+  "r": 0.883,
+  "cd_artist": "张子谦",
+  "cd_piece": "秋鸿2",
+  "cd_source": "CD第2册\\30\\张子谦-秋鸿2.wav",
+  "cd_seconds": 63.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1230.0,
+  "r": 0.868,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 296.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1260.0,
+  "r": 0.885,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1290.0,
+  "r": 0.89,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 373.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1320.0,
+  "r": 0.867,
+  "cd_artist": "詹澄秋",
+  "cd_piece": "高山2",
+  "cd_source": "CD第1册\\CD06\\詹澄秋-高山2.wav",
+  "cd_seconds": 273.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1350.0,
+  "r": 0.884,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 368.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1380.0,
+  "r": 0.921,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 258.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1410.0,
+  "r": 0.839,
+  "cd_artist": "吴振平",
+  "cd_piece": "电影李时珍",
+  "cd_source": "CD第3册\\46\\吴振平-电影李时珍.wav",
+  "cd_seconds": 6.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1440.0,
+  "r": 0.854,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 47.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1470.0,
+  "r": 0.764,
+  "cd_artist": "管平湖",
+  "cd_piece": "关山月",
+  "cd_source": "CD第1册\\CD14\\管平湖-关山月.wav",
+  "cd_seconds": 107.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1500.0,
+  "r": 0.858,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 198.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1530.0,
+  "r": 0.86,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 168.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1560.0,
+  "r": 0.811,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 170.1
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1590.0,
+  "r": 0.801,
+  "cd_artist": "张子谦",
+  "cd_piece": "楚歌1",
+  "cd_source": "CD第2册\\28\\张子谦-楚歌1.wav",
+  "cd_seconds": 293.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1620.0,
+  "r": 0.871,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.1
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1650.0,
+  "r": 0.902,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 210.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1680.0,
+  "r": 0.889,
+  "cd_artist": "吴振平",
+  "cd_piece": "电影李时珍",
+  "cd_source": "CD第3册\\46\\吴振平-电影李时珍.wav",
+  "cd_seconds": 63.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1710.0,
+  "r": 0.865,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 326.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1740.0,
+  "r": 0.88,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1770.0,
+  "r": 0.838,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "孔子读易2",
+  "cd_source": "CD第2册\\23\\顾梅羹-孔子读易2.wav",
+  "cd_seconds": 221.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1800.0,
+  "r": 0.864,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 325.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1830.0,
+  "r": 0.872,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 336.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1860.0,
+  "r": 0.791,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 296.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1890.0,
+  "r": 0.864,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 263.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1920.0,
+  "r": 0.861,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 406.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1950.0,
+  "r": 0.908,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 262.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 1980.0,
+  "r": 0.901,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 246.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2010.0,
+  "r": 0.872,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 255.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2040.0,
+  "r": 0.888,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 250.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2070.0,
+  "r": 0.88,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.3
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2100.0,
+  "r": 0.9,
+  "cd_artist": "詹澄秋",
+  "cd_piece": "高山2",
+  "cd_source": "CD第1册\\CD06\\詹澄秋-高山2.wav",
+  "cd_seconds": 6.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2130.0,
+  "r": 0.9,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 94.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2160.0,
+  "r": 0.902,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 296.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2190.0,
+  "r": 0.911,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 214.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2220.0,
+  "r": 0.859,
+  "cd_artist": "蔡德允",
+  "cd_piece": "醉渔唱晚1",
+  "cd_source": "CD第3册\\43\\蔡德允-醉渔唱晚1.wav",
+  "cd_seconds": 8.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2250.0,
+  "r": 0.857,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 227.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2280.0,
+  "r": 0.862,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 361.5
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2310.0,
+  "r": 0.888,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 349.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2340.0,
+  "r": 0.887,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 261.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2370.0,
+  "r": 0.865,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 278.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2400.0,
+  "r": 0.853,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 361.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2430.0,
+  "r": 0.876,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 379.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2460.0,
+  "r": 0.856,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 369.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2490.0,
+  "r": 0.851,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 268.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2520.0,
+  "r": 0.867,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 127.5
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2550.0,
+  "r": 0.906,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.5
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2580.0,
+  "r": 0.907,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 58.4
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2610.0,
+  "r": 0.903,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 246.2
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2640.0,
+  "r": 0.888,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 219.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2670.0,
+  "r": 0.886,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 27.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2700.0,
+  "r": 0.914,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 249.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2730.0,
+  "r": 0.884,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 371.7
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2760.0,
+  "r": 0.85,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 21.8
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2790.0,
+  "r": 0.874,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2820.0,
+  "r": 0.86,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 238.6
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2850.0,
+  "r": 0.891,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.9
+ },
+ {
+  "dvd": "DVD04",
+  "dvd_seconds": 2880.0,
+  "r": 0.902,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 30.0,
+  "r": 0.956,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 60.0,
+  "r": 0.953,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水1.wav",
+  "cd_seconds": 287.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 90.0,
+  "r": 0.952,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 120.0,
+  "r": 0.956,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 150.0,
+  "r": 0.947,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 99.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 180.0,
+  "r": 0.948,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水1.wav",
+  "cd_seconds": 293.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 210.0,
+  "r": 0.957,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 323.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 240.0,
+  "r": 0.953,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 323.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 270.0,
+  "r": 0.954,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 203.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 300.0,
+  "r": 0.956,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 145.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 330.0,
+  "r": 0.954,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 360.0,
+  "r": 0.95,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 323.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 390.0,
+  "r": 0.951,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 324.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 420.0,
+  "r": 0.944,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水1.wav",
+  "cd_seconds": 292.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 450.0,
+  "r": 0.936,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 202.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 480.0,
+  "r": 0.924,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 277.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 510.0,
+  "r": 0.949,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 52.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 540.0,
+  "r": 0.951,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 321.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 570.0,
+  "r": 0.954,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水1.wav",
+  "cd_seconds": 287.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 600.0,
+  "r": 0.955,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 322.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 630.0,
+  "r": 0.956,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 141.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 660.0,
+  "r": 0.95,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 690.0,
+  "r": 0.957,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 140.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 720.0,
+  "r": 0.957,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 146.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 750.0,
+  "r": 0.954,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 144.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 780.0,
+  "r": 0.949,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 140.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 810.0,
+  "r": 0.957,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 144.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 840.0,
+  "r": 0.957,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 870.0,
+  "r": 0.958,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 900.0,
+  "r": 0.952,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 140.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 930.0,
+  "r": 0.956,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 142.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 960.0,
+  "r": 0.956,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 990.0,
+  "r": 0.951,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1020.0,
+  "r": 0.943,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 213.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1050.0,
+  "r": 0.959,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.3
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1080.0,
+  "r": 0.951,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 374.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1110.0,
+  "r": 0.931,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 202.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1140.0,
+  "r": 0.954,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 199.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1170.0,
+  "r": 0.949,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 203.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1200.0,
+  "r": 0.959,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1230.0,
+  "r": 0.948,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 202.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1260.0,
+  "r": 0.949,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 149.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1290.0,
+  "r": 0.959,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 292.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1320.0,
+  "r": 0.955,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 292.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1350.0,
+  "r": 0.929,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 206.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1380.0,
+  "r": 0.954,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 246.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1410.0,
+  "r": 0.933,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 282.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1440.0,
+  "r": 0.951,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 249.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1470.0,
+  "r": 0.938,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 147.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1500.0,
+  "r": 0.951,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 294.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1530.0,
+  "r": 0.951,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 140.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1560.0,
+  "r": 0.952,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 141.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1590.0,
+  "r": 0.945,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 273.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1620.0,
+  "r": 0.954,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 146.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1650.0,
+  "r": 0.956,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 247.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1680.0,
+  "r": 0.932,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 243.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1710.0,
+  "r": 0.94,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1740.0,
+  "r": 0.957,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1770.0,
+  "r": 0.959,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 291.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1800.0,
+  "r": 0.959,
+  "cd_artist": "汪孟舒",
+  "cd_piece": "广寒秋",
+  "cd_source": "CD第1册\\CD05\\汪孟舒-广寒秋.wav",
+  "cd_seconds": 117.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1830.0,
+  "r": 0.866,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 370.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1860.0,
+  "r": 0.837,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 246.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1890.0,
+  "r": 0.834,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 276.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1920.0,
+  "r": 0.803,
+  "cd_artist": "王绍舜",
+  "cd_piece": "潇湘水云",
+  "cd_source": "CD第4册\\73\\王绍舜-潇湘水云.wav",
+  "cd_seconds": 376.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1950.0,
+  "r": 0.767,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 216.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 1980.0,
+  "r": 0.813,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 324.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2010.0,
+  "r": 0.847,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2040.0,
+  "r": 0.785,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 272.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2070.0,
+  "r": 0.822,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 310.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2100.0,
+  "r": 0.797,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 332.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2130.0,
+  "r": 0.896,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 272.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2160.0,
+  "r": 0.901,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 37.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2190.0,
+  "r": 0.88,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 251.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2220.0,
+  "r": 0.844,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 306.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2250.0,
+  "r": 0.843,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 298.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2280.0,
+  "r": 0.839,
+  "cd_artist": "查阜西",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第1册\\CD12\\查阜西-潇湘水云2.wav",
+  "cd_seconds": 667.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2310.0,
+  "r": 0.801,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 477.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2340.0,
+  "r": 0.821,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 160.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2370.0,
+  "r": 0.873,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 249.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2400.0,
+  "r": 0.852,
+  "cd_artist": "张子谦",
+  "cd_piece": "渔歌",
+  "cd_source": "CD第2册\\31\\张子谦-渔歌.wav",
+  "cd_seconds": 301.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2430.0,
+  "r": 0.92,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 295.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2460.0,
+  "r": 0.874,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 257.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2490.0,
+  "r": 0.894,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 297.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2520.0,
+  "r": 0.841,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 12.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2550.0,
+  "r": 0.878,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 288.6
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2580.0,
+  "r": 0.886,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 216.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2610.0,
+  "r": 0.849,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 11.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2640.0,
+  "r": 0.865,
+  "cd_artist": "张子谦",
+  "cd_piece": "渔歌",
+  "cd_source": "CD第2册\\31\\张子谦-渔歌.wav",
+  "cd_seconds": 302.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2670.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 220.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2700.0,
+  "r": 0.826,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "平沙落雁",
+  "cd_source": "CD第3册\\49\\卫仲乐-平沙落雁.wav",
+  "cd_seconds": 4.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2730.0,
+  "r": 0.871,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 295.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2760.0,
+  "r": 0.823,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 127.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2790.0,
+  "r": 0.824,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 206.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2820.0,
+  "r": 0.744,
+  "cd_artist": "溥雪斋",
+  "cd_piece": "鸥鹭忘机",
+  "cd_source": "CD第1册\\CD08\\溥雪斋-鸥鹭忘机.wav",
+  "cd_seconds": 115.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2850.0,
+  "r": 0.843,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 222.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2880.0,
+  "r": 0.785,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 281.7
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2910.0,
+  "r": 0.732,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 250.0
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2940.0,
+  "r": 0.839,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 302.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 2970.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 414.3
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3000.0,
+  "r": 0.872,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 428.2
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3030.0,
+  "r": 0.88,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 260.8
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3060.0,
+  "r": 0.82,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 284.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3090.0,
+  "r": 0.826,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "乌夜啼2",
+  "cd_source": "CD第4册\\68\\姚丙炎-乌夜啼2.wav",
+  "cd_seconds": 154.3
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3120.0,
+  "r": 0.749,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪1",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪1.wav",
+  "cd_seconds": 28.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3150.0,
+  "r": 0.82,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 548.4
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3180.0,
+  "r": 0.851,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 286.9
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3210.0,
+  "r": 0.863,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 298.1
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3240.0,
+  "r": 0.871,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.5
+ },
+ {
+  "dvd": "DVD05",
+  "dvd_seconds": 3270.0,
+  "r": 0.833,
+  "cd_artist": "夏一峰",
+  "cd_piece": "良宵引",
+  "cd_source": "CD第1册\\CD02\\夏一峰-良宵引.wav",
+  "cd_seconds": 59.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 30.0,
+  "r": 0.853,
+  "cd_artist": "杨葆元",
+  "cd_piece": "水仙操2",
+  "cd_source": "CD第2册\\27\\杨葆元-水仙操2.wav",
+  "cd_seconds": 410.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 60.0,
+  "r": 0.86,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 419.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 90.0,
+  "r": 0.884,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 120.0,
+  "r": 0.884,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 190.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 150.0,
+  "r": 0.902,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 180.0,
+  "r": 0.883,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 38.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 210.0,
+  "r": 0.856,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 32.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 240.0,
+  "r": 0.785,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 153.9
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 270.0,
+  "r": 0.844,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 327.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 300.0,
+  "r": 0.813,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 14.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 330.0,
+  "r": 0.842,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 366.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 360.0,
+  "r": 0.846,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 46.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 390.0,
+  "r": 0.796,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 420.0,
+  "r": 0.884,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 32.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 450.0,
+  "r": 0.85,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 243.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 480.0,
+  "r": 0.832,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 420.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 510.0,
+  "r": 0.925,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 540.0,
+  "r": 0.865,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 218.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 570.0,
+  "r": 0.926,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 253.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 600.0,
+  "r": 0.863,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 392.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 630.0,
+  "r": 0.901,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 660.0,
+  "r": 0.814,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 380.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 690.0,
+  "r": 0.856,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 246.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 720.0,
+  "r": 0.825,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 33.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 750.0,
+  "r": 0.757,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 13.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 780.0,
+  "r": 0.807,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 248.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 810.0,
+  "r": 0.677,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "忆故人2",
+  "cd_source": "CD第2册\\25\\顾梅羹-忆故人2.wav",
+  "cd_seconds": 14.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 840.0,
+  "r": 0.854,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 34.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 870.0,
+  "r": 0.817,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 34.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 900.0,
+  "r": 0.829,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 42.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 930.0,
+  "r": 0.839,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 262.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 960.0,
+  "r": 0.813,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 246.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 990.0,
+  "r": 0.819,
+  "cd_artist": "蔡德允",
+  "cd_piece": "胡笳十八拍",
+  "cd_source": "CD第3册\\42\\蔡德允-胡笳十八拍.wav",
+  "cd_seconds": 144.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1020.0,
+  "r": 0.834,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 31.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1050.0,
+  "r": 0.901,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 33.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1080.0,
+  "r": 0.922,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1110.0,
+  "r": 0.918,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1140.0,
+  "r": 0.862,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 246.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1170.0,
+  "r": 0.893,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 286.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1200.0,
+  "r": 0.827,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 200.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1230.0,
+  "r": 0.844,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 367.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1260.0,
+  "r": 0.899,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 206.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1290.0,
+  "r": 0.877,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 245.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1320.0,
+  "r": 0.872,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 222.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1350.0,
+  "r": 0.859,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1380.0,
+  "r": 0.854,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 360.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1410.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1440.0,
+  "r": 0.866,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 296.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1470.0,
+  "r": 0.846,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 304.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1500.0,
+  "r": 0.824,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 279.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1530.0,
+  "r": 0.797,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 365.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1560.0,
+  "r": 0.827,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 269.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1590.0,
+  "r": 0.873,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 268.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1620.0,
+  "r": 0.828,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.7
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1650.0,
+  "r": 0.779,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 272.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1680.0,
+  "r": 0.859,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 267.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1710.0,
+  "r": 0.842,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 0.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1740.0,
+  "r": 0.887,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 351.9
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1770.0,
+  "r": 0.722,
+  "cd_artist": "刘景韶",
+  "cd_piece": "秋风词",
+  "cd_source": "CD第2册\\35\\刘景韶-秋风词.wav",
+  "cd_seconds": 53.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1800.0,
+  "r": 0.889,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 36.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1830.0,
+  "r": 0.891,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.7
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1860.0,
+  "r": 0.909,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1890.0,
+  "r": 0.9,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 246.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1920.0,
+  "r": 0.912,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 276.9
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1950.0,
+  "r": 0.904,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 1980.0,
+  "r": 0.917,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 278.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2010.0,
+  "r": 0.86,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 277.2
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2040.0,
+  "r": 0.871,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 288.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2070.0,
+  "r": 0.907,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 246.6
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2100.0,
+  "r": 0.913,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 32.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2130.0,
+  "r": 0.88,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2160.0,
+  "r": 0.878,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2190.0,
+  "r": 0.889,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 260.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2220.0,
+  "r": 0.918,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 218.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2250.0,
+  "r": 0.906,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2280.0,
+  "r": 0.865,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 215.7
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2310.0,
+  "r": 0.889,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 232.9
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2340.0,
+  "r": 0.865,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2370.0,
+  "r": 0.922,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2400.0,
+  "r": 0.885,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 246.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2430.0,
+  "r": 0.902,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2460.0,
+  "r": 0.854,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 250.5
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2490.0,
+  "r": 0.92,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 248.0
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2520.0,
+  "r": 0.871,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 219.3
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2550.0,
+  "r": 0.868,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 245.1
+ },
+ {
+  "dvd": "DVD06",
+  "dvd_seconds": 2580.0,
+  "r": 0.908,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 39.2
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 30.0,
+  "r": 0.876,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪1",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪1.wav",
+  "cd_seconds": 200.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 60.0,
+  "r": 0.889,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 249.8
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 90.0,
+  "r": 0.895,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 369.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 120.0,
+  "r": 0.87,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 33.2
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 150.0,
+  "r": 0.858,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 249.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 180.0,
+  "r": 0.859,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 180.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 210.0,
+  "r": 0.838,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 386.8
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 240.0,
+  "r": 0.868,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪1",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪1.wav",
+  "cd_seconds": 200.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 270.0,
+  "r": 0.853,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 217.4
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 300.0,
+  "r": 0.892,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水4",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水4.wav",
+  "cd_seconds": 273.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 330.0,
+  "r": 0.868,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 346.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 360.0,
+  "r": 0.832,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 238.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 390.0,
+  "r": 0.816,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 348.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 420.0,
+  "r": 0.805,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 265.4
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 450.0,
+  "r": 0.797,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 376.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 480.0,
+  "r": 0.787,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 220.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 510.0,
+  "r": 0.814,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\60\\孙毓芹-潇湘水云2.wav",
+  "cd_seconds": 550.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 540.0,
+  "r": 0.783,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪1",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪1.wav",
+  "cd_seconds": 205.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 570.0,
+  "r": 0.781,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 172.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 600.0,
+  "r": 0.862,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 272.7
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 630.0,
+  "r": 0.818,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 11.4
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 660.0,
+  "r": 0.862,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 61.2
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 690.0,
+  "r": 0.818,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 220.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 720.0,
+  "r": 0.793,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\49\\卫仲乐-普庵咒.wav",
+  "cd_seconds": 188.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 750.0,
+  "r": 0.845,
+  "cd_artist": "查阜西",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第1册\\CD12\\查阜西-潇湘水云2.wav",
+  "cd_seconds": 565.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 780.0,
+  "r": 0.852,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 345.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 810.0,
+  "r": 0.776,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 262.4
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 840.0,
+  "r": 0.849,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水4",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水4.wav",
+  "cd_seconds": 279.4
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 870.0,
+  "r": 0.813,
+  "cd_artist": "卢家炳",
+  "cd_piece": "月下吟",
+  "cd_source": "CD第1册\\CD03\\卢家炳-月下吟.wav",
+  "cd_seconds": 211.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 900.0,
+  "r": 0.801,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 172.0
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 930.0,
+  "r": 0.78,
+  "cd_artist": "管平湖",
+  "cd_piece": "白雪2",
+  "cd_source": "CD第1册\\CD14\\管平湖-白雪2.wav",
+  "cd_seconds": 250.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 960.0,
+  "r": 0.84,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 378.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 990.0,
+  "r": 0.796,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 217.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1020.0,
+  "r": 0.822,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1050.0,
+  "r": 0.813,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "胡笳十八拍2",
+  "cd_source": "CD第4册\\67\\姚丙炎-胡笳十八拍2.wav",
+  "cd_seconds": 17.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1080.0,
+  "r": 0.834,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 247.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1110.0,
+  "r": 0.814,
+  "cd_artist": "陈心园",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\48\\陈心园-风雷引.wav",
+  "cd_seconds": 80.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1140.0,
+  "r": 0.892,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 372.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1170.0,
+  "r": 0.853,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 385.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1200.0,
+  "r": 0.889,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 293.7
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1230.0,
+  "r": 0.897,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 368.7
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1260.0,
+  "r": 0.864,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 294.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1290.0,
+  "r": 0.845,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.1
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1320.0,
+  "r": 0.879,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 216.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1350.0,
+  "r": 0.88,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 378.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1380.0,
+  "r": 0.853,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 36.0
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1410.0,
+  "r": 0.852,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 378.7
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1440.0,
+  "r": 0.852,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 342.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1470.0,
+  "r": 0.843,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 340.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1500.0,
+  "r": 0.842,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 295.9
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1530.0,
+  "r": 0.832,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 295.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1560.0,
+  "r": 0.795,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 302.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1590.0,
+  "r": 0.861,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 33.8
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1620.0,
+  "r": 0.841,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 289.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1650.0,
+  "r": 0.81,
+  "cd_artist": "王生香",
+  "cd_piece": "酒狂",
+  "cd_source": "CD第2册\\34\\王生香-酒狂.wav",
+  "cd_seconds": 47.8
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1680.0,
+  "r": 0.854,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 378.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1710.0,
+  "r": 0.878,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 217.6
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1740.0,
+  "r": 0.843,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 297.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1770.0,
+  "r": 0.791,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 158.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1800.0,
+  "r": 0.865,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 306.5
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1830.0,
+  "r": 0.868,
+  "cd_artist": "王生香",
+  "cd_piece": "酒狂",
+  "cd_source": "CD第2册\\34\\王生香-酒狂.wav",
+  "cd_seconds": 108.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1860.0,
+  "r": 0.895,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1890.0,
+  "r": 0.896,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 298.3
+ },
+ {
+  "dvd": "DVD07",
+  "dvd_seconds": 1920.0,
+  "r": 0.84,
+  "cd_artist": "陈心园",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\48\\陈心园-风雷引.wav",
+  "cd_seconds": 2.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 30.0,
+  "r": 0.926,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 55.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 60.0,
+  "r": 0.914,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 90.0,
+  "r": 0.897,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 120.0,
+  "r": 0.9,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 150.0,
+  "r": 0.88,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 273.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 180.0,
+  "r": 0.887,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 207.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 210.0,
+  "r": 0.884,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 240.0,
+  "r": 0.901,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 143.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 270.0,
+  "r": 0.875,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 224.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 300.0,
+  "r": 0.911,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 330.0,
+  "r": 0.922,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 213.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 360.0,
+  "r": 0.94,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 390.0,
+  "r": 0.907,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 420.0,
+  "r": 0.916,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 374.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 450.0,
+  "r": 0.924,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 263.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 480.0,
+  "r": 0.914,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 147.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 510.0,
+  "r": 0.922,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 267.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 540.0,
+  "r": 0.931,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 276.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 570.0,
+  "r": 0.931,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 273.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 600.0,
+  "r": 0.935,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 269.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 630.0,
+  "r": 0.925,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 360.5
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 660.0,
+  "r": 0.927,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 690.0,
+  "r": 0.956,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 272.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 720.0,
+  "r": 0.958,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 272.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 750.0,
+  "r": 0.903,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 219.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 780.0,
+  "r": 0.925,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 810.0,
+  "r": 0.931,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 256.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 840.0,
+  "r": 0.922,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 270.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 870.0,
+  "r": 0.919,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 264.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 900.0,
+  "r": 0.909,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 246.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 930.0,
+  "r": 0.937,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 960.0,
+  "r": 0.946,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 209.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 990.0,
+  "r": 0.948,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1020.0,
+  "r": 0.952,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 209.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1050.0,
+  "r": 0.951,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1080.0,
+  "r": 0.948,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1110.0,
+  "r": 0.948,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1140.0,
+  "r": 0.942,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 209.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1170.0,
+  "r": 0.934,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1200.0,
+  "r": 0.904,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 349.7
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1230.0,
+  "r": 0.924,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 213.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1260.0,
+  "r": 0.901,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 30.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1290.0,
+  "r": 0.905,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 548.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1320.0,
+  "r": 0.917,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 34.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1350.0,
+  "r": 0.924,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 37.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1380.0,
+  "r": 0.924,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 224.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1410.0,
+  "r": 0.918,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1440.0,
+  "r": 0.948,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 222.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1470.0,
+  "r": 0.942,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.7
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1500.0,
+  "r": 0.957,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1530.0,
+  "r": 0.955,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1560.0,
+  "r": 0.94,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1590.0,
+  "r": 0.933,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 357.7
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1620.0,
+  "r": 0.926,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 50.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1650.0,
+  "r": 0.932,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 223.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1680.0,
+  "r": 0.915,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1710.0,
+  "r": 0.927,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 36.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1740.0,
+  "r": 0.933,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 246.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1770.0,
+  "r": 0.851,
+  "cd_artist": "朱惜辰",
+  "cd_piece": "搔首问天",
+  "cd_source": "CD第4册\\74\\朱惜辰-搔首问天.wav",
+  "cd_seconds": 251.3
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1800.0,
+  "r": 0.97,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 644.7
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1830.0,
+  "r": 0.965,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 248.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1860.0,
+  "r": 0.874,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 344.5
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1890.0,
+  "r": 0.621,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "高山1",
+  "cd_source": "CD第4册\\65\\姚丙炎-高山1.wav",
+  "cd_seconds": 278.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1920.0,
+  "r": 0.814,
+  "cd_artist": "管平湖",
+  "cd_piece": "欸乃",
+  "cd_source": "CD第1册\\CD14\\管平湖-欸乃.wav",
+  "cd_seconds": 678.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1950.0,
+  "r": 0.828,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 161.9
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 1980.0,
+  "r": 0.745,
+  "cd_artist": "乐瑛",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第3册\\40\\乐瑛-秋塞吟.wav",
+  "cd_seconds": 495.1
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2010.0,
+  "r": 0.774,
+  "cd_artist": "乐瑛",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第3册\\40\\乐瑛-秋塞吟.wav",
+  "cd_seconds": 496.1
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2040.0,
+  "r": 0.728,
+  "cd_artist": "孙培章",
+  "cd_piece": "阳关三叠",
+  "cd_source": "CD第4册\\62\\孙培章-阳关三叠.wav",
+  "cd_seconds": 206.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2070.0,
+  "r": 0.754,
+  "cd_artist": "王生香",
+  "cd_piece": "酒狂",
+  "cd_source": "CD第2册\\34\\王生香-酒狂.wav",
+  "cd_seconds": 90.3
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2100.0,
+  "r": 0.836,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "胡笳十八拍2",
+  "cd_source": "CD第4册\\67\\姚丙炎-胡笳十八拍2.wav",
+  "cd_seconds": 17.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2130.0,
+  "r": 0.734,
+  "cd_artist": "管平湖",
+  "cd_piece": "长清",
+  "cd_source": "CD第1册\\CD14\\管平湖-长清.wav",
+  "cd_seconds": 305.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2160.0,
+  "r": 0.975,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 644.5
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2190.0,
+  "r": 0.751,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 234.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2220.0,
+  "r": 0.706,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第3册\\49\\卫仲乐-梅花三弄1.wav",
+  "cd_seconds": 19.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2250.0,
+  "r": 0.543,
+  "cd_artist": "刘景韶",
+  "cd_piece": "搔首问天2",
+  "cd_source": "CD第2册\\35\\刘景韶-搔首问天2.wav",
+  "cd_seconds": 300.2
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2280.0,
+  "r": 0.692,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "长侧",
+  "cd_source": "CD第2册\\23\\顾梅羹-长侧.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2310.0,
+  "r": 0.748,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 231.3
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2340.0,
+  "r": 0.742,
+  "cd_artist": "张子谦",
+  "cd_piece": "酒狂2",
+  "cd_source": "CD第2册\\28\\张子谦-酒狂2.wav",
+  "cd_seconds": 116.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2370.0,
+  "r": 0.77,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 228.5
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2400.0,
+  "r": 0.776,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 302.7
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2430.0,
+  "r": 0.992,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 90.6
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2460.0,
+  "r": 0.794,
+  "cd_artist": "乐瑛",
+  "cd_piece": "平沙落雁1",
+  "cd_source": "CD第3册\\40\\乐瑛-平沙落雁1.wav",
+  "cd_seconds": 2.4
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2490.0,
+  "r": 0.647,
+  "cd_artist": "查阜西",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第1册\\CD11\\查阜西-梅花三弄.wav",
+  "cd_seconds": 30.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2520.0,
+  "r": 0.727,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神1",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神1.wav",
+  "cd_seconds": 400.8
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2550.0,
+  "r": 0.846,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.7
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2580.0,
+  "r": 0.863,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 300.3
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2610.0,
+  "r": 0.81,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 252.5
+ },
+ {
+  "dvd": "DVD08",
+  "dvd_seconds": 2640.0,
+  "r": 0.86,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 302.1
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 30.0,
+  "r": 0.948,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 60.0,
+  "r": 0.95,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 90.0,
+  "r": 0.942,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 120.0,
+  "r": 0.945,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 206.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 150.0,
+  "r": 0.95,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 248.6
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 180.0,
+  "r": 0.932,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 210.0,
+  "r": 0.923,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 240.0,
+  "r": 0.931,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 214.6
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 270.0,
+  "r": 0.935,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 215.0
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 300.0,
+  "r": 0.932,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 251.6
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 330.0,
+  "r": 0.943,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 360.0,
+  "r": 0.934,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 390.0,
+  "r": 0.952,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 420.0,
+  "r": 0.955,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 638.3
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 450.0,
+  "r": 0.902,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 280.1
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 480.0,
+  "r": 0.893,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 510.0,
+  "r": 0.91,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 253.8
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 540.0,
+  "r": 0.879,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 246.8
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 570.0,
+  "r": 0.891,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 600.0,
+  "r": 0.878,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.6
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 630.0,
+  "r": 0.905,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 46.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 660.0,
+  "r": 0.9,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 292.1
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 690.0,
+  "r": 0.923,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 294.3
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 720.0,
+  "r": 0.917,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 276.7
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 750.0,
+  "r": 0.926,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 263.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 780.0,
+  "r": 0.936,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 810.0,
+  "r": 0.927,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 358.1
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 840.0,
+  "r": 0.918,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 363.3
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 870.0,
+  "r": 0.934,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 208.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 900.0,
+  "r": 0.896,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 930.0,
+  "r": 0.898,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 282.3
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 960.0,
+  "r": 0.916,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.9
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 990.0,
+  "r": 0.881,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.0
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1020.0,
+  "r": 0.897,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1050.0,
+  "r": 0.905,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 285.3
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1080.0,
+  "r": 0.906,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 366.1
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1110.0,
+  "r": 0.91,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.4
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1140.0,
+  "r": 0.942,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1170.0,
+  "r": 0.916,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.6
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1200.0,
+  "r": 0.917,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 295.5
+ },
+ {
+  "dvd": "DVD09",
+  "dvd_seconds": 1230.0,
+  "r": 0.931,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 30.0,
+  "r": 0.864,
+  "cd_artist": "杨葆元",
+  "cd_piece": "水仙操2",
+  "cd_source": "CD第2册\\27\\杨葆元-水仙操2.wav",
+  "cd_seconds": 435.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 60.0,
+  "r": 0.93,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 359.5
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 90.0,
+  "r": 0.936,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 272.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 120.0,
+  "r": 0.927,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 358.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 150.0,
+  "r": 0.936,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 199.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 180.0,
+  "r": 0.9,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 142.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 210.0,
+  "r": 0.908,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 261.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 240.0,
+  "r": 0.923,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 270.0,
+  "r": 0.93,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 251.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 300.0,
+  "r": 0.914,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 363.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 330.0,
+  "r": 0.92,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 358.3
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 360.0,
+  "r": 0.92,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 361.3
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 390.0,
+  "r": 0.909,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.7
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 420.0,
+  "r": 0.846,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 272.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 450.0,
+  "r": 0.913,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 376.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 480.0,
+  "r": 0.919,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 510.0,
+  "r": 0.922,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 540.0,
+  "r": 0.889,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 301.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 570.0,
+  "r": 0.923,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 214.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 600.0,
+  "r": 0.888,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 214.3
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 630.0,
+  "r": 0.904,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 276.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 660.0,
+  "r": 0.888,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 280.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 690.0,
+  "r": 0.896,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 282.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 720.0,
+  "r": 0.902,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 272.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 750.0,
+  "r": 0.931,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 780.0,
+  "r": 0.915,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 810.0,
+  "r": 0.906,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 387.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 840.0,
+  "r": 0.899,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 143.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 870.0,
+  "r": 0.897,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 900.0,
+  "r": 0.925,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 196.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 930.0,
+  "r": 0.875,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 142.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 960.0,
+  "r": 0.886,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 990.0,
+  "r": 0.907,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 372.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1020.0,
+  "r": 0.887,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 262.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1050.0,
+  "r": 0.936,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1080.0,
+  "r": 0.927,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 247.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1110.0,
+  "r": 0.913,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 368.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1140.0,
+  "r": 0.911,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1170.0,
+  "r": 0.909,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 251.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1200.0,
+  "r": 0.891,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1230.0,
+  "r": 0.916,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1260.0,
+  "r": 0.881,
+  "cd_artist": "蔡德允",
+  "cd_piece": "古琴吟",
+  "cd_source": "CD第3册\\42\\蔡德允-古琴吟.wav",
+  "cd_seconds": 51.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1290.0,
+  "r": 0.876,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "孔子读易2",
+  "cd_source": "CD第2册\\23\\顾梅羹-孔子读易2.wav",
+  "cd_seconds": 285.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1320.0,
+  "r": 0.894,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水1.wav",
+  "cd_seconds": 241.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1350.0,
+  "r": 0.865,
+  "cd_artist": "夏一峰",
+  "cd_piece": "平沙落雁",
+  "cd_source": "CD第1册\\CD02\\夏一峰-平沙落雁.wav",
+  "cd_seconds": 322.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1380.0,
+  "r": 0.891,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 167.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1410.0,
+  "r": 0.847,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 245.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1440.0,
+  "r": 0.867,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 517.5
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1470.0,
+  "r": 0.882,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 273.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1500.0,
+  "r": 0.9,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 369.5
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1530.0,
+  "r": 0.883,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 43.6
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1560.0,
+  "r": 0.868,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 446.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1590.0,
+  "r": 0.849,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 372.5
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1620.0,
+  "r": 0.854,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 383.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1650.0,
+  "r": 0.852,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 372.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1680.0,
+  "r": 0.876,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 115.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1710.0,
+  "r": 0.852,
+  "cd_artist": "查阜西",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第1册\\CD12\\查阜西-潇湘水云2.wav",
+  "cd_seconds": 558.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1740.0,
+  "r": 0.864,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 281.7
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1770.0,
+  "r": 0.849,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 222.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1800.0,
+  "r": 0.9,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 282.1
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1830.0,
+  "r": 0.889,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1860.0,
+  "r": 0.872,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 468.3
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1890.0,
+  "r": 0.859,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 368.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1920.0,
+  "r": 0.854,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 294.5
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1950.0,
+  "r": 0.931,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 106.7
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 1980.0,
+  "r": 0.903,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 214.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2010.0,
+  "r": 0.89,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 372.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2040.0,
+  "r": 0.899,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 363.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2070.0,
+  "r": 0.922,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2100.0,
+  "r": 0.924,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 202.3
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2130.0,
+  "r": 0.872,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2160.0,
+  "r": 0.915,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 179.4
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2190.0,
+  "r": 0.926,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2220.0,
+  "r": 0.925,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2250.0,
+  "r": 0.936,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.0
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2280.0,
+  "r": 0.928,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.5
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2310.0,
+  "r": 0.932,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.9
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2340.0,
+  "r": 0.928,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2370.0,
+  "r": 0.926,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 374.2
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2400.0,
+  "r": 0.93,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 374.8
+ },
+ {
+  "dvd": "DVD10",
+  "dvd_seconds": 2430.0,
+  "r": 0.928,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 359.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 30.0,
+  "r": 0.88,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 283.5
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 60.0,
+  "r": 0.887,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 325.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 90.0,
+  "r": 0.89,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.0
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 120.0,
+  "r": 0.91,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 241.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 150.0,
+  "r": 0.907,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 105.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 180.0,
+  "r": 0.871,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 117.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 210.0,
+  "r": 0.863,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 377.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 240.0,
+  "r": 0.904,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 284.9
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 270.0,
+  "r": 0.889,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 323.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 300.0,
+  "r": 0.895,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 274.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 330.0,
+  "r": 0.91,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 142.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 360.0,
+  "r": 0.896,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 390.0,
+  "r": 0.894,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 368.9
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 420.0,
+  "r": 0.899,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 279.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 450.0,
+  "r": 0.868,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 348.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 480.0,
+  "r": 0.858,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 105.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 510.0,
+  "r": 0.84,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 364.5
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 540.0,
+  "r": 0.889,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 217.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 570.0,
+  "r": 0.857,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 296.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 600.0,
+  "r": 0.849,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 546.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 630.0,
+  "r": 0.843,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 383.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 660.0,
+  "r": 0.85,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 252.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 690.0,
+  "r": 0.865,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "平沙落雁2",
+  "cd_source": "CD第2册\\24\\顾梅羹-平沙落雁2.wav",
+  "cd_seconds": 37.4
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 720.0,
+  "r": 0.836,
+  "cd_artist": "徐立孙",
+  "cd_piece": "广陵散-残",
+  "cd_source": "CD第2册\\21\\徐立孙-广陵散-残.wav",
+  "cd_seconds": 164.9
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 750.0,
+  "r": 0.862,
+  "cd_artist": "李璠",
+  "cd_piece": "高山1",
+  "cd_source": "CD第4册\\57\\李璠-高山1.wav",
+  "cd_seconds": 344.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 780.0,
+  "r": 0.861,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 350.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 810.0,
+  "r": 0.866,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 282.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 840.0,
+  "r": 0.899,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 279.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 870.0,
+  "r": 0.891,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 242.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 900.0,
+  "r": 0.923,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 930.0,
+  "r": 0.9,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 243.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 960.0,
+  "r": 0.881,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 372.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 990.0,
+  "r": 0.894,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 278.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1020.0,
+  "r": 0.896,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 43.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1050.0,
+  "r": 0.873,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 279.5
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1080.0,
+  "r": 0.897,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 117.0
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1110.0,
+  "r": 0.874,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 380.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1140.0,
+  "r": 0.889,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 356.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1170.0,
+  "r": 0.835,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 112.9
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1200.0,
+  "r": 0.852,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.0
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1230.0,
+  "r": 0.856,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 378.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1260.0,
+  "r": 0.873,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 313.4
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1290.0,
+  "r": 0.88,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水1.wav",
+  "cd_seconds": 314.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1320.0,
+  "r": 0.868,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1350.0,
+  "r": 0.845,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 311.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1380.0,
+  "r": 0.868,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 350.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1410.0,
+  "r": 0.866,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水2.wav",
+  "cd_seconds": 298.0
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1440.0,
+  "r": 0.858,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 350.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1470.0,
+  "r": 0.837,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 66.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1500.0,
+  "r": 0.882,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 125.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1530.0,
+  "r": 0.851,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 285.5
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1560.0,
+  "r": 0.839,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 348.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1590.0,
+  "r": 0.857,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 85.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1620.0,
+  "r": 0.845,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水1",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水1.wav",
+  "cd_seconds": 321.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1650.0,
+  "r": 0.842,
+  "cd_artist": "管平湖",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第1册\\CD17\\管平湖-梅花三弄.wav",
+  "cd_seconds": 285.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1680.0,
+  "r": 0.85,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 126.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1710.0,
+  "r": 0.797,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 45.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1740.0,
+  "r": 0.854,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 282.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1770.0,
+  "r": 0.845,
+  "cd_artist": "徐立孙",
+  "cd_piece": "广陵散-残",
+  "cd_source": "CD第2册\\21\\徐立孙-广陵散-残.wav",
+  "cd_seconds": 562.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1800.0,
+  "r": 0.843,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 128.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1830.0,
+  "r": 0.836,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "忆故人2",
+  "cd_source": "CD第2册\\25\\顾梅羹-忆故人2.wav",
+  "cd_seconds": 33.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1860.0,
+  "r": 0.917,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1890.0,
+  "r": 0.891,
+  "cd_artist": "夏一峰",
+  "cd_piece": "秋塞吟",
+  "cd_source": "CD第1册\\CD02\\夏一峰-秋塞吟.wav",
+  "cd_seconds": 373.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1920.0,
+  "r": 0.847,
+  "cd_artist": "吴宗汉",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\39\\吴宗汉-风雷引.wav",
+  "cd_seconds": 92.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1950.0,
+  "r": 0.891,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 251.6
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 1980.0,
+  "r": 0.832,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 254.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2010.0,
+  "r": 0.924,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.0
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2040.0,
+  "r": 0.936,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 367.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2070.0,
+  "r": 0.858,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 257.3
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2100.0,
+  "r": 0.856,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 213.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2130.0,
+  "r": 0.859,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水.wav",
+  "cd_seconds": 355.9
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2160.0,
+  "r": 0.668,
+  "cd_artist": "杨葆元",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第2册\\26\\杨葆元-梅花三弄.wav",
+  "cd_seconds": 318.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2190.0,
+  "r": 0.882,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 273.1
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2220.0,
+  "r": 0.902,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 212.2
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2250.0,
+  "r": 0.878,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "流水3",
+  "cd_source": "CD第2册\\23\\顾梅羹-流水3.wav",
+  "cd_seconds": 257.7
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2280.0,
+  "r": 0.894,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 43.8
+ },
+ {
+  "dvd": "DVD11",
+  "dvd_seconds": 2310.0,
+  "r": 0.939,
+  "cd_artist": "卫仲乐",
+  "cd_piece": "流水-残",
+  "cd_source": "CD第3册\\49\\卫仲乐-流水-残.wav",
+  "cd_seconds": 282.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 0.0,
+  "r": 0.0,
+  "cd_artist": "乐瑛",
+  "cd_piece": "列子御风",
+  "cd_source": "CD第3册\\40\\乐瑛-列子御风.wav",
+  "cd_seconds": 0.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 30.0,
+  "r": 0.928,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 9.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 60.0,
+  "r": 0.911,
+  "cd_artist": "吴兆基",
+  "cd_piece": "忆故人2",
+  "cd_source": "CD第3册\\52\\吴兆基-忆故人2.wav",
+  "cd_seconds": 66.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 90.0,
+  "r": 0.921,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 124.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 120.0,
+  "r": 0.9,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 326.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 150.0,
+  "r": 0.91,
+  "cd_artist": "杨葆元",
+  "cd_piece": "流水",
+  "cd_source": "CD第2册\\26\\杨葆元-流水.wav",
+  "cd_seconds": 248.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 180.0,
+  "r": 0.922,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 26.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 210.0,
+  "r": 0.907,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 34.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 240.0,
+  "r": 0.897,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "高山",
+  "cd_source": "CD第2册\\23\\顾梅羹-高山.wav",
+  "cd_seconds": 318.7
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 270.0,
+  "r": 0.951,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 240.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 300.0,
+  "r": 0.952,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 295.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 330.0,
+  "r": 0.955,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 360.0,
+  "r": 0.956,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 242.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 390.0,
+  "r": 0.951,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 420.0,
+  "r": 0.965,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 450.0,
+  "r": 0.957,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 480.0,
+  "r": 0.953,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 248.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 510.0,
+  "r": 0.949,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 540.0,
+  "r": 0.949,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 243.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 570.0,
+  "r": 0.938,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 266.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 600.0,
+  "r": 0.946,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 630.0,
+  "r": 0.947,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 660.0,
+  "r": 0.943,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 244.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 690.0,
+  "r": 0.954,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 272.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 720.0,
+  "r": 0.95,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 243.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 750.0,
+  "r": 0.941,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 248.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 780.0,
+  "r": 0.959,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 810.0,
+  "r": 0.965,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 293.7
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 840.0,
+  "r": 0.948,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 242.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 870.0,
+  "r": 0.958,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 243.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 900.0,
+  "r": 0.962,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 245.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 930.0,
+  "r": 0.978,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 643.7
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 960.0,
+  "r": 0.885,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 115.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 990.0,
+  "r": 0.884,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 201.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1020.0,
+  "r": 0.909,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1050.0,
+  "r": 0.897,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1080.0,
+  "r": 0.847,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 411.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1110.0,
+  "r": 0.928,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1140.0,
+  "r": 0.928,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 291.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1170.0,
+  "r": 0.914,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 210.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1200.0,
+  "r": 0.935,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1230.0,
+  "r": 0.934,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神3",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神3.wav",
+  "cd_seconds": 211.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1260.0,
+  "r": 0.931,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 144.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1290.0,
+  "r": 0.937,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 295.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1320.0,
+  "r": 0.915,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 202.9
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1350.0,
+  "r": 0.871,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 373.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1380.0,
+  "r": 0.879,
+  "cd_artist": "胡兰",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\55\\胡兰-普庵咒.wav",
+  "cd_seconds": 525.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1410.0,
+  "r": 0.939,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 239.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1440.0,
+  "r": 0.923,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1470.0,
+  "r": 0.921,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 223.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1500.0,
+  "r": 0.932,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 264.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1530.0,
+  "r": 0.925,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 240.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1560.0,
+  "r": 0.925,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水3",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水3.wav",
+  "cd_seconds": 263.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1590.0,
+  "r": 0.925,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 224.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1620.0,
+  "r": 0.952,
+  "cd_artist": "管平湖",
+  "cd_piece": "离骚1",
+  "cd_source": "CD第1册\\CD16\\管平湖-离骚1.wav",
+  "cd_seconds": 638.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1650.0,
+  "r": 0.864,
+  "cd_artist": "胡兰",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第3册\\55\\胡兰-普庵咒.wav",
+  "cd_seconds": 539.7
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1680.0,
+  "r": 0.914,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 240.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1710.0,
+  "r": 0.864,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 265.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1740.0,
+  "r": 0.844,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 296.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1770.0,
+  "r": 0.914,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 375.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1800.0,
+  "r": 0.884,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 222.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1830.0,
+  "r": 0.856,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 224.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1860.0,
+  "r": 0.883,
+  "cd_artist": "孙毓芹",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\59\\孙毓芹-梅花三弄.wav",
+  "cd_seconds": 31.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1890.0,
+  "r": 0.868,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 232.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1920.0,
+  "r": 0.91,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 239.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1950.0,
+  "r": 0.826,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 109.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 1980.0,
+  "r": 0.867,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 222.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2010.0,
+  "r": 0.889,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 228.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2040.0,
+  "r": 0.911,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 238.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2070.0,
+  "r": 0.883,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 293.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2100.0,
+  "r": 0.858,
+  "cd_artist": "蔡德允",
+  "cd_piece": "湘江怨",
+  "cd_source": "CD第3册\\43\\蔡德允-湘江怨.wav",
+  "cd_seconds": 14.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2130.0,
+  "r": 0.884,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 295.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2160.0,
+  "r": 0.878,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 362.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2190.0,
+  "r": 0.817,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 519.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2220.0,
+  "r": 0.873,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 240.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2250.0,
+  "r": 0.804,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "小胡笳",
+  "cd_source": "CD第4册\\69\\姚丙炎-小胡笳.wav",
+  "cd_seconds": 635.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2280.0,
+  "r": 0.797,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "小胡笳",
+  "cd_source": "CD第4册\\69\\姚丙炎-小胡笳.wav",
+  "cd_seconds": 635.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2310.0,
+  "r": 0.856,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 348.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2340.0,
+  "r": 0.829,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 344.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2370.0,
+  "r": 0.796,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 290.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2400.0,
+  "r": 0.837,
+  "cd_artist": "蔡德允",
+  "cd_piece": "湘江怨",
+  "cd_source": "CD第3册\\43\\蔡德允-湘江怨.wav",
+  "cd_seconds": 136.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2430.0,
+  "r": 0.797,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 247.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2460.0,
+  "r": 0.905,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 225.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2490.0,
+  "r": 0.793,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 176.9
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2520.0,
+  "r": 0.831,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 346.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2550.0,
+  "r": 0.89,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "流水2",
+  "cd_source": "CD第2册\\36\\喻绍泽-流水2.wav",
+  "cd_seconds": 294.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2580.0,
+  "r": 0.736,
+  "cd_artist": "邵元复",
+  "cd_piece": "忆故人",
+  "cd_source": "CD第4册\\71\\邵元复-忆故人.wav",
+  "cd_seconds": 373.9
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2610.0,
+  "r": 0.88,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 151.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2640.0,
+  "r": 0.842,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "小胡笳",
+  "cd_source": "CD第4册\\69\\姚丙炎-小胡笳.wav",
+  "cd_seconds": 637.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2670.0,
+  "r": 0.772,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "潇湘水云2",
+  "cd_source": "CD第4册\\69\\姚丙炎-潇湘水云2.wav",
+  "cd_seconds": 231.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2700.0,
+  "r": 0.778,
+  "cd_artist": "蔡德允",
+  "cd_piece": "梧叶舞秋风",
+  "cd_source": "CD第3册\\43\\蔡德允-梧叶舞秋风.wav",
+  "cd_seconds": 6.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2730.0,
+  "r": 0.864,
+  "cd_artist": "陈维斌",
+  "cd_piece": "普庵咒",
+  "cd_source": "CD第1册\\CD05\\陈维斌-普庵咒.wav",
+  "cd_seconds": 208.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2760.0,
+  "r": 0.761,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 295.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2790.0,
+  "r": 0.817,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 153.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2820.0,
+  "r": 0.832,
+  "cd_artist": "徐立孙",
+  "cd_piece": "广陵散-残",
+  "cd_source": "CD第2册\\21\\徐立孙-广陵散-残.wav",
+  "cd_seconds": 303.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2850.0,
+  "r": 0.809,
+  "cd_artist": "顾梅羹",
+  "cd_piece": "梅花三弄1",
+  "cd_source": "CD第2册\\24\\顾梅羹-梅花三弄1.wav",
+  "cd_seconds": 381.4
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2880.0,
+  "r": 0.927,
+  "cd_artist": "邵元复",
+  "cd_piece": "梅花三弄",
+  "cd_source": "CD第4册\\70\\邵元复-梅花三弄.wav",
+  "cd_seconds": 200.7
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2910.0,
+  "r": 0.762,
+  "cd_artist": "吴兆基",
+  "cd_piece": "渔歌1",
+  "cd_source": "CD第3册\\53\\吴兆基-渔歌1.wav",
+  "cd_seconds": 830.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2940.0,
+  "r": 0.739,
+  "cd_artist": "查阜西",
+  "cd_piece": "忆故人",
+  "cd_source": "CD第1册\\CD12\\查阜西-忆故人.wav",
+  "cd_seconds": 351.9
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 2970.0,
+  "r": 0.726,
+  "cd_artist": "管平湖",
+  "cd_piece": "流水2",
+  "cd_source": "CD第1册\\CD17\\管平湖-流水2.wav",
+  "cd_seconds": 290.9
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3000.0,
+  "r": 0.761,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神2",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神2.wav",
+  "cd_seconds": 176.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3030.0,
+  "r": 0.736,
+  "cd_artist": "吴兆基",
+  "cd_piece": "胡笳十八拍1",
+  "cd_source": "CD第3册\\50\\吴兆基-胡笳十八拍1.wav",
+  "cd_seconds": 659.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3060.0,
+  "r": 0.702,
+  "cd_artist": "刘景韶",
+  "cd_piece": "归去来辞",
+  "cd_source": "CD第2册\\35\\刘景韶-归去来辞.wav",
+  "cd_seconds": 37.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3090.0,
+  "r": 0.746,
+  "cd_artist": "吴兆基",
+  "cd_piece": "胡笳十八拍1",
+  "cd_source": "CD第3册\\50\\吴兆基-胡笳十八拍1.wav",
+  "cd_seconds": 672.0
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3120.0,
+  "r": 0.735,
+  "cd_artist": "喻绍泽",
+  "cd_piece": "佩兰1",
+  "cd_source": "CD第2册\\37\\喻绍泽-佩兰1.wav",
+  "cd_seconds": 226.5
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3150.0,
+  "r": 0.739,
+  "cd_artist": "姚丙炎",
+  "cd_piece": "孤馆遇神2",
+  "cd_source": "CD第4册\\65\\姚丙炎-孤馆遇神2.wav",
+  "cd_seconds": 403.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3180.0,
+  "r": 0.785,
+  "cd_artist": "陈心园",
+  "cd_piece": "风雷引",
+  "cd_source": "CD第3册\\48\\陈心园-风雷引.wav",
+  "cd_seconds": 81.3
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3210.0,
+  "r": 0.751,
+  "cd_artist": "吴兆基",
+  "cd_piece": "渔歌1",
+  "cd_source": "CD第3册\\53\\吴兆基-渔歌1.wav",
+  "cd_seconds": 185.2
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3240.0,
+  "r": 0.717,
+  "cd_artist": "查阜西",
+  "cd_piece": "忆故人",
+  "cd_source": "CD第1册\\CD12\\查阜西-忆故人.wav",
+  "cd_seconds": 362.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3270.0,
+  "r": 0.763,
+  "cd_artist": "吴兆基",
+  "cd_piece": "渔歌1",
+  "cd_source": "CD第3册\\53\\吴兆基-渔歌1.wav",
+  "cd_seconds": 823.1
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3300.0,
+  "r": 0.808,
+  "cd_artist": "管平湖",
+  "cd_piece": "幽兰1",
+  "cd_source": "CD第1册\\CD19\\管平湖-幽兰1.wav",
+  "cd_seconds": 53.6
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3330.0,
+  "r": 0.717,
+  "cd_artist": "章志荪",
+  "cd_piece": "客窗夜话",
+  "cd_source": "CD第1册\\CD05\\章志荪-客窗夜话.wav",
+  "cd_seconds": 310.8
+ },
+ {
+  "dvd": "DVD12",
+  "dvd_seconds": 3360.0,
+  "r": 0.751,
+  "cd_artist": "吴兆基",
+  "cd_piece": "渔歌1",
+  "cd_source": "CD第3册\\53\\吴兆基-渔歌1.wav",
+  "cd_seconds": 3.2
+ }
+]

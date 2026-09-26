@@ -1,0 +1,112 @@
+{
+ "DVD01": {
+  "queries": 120,
+  "dup_training": [],
+  "dup_other_cd": [
+   360.0,
+   390.0,
+   1950.0,
+   1980.0,
+   2010.0,
+   2040.0,
+   2100.0,
+   2130.0,
+   2910.0,
+   2940.0,
+   2970.0,
+   3030.0,
+   3060.0,
+   3120.0,
+   3150.0,
+   3510.0,
+   3540.0
+  ],
+  "other_cd_sources": [
+   "CD第1册\\CD04\\郭同甫-水仙操.wav",
+   "CD第2册\\28\\张子谦-龙翔操5-合奏.wav",
+   "CD第2册\\29\\张子谦-平沙落雁-合奏3.wav"
+  ]
+ },
+ "DVD02": {
+  "queries": 96,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD03": {
+  "queries": 62,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD04": {
+  "queries": 97,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD05": {
+  "queries": 110,
+  "dup_training": [
+   1860.0,
+   1890.0
+  ],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD06": {
+  "queries": 87,
+  "dup_training": [],
+  "dup_other_cd": [
+   1050.0,
+   1080.0
+  ],
+  "other_cd_sources": [
+   "CD第3册\\46\\吴振平-梅花三弄-残.wav"
+  ]
+ },
+ "DVD07": {
+  "queries": 65,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD08": {
+  "queries": 89,
+  "dup_training": [
+   660.0,
+   690.0
+  ],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD09": {
+  "queries": 42,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD10": {
+  "queries": 82,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD11": {
+  "queries": 78,
+  "dup_training": [],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ },
+ "DVD12": {
+  "queries": 113,
+  "dup_training": [
+   660.0,
+   690.0,
+   1710.0,
+   1740.0
+  ],
+  "dup_other_cd": [],
+  "other_cd_sources": []
+ }
+}
