@@ -1,0 +1,12 @@
+[
+ {
+  "name": "过拟合检查：验证 8 个检查点",
+  "kind": "count",
+  "log": "C:/Users/huanc/AppData/Local/Temp/claude/C--Users-huanc-Documents-Codex-2026-09-23-nas-20-mb/8a735b66-0d75-4047-8270-fe79f637f4d4/tasks/bmilzp2t8.output",
+  "pattern": "VALIDATION",
+  "total": 8,
+  "item_seconds": 480,
+  "started": "2026-09-26T22:08:57",
+  "note": "底模、A（1 遍）、B 和 C 各第 1/2/3 遍，在 42 首验证曲目上算误差。"
+ }
+]

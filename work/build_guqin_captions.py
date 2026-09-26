@@ -109,7 +109,7 @@ def mode_text(gong: int) -> str:
 def main() -> None:
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--split", default="all", choices=("all", "train"))
+    parser.add_argument("--split", default="all", choices=("all", "train", "validation"))
     parser.add_argument("--mode", action="store_true", help="append the estimated pentatonic mode")
     parser.add_argument("--target", default=str(TARGET))
     args = parser.parse_args()
@@ -120,8 +120,8 @@ def main() -> None:
     target.mkdir(exist_ok=True)
     sources = sorted(SOURCE.glob("*.json"))
     rows = {p: manifest[Path(json.loads(p.read_text(encoding="utf-8"))["path"]).name] for p in sources}
-    if args.split == "train":
-        rows = {p: r for p, r in rows.items() if r["split"] == "train"}
+    if args.split != "all":
+        rows = {p: r for p, r in rows.items() if r["split"] == args.split}
     modes = window_modes([r["file"] for r in rows.values()]) if args.mode else {}
     counts = {"full": 0, "tags": 0, "piece": 0}
     missing = set()

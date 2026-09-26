@@ -279,6 +279,23 @@ def train(args):
         num_sanity_val_steps=0,  # If you need to debug validation, change this line
     )
 
+    if args.val_dir:
+        # Validation only: score --lora_checkpoint (or the untouched base
+        # model) on held-out latents at fixed timesteps, then stop.
+        pl.seed_everything(seed, workers=True)
+        val_dataset = PreEncodedDataset(
+            [LatentDatasetConfig(id="val", path=args.val_dir)],
+            latent_crop_length=sample_size // ds_ratio,
+            random_crop=False,
+        )
+        val_dl = torch.utils.data.DataLoader(
+            val_dataset, batch_size=1, shuffle=False, num_workers=0, collate_fn=collation_fn,
+        )
+        results = trainer.validate(training_wrapper, val_dl, verbose=False)
+        print("VALIDATION " + json.dumps({"checkpoint": args.lora_checkpoint, "val_dir": args.val_dir,
+                                          **{k: float(v) for k, v in results[0].items()}}), flush=True)
+        return
+
     trainer.fit(training_wrapper, dataloader)
 
 
@@ -357,6 +374,11 @@ def main():
         "--lora_checkpoint",
         default=None,
         help="Path to an existing LoRA .safetensors checkpoint to resume from",
+    )
+    p.add_argument(
+        "--val_dir",
+        default=None,
+        help="Only validate --lora_checkpoint on these pre-encoded latents, then exit",
     )
     p.add_argument("--lr", type=float, default=1e-4)
     p.add_argument("--steps", type=int, default=10_000)
