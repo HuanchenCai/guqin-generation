@@ -291,9 +291,15 @@ def train(args):
         val_dl = torch.utils.data.DataLoader(
             val_dataset, batch_size=1, shuffle=False, num_workers=0, collate_fn=collation_fn,
         )
-        results = trainer.validate(training_wrapper, val_dl, verbose=False)
+        # The wrapper reports validation losses through log_metric, which is
+        # a no-op without a logger; capture the values directly instead.
+        import stable_audio_3.training.diffusion as diffusion_module
+        captured = {}
+        diffusion_module.log_metric = lambda _logger, key, value, step=None: captured.__setitem__(key, float(value))
+        trainer.limit_val_batches = args.val_batches
+        trainer.validate(training_wrapper, val_dl, verbose=False)
         print("VALIDATION " + json.dumps({"checkpoint": args.lora_checkpoint, "val_dir": args.val_dir,
-                                          **{k: float(v) for k, v in results[0].items()}}), flush=True)
+                                          **captured}), flush=True)
         return
 
     trainer.fit(training_wrapper, dataloader)
@@ -380,6 +386,7 @@ def main():
         default=None,
         help="Only validate --lora_checkpoint on these pre-encoded latents, then exit",
     )
+    p.add_argument("--val_batches", type=int, default=120, help="Windows scored in --val_dir mode")
     p.add_argument("--lr", type=float, default=1e-4)
     p.add_argument("--steps", type=int, default=10_000)
     p.add_argument("--batch_size", type=int, default=1)
