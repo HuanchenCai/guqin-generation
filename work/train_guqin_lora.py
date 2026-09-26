@@ -34,8 +34,10 @@ os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
 
 import argparse
 import itertools
+import random
 import json
 from pathlib import Path
+import numpy as np
 import torch
 import pytorch_lightning as pl
 
@@ -87,6 +89,46 @@ class ExceptionCallback(pl.Callback):
         print(f"{type(err).__name__}: {err}")
 
 
+class RandomLengthLatentDataset(PreEncodedDataset):
+    """Random start and random length inside each pre-encoded window.
+
+    Our windows are exactly as long as the training duration, so the base
+    class never crops. Here each draw keeps a random span of min_frames..full
+    frames at a random start, pads the rest with the silence latent, marks the
+    padding in padding_mask and sets seconds_total to the kept length, which
+    is how Stable Audio itself trains on variable-length audio.
+    """
+
+    def __init__(self, *args, min_frames: int, downsampling_ratio: int, sample_rate: int, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.min_frames = min_frames
+        self.downsampling_ratio = downsampling_ratio
+        self.sample_rate = sample_rate
+
+    def __getitem__(self, idx):
+        latents, info = super().__getitem__(idx)
+        mask = info["padding_mask"][0]
+        valid = int(mask.sum())
+        total = latents.shape[1]
+        length = random.randint(min(self.min_frames, valid), valid)
+        start = random.randint(0, valid - length)
+        kept = latents[:, start:start + length]
+        silence = self._get_silence_for_file(info["latent_filename"])
+        pad = total - length
+        if pad:
+            if silence is not None:
+                filler = torch.from_numpy(np.tile(silence, (1, pad // silence.shape[1] + 1))[:, :pad]).to(kept.dtype)
+            else:
+                filler = torch.zeros(kept.shape[0], pad, dtype=kept.dtype)
+            kept = torch.cat([kept, filler], dim=1)
+        info["padding_mask"] = [torch.cat([torch.ones(length, dtype=mask.dtype), torch.zeros(pad, dtype=mask.dtype)])]
+        info["seconds_start"] = info.get("seconds_start", 0) + start * self.downsampling_ratio / self.sample_rate
+        info["seconds_total"] = length * self.downsampling_ratio / self.sample_rate
+        info["latent_crop_start"] = start
+        info["audio"] = kept
+        return kept, info
+
+
 def train(args):
     torch._dynamo.config.capture_scalar_outputs = True
     torch.set_float32_matmul_precision("high")
@@ -112,7 +154,16 @@ def train(args):
             if hasattr(cond, "tokenizer") and hasattr(cond, "max_length"):
                 tokenizers[key] = (cond.tokenizer, cond.max_length)
 
-    if args.encoded_dir:
+    if args.encoded_dir and args.min_seconds:
+        dataset = RandomLengthLatentDataset(
+            [LatentDatasetConfig(id="train", path=args.encoded_dir)],
+            latent_crop_length=sample_size // ds_ratio,
+            random_crop=True,
+            min_frames=int(args.min_seconds * sample_rate) // ds_ratio,
+            downsampling_ratio=ds_ratio,
+            sample_rate=sample_rate,
+        )
+    elif args.encoded_dir:
         dataset = PreEncodedDataset(
             [LatentDatasetConfig(id="train", path=args.encoded_dir)],
             latent_crop_length=sample_size // ds_ratio,
@@ -386,6 +437,8 @@ def main():
         default=None,
         help="Only validate --lora_checkpoint on these pre-encoded latents, then exit",
     )
+    p.add_argument("--min_seconds", type=float, default=None,
+                   help="Enable random start + random length crops of at least this many seconds")
     p.add_argument("--val_batches", type=int, default=120, help="Windows scored in --val_dir mode")
     p.add_argument("--lr", type=float, default=1e-4)
     p.add_argument("--steps", type=int, default=10_000)
