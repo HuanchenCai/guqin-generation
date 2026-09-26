@@ -32,6 +32,7 @@ SCENE = {"流水": "flowing water", "江河": "river", "高山": "mountains", "�
          "冬雪": "snow", "风": "wind", "雨": "rain", "飞鸟": "birds",
          "渔樵": "fisherman and woodcutter", "塞外大漠": "frontier desert",
          "宫廷": "palace", "仙境": "immortals", "田园": "countryside"}
+HEAD_TEXT = "Solo guqin, Chinese seven-string zither."
 ALIASES = {"醉渔晚唱": "醉渔唱晚"}
 
 
@@ -64,7 +65,7 @@ def tag_text(tags: list[str]) -> str:
 
 
 def caption(style: str, row: dict, performer: str) -> str:
-    head = "Solo guqin, Chinese seven-string zither."
+    head = HEAD_TEXT
     piece = f"Piece: {row['拼音']} ({row['英文意译']}) {row['曲名']}. Performer: {performer}."
     if style == "tags":
         return f"{head} {tag_text(row['tags'])}"
