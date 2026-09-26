@@ -31,6 +31,8 @@ NEW = ROOT / "full_412_captioned" / "epoch=1-step=2764.safetensors"
 # (path, seed, matching tags, opposite tags). Tags for pieces outside the tag
 # table were drafted the same way as guqin_piece_tags.csv.
 OPENINGS = [
+    # 查阜西-大江东去 was later found to contain voice and is permanently
+    # excluded (guqin_excluded_recordings.csv); kept here to reproduce 2026-09-25.
     ("CD第1册/CD11/查阜西-大江东去.wav", 84917, ["雄浑", "激昂", "苍茫", "江河"], ["恬淡", "平静", "月夜"]),
     ("CD第3册/41/乐瑛-岳阳三醉-残.wav", 94017, ["醉", "洒脱", "仙境"], ["忧伤", "孤寂", "夜"]),
     ("CD第2册/28/张子谦-泛沧浪.wav", 20260925, ["洒脱", "恬淡", "江河"], ["悲愤", "激昂", "塞外大漠"]),
