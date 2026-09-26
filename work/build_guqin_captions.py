@@ -78,30 +78,70 @@ def style_for(name: str) -> str:
     return "full" if bucket < 5 else "tags" if bucket < 8 else "piece"
 
 
+NOTE_NAMES = ("A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#")
+
+
+def window_modes(files: list[str]) -> dict:
+    """Pentatonic mode of each window, estimated from its audio (cached)."""
+    from guqin_pitch_metric import best_pentatonic, cent_histogram, load_mono, pitch_classes, tuning_offset
+    cache_path = ROOT / "window_modes.json"
+    cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
+    for i, name in enumerate(files):
+        if name in cache:
+            continue
+        hist = cent_histogram(load_mono(ROOT / "audio" / name))
+        fit, mode = best_pentatonic(pitch_classes(hist, tuning_offset(hist)))
+        gong = int(mode[0])  # PENTATONIC starts at 0, so mode[0] is the gong note
+        cache[name] = {"gong": gong, "fit": round(float(fit), 4)}
+        if i % 200 == 0:
+            cache_path.write_text(json.dumps(cache), encoding="utf-8")
+            print(f"modes {i}/{len(files)}", flush=True)
+    cache_path.write_text(json.dumps(cache), encoding="utf-8")
+    return cache
+
+
+def mode_text(gong: int) -> str:
+    notes = [NOTE_NAMES[(gong + step) % 12] for step in (0, 2, 4, 7, 9)]
+    return f"Pentatonic mode, gong on {notes[0]}: {', '.join(notes)}. 五声调式，{notes[0]} 宫。"
+
+
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--split", default="all", choices=("all", "train"))
+    parser.add_argument("--mode", action="store_true", help="append the estimated pentatonic mode")
+    parser.add_argument("--target", default=str(TARGET))
+    args = parser.parse_args()
+    target = Path(args.target)
     tags = load_tags()
     with (ROOT / "manifest.csv").open(encoding="utf-8-sig", newline="") as handle:
         manifest = {row["file"]: row for row in csv.DictReader(handle)}
-    TARGET.mkdir(exist_ok=True)
+    target.mkdir(exist_ok=True)
+    sources = sorted(SOURCE.glob("*.json"))
+    rows = {p: manifest[Path(json.loads(p.read_text(encoding="utf-8"))["path"]).name] for p in sources}
+    if args.split == "train":
+        rows = {p: r for p, r in rows.items() if r["split"] == "train"}
+    modes = window_modes([r["file"] for r in rows.values()]) if args.mode else {}
     counts = {"full": 0, "tags": 0, "piece": 0}
     missing = set()
-    for md_path in sorted(SOURCE.glob("*.json")):
+    for md_path, row in rows.items():
         metadata = json.loads(md_path.read_text(encoding="utf-8"))
-        row = manifest[Path(metadata["path"]).name]
         piece = normalize(row["piece"])
         if piece not in tags:
             missing.add(piece)
             continue
         style = style_for(md_path.stem)
         metadata["prompt"] = caption(style, tags[piece], row["artist"])
+        if args.mode:
+            metadata["prompt"] += " " + mode_text(modes[row["file"]]["gong"])
         counts[style] += 1
-        (TARGET / md_path.name).write_text(json.dumps(metadata), encoding="utf-8")
-        latent = TARGET / md_path.with_suffix(".npy").name
+        (target / md_path.name).write_text(json.dumps(metadata), encoding="utf-8")
+        latent = target / md_path.with_suffix(".npy").name
         if not latent.exists():
             os.link(md_path.with_suffix(".npy"), latent)
     if missing:
         raise SystemExit(f"Pieces without tags: {sorted(missing)}")
-    silence = TARGET / "silence.npy"
+    silence = target / "silence.npy"
     if not silence.exists():
         os.link(SOURCE / "silence.npy", silence)
     print(json.dumps(counts), flush=True)

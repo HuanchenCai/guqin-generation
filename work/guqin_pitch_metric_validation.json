@@ -10,7 +10,10 @@
     "context_fit": 0.6322,
     "fit_to_opening_mode": 0.6626,
     "metric": 0.6626,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 36,
+    "attacks_per_s": 1.44,
+    "attack_out_of_mode": 0.3056
   },
   {
     "round": "曲目分组",
@@ -23,7 +26,10 @@
     "context_fit": 0.6332,
     "fit_to_opening_mode": 0.6332,
     "metric": 0.6332,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 35,
+    "attacks_per_s": 1.4,
+    "attack_out_of_mode": 0.3429
   },
   {
     "round": "曲目分组",
@@ -36,7 +42,10 @@
     "context_fit": 0.632,
     "fit_to_opening_mode": 0.6856,
     "metric": 0.6856,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 35,
+    "attacks_per_s": 1.4,
+    "attack_out_of_mode": 0.2571
   },
   {
     "round": "曲目分组",
@@ -49,7 +58,10 @@
     "context_fit": 0.6335,
     "fit_to_opening_mode": 0.6547,
     "metric": 0.6547,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 27,
+    "attacks_per_s": 1.08,
+    "attack_out_of_mode": 0.5185
   },
   {
     "round": "曲目分组",
@@ -62,7 +74,10 @@
     "context_fit": 0.6334,
     "fit_to_opening_mode": 0.5563,
     "metric": 0.5563,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 27,
+    "attacks_per_s": 1.08,
+    "attack_out_of_mode": 0.5185
   },
   {
     "round": "曲目分组",
@@ -75,7 +90,10 @@
     "context_fit": 0.6322,
     "fit_to_opening_mode": 0.602,
     "metric": 0.602,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 27,
+    "attacks_per_s": 1.08,
+    "attack_out_of_mode": 0.6667
   },
   {
     "round": "曲目分组",
@@ -88,7 +106,10 @@
     "context_fit": 0.7395,
     "fit_to_opening_mode": 0.6789,
     "metric": 0.6789,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 43,
+    "attacks_per_s": 1.72,
+    "attack_out_of_mode": 0.3953
   },
   {
     "round": "曲目分组",
@@ -101,7 +122,10 @@
     "context_fit": 0.7397,
     "fit_to_opening_mode": 0.699,
     "metric": 0.699,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 34,
+    "attacks_per_s": 1.36,
+    "attack_out_of_mode": 0.4118
   },
   {
     "round": "曲目分组",
@@ -114,7 +138,10 @@
     "context_fit": 0.7384,
     "fit_to_opening_mode": 0.7321,
     "metric": 0.7321,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 35,
+    "attacks_per_s": 1.4,
+    "attack_out_of_mode": 0.2857
   },
   {
     "round": "曲目分组",
@@ -127,7 +154,10 @@
     "context_fit": 0.7387,
     "fit_to_opening_mode": 0.6101,
     "metric": 0.6101,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 45,
+    "attacks_per_s": 1.8,
+    "attack_out_of_mode": 0.4444
   },
   {
     "round": "曲目分组",
@@ -140,7 +170,10 @@
     "context_fit": 0.7391,
     "fit_to_opening_mode": 0.7558,
     "metric": 0.7558,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 45,
+    "attacks_per_s": 1.8,
+    "attack_out_of_mode": 0.3333
   },
   {
     "round": "曲目分组",
@@ -153,7 +186,10 @@
     "context_fit": 0.7399,
     "fit_to_opening_mode": 0.7209,
     "metric": 0.7209,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 45,
+    "attacks_per_s": 1.8,
+    "attack_out_of_mode": 0.4
   },
   {
     "round": "曲目分组",
@@ -166,7 +202,10 @@
     "context_fit": 0.7037,
     "fit_to_opening_mode": 0.6796,
     "metric": 0.6796,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 62,
+    "attacks_per_s": 2.48,
+    "attack_out_of_mode": 0.3387
   },
   {
     "round": "曲目分组",
@@ -179,7 +218,10 @@
     "context_fit": 0.7056,
     "fit_to_opening_mode": 0.7095,
     "metric": 0.7095,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 53,
+    "attacks_per_s": 2.12,
+    "attack_out_of_mode": 0.3208
   },
   {
     "round": "曲目分组",
@@ -192,7 +234,10 @@
     "context_fit": 0.706,
     "fit_to_opening_mode": 0.7174,
     "metric": 0.7174,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 74,
+    "attacks_per_s": 2.96,
+    "attack_out_of_mode": 0.1757
   },
   {
     "round": "曲目分组",
@@ -205,7 +250,10 @@
     "context_fit": 0.7005,
     "fit_to_opening_mode": 0.8279,
     "metric": 0.8279,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 32,
+    "attacks_per_s": 1.28,
+    "attack_out_of_mode": 0.125
   },
   {
     "round": "曲目分组",
@@ -218,7 +266,10 @@
     "context_fit": 0.7017,
     "fit_to_opening_mode": 0.8519,
     "metric": 0.8519,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 22,
+    "attacks_per_s": 0.88,
+    "attack_out_of_mode": 0.1818
   },
   {
     "round": "曲目分组",
@@ -231,7 +282,10 @@
     "context_fit": 0.7009,
     "fit_to_opening_mode": 0.8282,
     "metric": 0.8282,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 39,
+    "attacks_per_s": 1.56,
+    "attack_out_of_mode": 0.1026
   },
   {
     "round": "曲目分组",
@@ -244,7 +298,10 @@
     "context_fit": 0.8386,
     "fit_to_opening_mode": 0.5375,
     "metric": 0.5375,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 30,
+    "attacks_per_s": 1.2,
+    "attack_out_of_mode": 0.4667
   },
   {
     "round": "曲目分组",
@@ -257,7 +314,10 @@
     "context_fit": 0.8379,
     "fit_to_opening_mode": 0.4087,
     "metric": 0.4087,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 23,
+    "attacks_per_s": 0.92,
+    "attack_out_of_mode": 0.5652
   },
   {
     "round": "曲目分组",
@@ -270,7 +330,10 @@
     "context_fit": 0.8383,
     "fit_to_opening_mode": 0.6173,
     "metric": 0.6173,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 28,
+    "attacks_per_s": 1.12,
+    "attack_out_of_mode": 0.3571
   },
   {
     "round": "曲目分组",
@@ -283,7 +346,10 @@
     "context_fit": 0.8375,
     "fit_to_opening_mode": 0.7142,
     "metric": 0.7142,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 23,
+    "attacks_per_s": 0.92,
+    "attack_out_of_mode": 0.2609
   },
   {
     "round": "曲目分组",
@@ -296,7 +362,10 @@
     "context_fit": 0.8373,
     "fit_to_opening_mode": 0.7346,
     "metric": 0.7346,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 31,
+    "attacks_per_s": 1.24,
+    "attack_out_of_mode": 0.3548
   },
   {
     "round": "曲目分组",
@@ -309,7 +378,10 @@
     "context_fit": 0.8383,
     "fit_to_opening_mode": 0.7611,
     "metric": 0.7611,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 27,
+    "attacks_per_s": 1.08,
+    "attack_out_of_mode": 0.2593
   },
   {
     "round": "推理调参",
@@ -322,7 +394,10 @@
     "context_fit": 0.6872,
     "fit_to_opening_mode": 0.578,
     "metric": 0.578,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 50,
+    "attacks_per_s": 2.0,
+    "attack_out_of_mode": 0.46
   },
   {
     "round": "推理调参",
@@ -335,7 +410,10 @@
     "context_fit": 0.6868,
     "fit_to_opening_mode": 0.4971,
     "metric": 0.4971,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 35,
+    "attacks_per_s": 1.4,
+    "attack_out_of_mode": 0.5714
   },
   {
     "round": "推理调参",
@@ -348,7 +426,10 @@
     "context_fit": 0.6878,
     "fit_to_opening_mode": 0.5658,
     "metric": 0.5658,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 57,
+    "attacks_per_s": 2.28,
+    "attack_out_of_mode": 0.5439
   },
   {
     "round": "推理调参",
@@ -361,7 +442,10 @@
     "context_fit": 0.688,
     "fit_to_opening_mode": 0.5486,
     "metric": 0.5486,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 52,
+    "attacks_per_s": 2.08,
+    "attack_out_of_mode": 0.4615
   },
   {
     "round": "推理调参",
@@ -374,7 +458,10 @@
     "context_fit": 0.6893,
     "fit_to_opening_mode": 0.5645,
     "metric": 0.5645,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 54,
+    "attacks_per_s": 2.16,
+    "attack_out_of_mode": 0.537
   },
   {
     "round": "推理调参",
@@ -387,7 +474,10 @@
     "context_fit": 0.6872,
     "fit_to_opening_mode": 0.5903,
     "metric": 0.5903,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 54,
+    "attacks_per_s": 2.16,
+    "attack_out_of_mode": 0.4444
   },
   {
     "round": "推理调参",
@@ -400,7 +490,10 @@
     "context_fit": 0.6866,
     "fit_to_opening_mode": 0.5563,
     "metric": 0.5563,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 37,
+    "attacks_per_s": 1.48,
+    "attack_out_of_mode": 0.3784
   },
   {
     "round": "推理调参",
@@ -413,7 +506,10 @@
     "context_fit": 0.6881,
     "fit_to_opening_mode": 0.5814,
     "metric": 0.5814,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 37,
+    "attacks_per_s": 1.48,
+    "attack_out_of_mode": 0.4324
   },
   {
     "round": "推理调参",
@@ -426,7 +522,10 @@
     "context_fit": 0.6871,
     "fit_to_opening_mode": 0.6038,
     "metric": 0.6038,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 37,
+    "attacks_per_s": 1.48,
+    "attack_out_of_mode": 0.3514
   },
   {
     "round": "推理调参",
@@ -439,7 +538,10 @@
     "context_fit": 0.6877,
     "fit_to_opening_mode": 0.5816,
     "metric": 0.5816,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 37,
+    "attacks_per_s": 1.48,
+    "attack_out_of_mode": 0.4324
   },
   {
     "round": "推理调参",
@@ -452,7 +554,10 @@
     "context_fit": 0.6868,
     "fit_to_opening_mode": 0.702,
     "metric": 0.702,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 47,
+    "attacks_per_s": 1.88,
+    "attack_out_of_mode": 0.4681
   },
   {
     "round": "推理调参",
@@ -465,7 +570,10 @@
     "context_fit": 0.6872,
     "fit_to_opening_mode": 0.6025,
     "metric": 0.6025,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 45,
+    "attacks_per_s": 1.8,
+    "attack_out_of_mode": 0.3333
   },
   {
     "round": "推理调参",
@@ -478,7 +586,10 @@
     "context_fit": 0.6868,
     "fit_to_opening_mode": 0.553,
     "metric": 0.553,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 49,
+    "attacks_per_s": 1.96,
+    "attack_out_of_mode": 0.4694
   },
   {
     "round": "推理调参",
@@ -491,7 +602,10 @@
     "context_fit": 0.6871,
     "fit_to_opening_mode": 0.5496,
     "metric": 0.5496,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 50,
+    "attacks_per_s": 2.0,
+    "attack_out_of_mode": 0.48
   },
   {
     "round": "推理调参",
@@ -504,7 +618,10 @@
     "context_fit": 0.6877,
     "fit_to_opening_mode": 0.4852,
     "metric": 0.4852,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 58,
+    "attacks_per_s": 2.32,
+    "attack_out_of_mode": 0.5172
   },
   {
     "round": "推理调参",
@@ -517,7 +634,10 @@
     "context_fit": 0.646,
     "fit_to_opening_mode": 0.6774,
     "metric": 0.6774,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 46,
+    "attacks_per_s": 1.84,
+    "attack_out_of_mode": 0.4565
   },
   {
     "round": "推理调参",
@@ -530,7 +650,10 @@
     "context_fit": 0.6462,
     "fit_to_opening_mode": 0.7095,
     "metric": 0.7095,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 52,
+    "attacks_per_s": 2.08,
+    "attack_out_of_mode": 0.3846
   },
   {
     "round": "推理调参",
@@ -543,7 +666,10 @@
     "context_fit": 0.6452,
     "fit_to_opening_mode": 0.675,
     "metric": 0.675,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 46,
+    "attacks_per_s": 1.84,
+    "attack_out_of_mode": 0.5
   },
   {
     "round": "推理调参",
@@ -556,7 +682,10 @@
     "context_fit": 0.6444,
     "fit_to_opening_mode": 0.7222,
     "metric": 0.7222,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 47,
+    "attacks_per_s": 1.88,
+    "attack_out_of_mode": 0.234
   },
   {
     "round": "推理调参",
@@ -569,7 +698,10 @@
     "context_fit": 0.6464,
     "fit_to_opening_mode": 0.7834,
     "metric": 0.7834,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 36,
+    "attacks_per_s": 1.44,
+    "attack_out_of_mode": 0.1944
   },
   {
     "round": "推理调参",
@@ -582,7 +714,10 @@
     "context_fit": 0.6449,
     "fit_to_opening_mode": 0.7622,
     "metric": 0.7622,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 38,
+    "attacks_per_s": 1.52,
+    "attack_out_of_mode": 0.2368
   },
   {
     "round": "推理调参",
@@ -595,7 +730,10 @@
     "context_fit": 0.6459,
     "fit_to_opening_mode": 0.7216,
     "metric": 0.7216,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 26,
+    "attacks_per_s": 1.04,
+    "attack_out_of_mode": 0.4231
   },
   {
     "round": "推理调参",
@@ -608,7 +746,10 @@
     "context_fit": 0.6458,
     "fit_to_opening_mode": 0.7007,
     "metric": 0.7007,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 28,
+    "attacks_per_s": 1.12,
+    "attack_out_of_mode": 0.4286
   },
   {
     "round": "推理调参",
@@ -621,7 +762,10 @@
     "context_fit": 0.6424,
     "fit_to_opening_mode": 0.8181,
     "metric": 0.8181,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 38,
+    "attacks_per_s": 1.52,
+    "attack_out_of_mode": 0.2105
   },
   {
     "round": "推理调参",
@@ -634,7 +778,10 @@
     "context_fit": 0.6483,
     "fit_to_opening_mode": 0.6843,
     "metric": 0.6843,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 45,
+    "attacks_per_s": 1.8,
+    "attack_out_of_mode": 0.2667
   },
   {
     "round": "推理调参",
@@ -647,7 +794,10 @@
     "context_fit": 0.6421,
     "fit_to_opening_mode": 0.5346,
     "metric": 0.5346,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 33,
+    "attacks_per_s": 1.32,
+    "attack_out_of_mode": 0.3636
   },
   {
     "round": "推理调参",
@@ -660,7 +810,10 @@
     "context_fit": 0.6484,
     "fit_to_opening_mode": 0.7468,
     "metric": 0.7468,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 41,
+    "attacks_per_s": 1.64,
+    "attack_out_of_mode": 0.1951
   },
   {
     "round": "推理调参",
@@ -673,7 +826,10 @@
     "context_fit": 0.649,
     "fit_to_opening_mode": 0.696,
     "metric": 0.696,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 43,
+    "attacks_per_s": 1.72,
+    "attack_out_of_mode": 0.3488
   },
   {
     "round": "推理调参",
@@ -686,7 +842,10 @@
     "context_fit": 0.7996,
     "fit_to_opening_mode": 0.7179,
     "metric": 0.7179,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 70,
+    "attacks_per_s": 2.8,
+    "attack_out_of_mode": 0.2714
   },
   {
     "round": "推理调参",
@@ -699,7 +858,10 @@
     "context_fit": 0.8011,
     "fit_to_opening_mode": 0.7374,
     "metric": 0.7374,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 53,
+    "attacks_per_s": 2.12,
+    "attack_out_of_mode": 0.2642
   },
   {
     "round": "推理调参",
@@ -712,7 +874,10 @@
     "context_fit": 0.7989,
     "fit_to_opening_mode": 0.8316,
     "metric": 0.8316,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 47,
+    "attacks_per_s": 1.88,
+    "attack_out_of_mode": 0.1277
   },
   {
     "round": "推理调参",
@@ -725,7 +890,10 @@
     "context_fit": 0.8005,
     "fit_to_opening_mode": 0.7369,
     "metric": 0.7369,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 53,
+    "attacks_per_s": 2.12,
+    "attack_out_of_mode": 0.283
   },
   {
     "round": "推理调参",
@@ -738,7 +906,10 @@
     "context_fit": 0.8013,
     "fit_to_opening_mode": 0.705,
     "metric": 0.705,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 46,
+    "attacks_per_s": 1.84,
+    "attack_out_of_mode": 0.1957
   },
   {
     "round": "推理调参",
@@ -751,7 +922,10 @@
     "context_fit": 0.7994,
     "fit_to_opening_mode": 0.7867,
     "metric": 0.7867,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 47,
+    "attacks_per_s": 1.88,
+    "attack_out_of_mode": 0.3404
   },
   {
     "round": "推理调参",
@@ -764,7 +938,10 @@
     "context_fit": 0.7979,
     "fit_to_opening_mode": 0.7657,
     "metric": 0.7657,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 48,
+    "attacks_per_s": 1.92,
+    "attack_out_of_mode": 0.1042
   },
   {
     "round": "推理调参",
@@ -777,7 +954,10 @@
     "context_fit": 0.7995,
     "fit_to_opening_mode": 0.784,
     "metric": 0.784,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 47,
+    "attacks_per_s": 1.88,
+    "attack_out_of_mode": 0.2979
   },
   {
     "round": "推理调参",
@@ -790,7 +970,10 @@
     "context_fit": 0.7992,
     "fit_to_opening_mode": 0.7612,
     "metric": 0.7612,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 48,
+    "attacks_per_s": 1.92,
+    "attack_out_of_mode": 0.3125
   },
   {
     "round": "推理调参",
@@ -803,7 +986,10 @@
     "context_fit": 0.7978,
     "fit_to_opening_mode": 0.5871,
     "metric": 0.5871,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 39,
+    "attacks_per_s": 1.56,
+    "attack_out_of_mode": 0.3846
   },
   {
     "round": "推理调参",
@@ -816,7 +1002,10 @@
     "context_fit": 0.7995,
     "fit_to_opening_mode": 0.6376,
     "metric": 0.6376,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 46,
+    "attacks_per_s": 1.84,
+    "attack_out_of_mode": 0.3696
   },
   {
     "round": "推理调参",
@@ -829,7 +1018,10 @@
     "context_fit": 0.7999,
     "fit_to_opening_mode": 0.8416,
     "metric": 0.8416,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 51,
+    "attacks_per_s": 2.04,
+    "attack_out_of_mode": 0.0392
   },
   {
     "round": "推理调参",
@@ -842,7 +1034,10 @@
     "context_fit": 0.7986,
     "fit_to_opening_mode": 0.6776,
     "metric": 0.6776,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 59,
+    "attacks_per_s": 2.36,
+    "attack_out_of_mode": 0.4068
   },
   {
     "round": "推理调参",
@@ -855,7 +1050,10 @@
     "context_fit": 0.7986,
     "fit_to_opening_mode": 0.8434,
     "metric": 0.8434,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 51,
+    "attacks_per_s": 2.04,
+    "attack_out_of_mode": 0.0588
   },
   {
     "round": "推理调参",
@@ -868,7 +1066,10 @@
     "context_fit": 0.7996,
     "fit_to_opening_mode": 0.8156,
     "metric": 0.8156,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 50,
+    "attacks_per_s": 2.0,
+    "attack_out_of_mode": 0.08
   },
   {
     "round": "推理调参",
@@ -881,7 +1082,10 @@
     "context_fit": 0.5451,
     "fit_to_opening_mode": 0.6236,
     "metric": 0.6236,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 42,
+    "attacks_per_s": 1.68,
+    "attack_out_of_mode": 0.3333
   },
   {
     "round": "推理调参",
@@ -894,7 +1098,10 @@
     "context_fit": 0.5507,
     "fit_to_opening_mode": 0.552,
     "metric": 0.552,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 49,
+    "attacks_per_s": 1.96,
+    "attack_out_of_mode": 0.3878
   },
   {
     "round": "推理调参",
@@ -907,7 +1114,10 @@
     "context_fit": 0.5497,
     "fit_to_opening_mode": 0.5383,
     "metric": 0.5383,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 50,
+    "attacks_per_s": 2.0,
+    "attack_out_of_mode": 0.42
   },
   {
     "round": "推理调参",
@@ -920,7 +1130,10 @@
     "context_fit": 0.5495,
     "fit_to_opening_mode": 0.4914,
     "metric": 0.4914,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 54,
+    "attacks_per_s": 2.16,
+    "attack_out_of_mode": 0.4815
   },
   {
     "round": "推理调参",
@@ -933,7 +1146,10 @@
     "context_fit": 0.5489,
     "fit_to_opening_mode": 0.5511,
     "metric": 0.5511,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 49,
+    "attacks_per_s": 1.96,
+    "attack_out_of_mode": 0.4082
   },
   {
     "round": "文字标签",
@@ -946,7 +1162,10 @@
     "context_fit": 0.8709,
     "fit_to_opening_mode": 0.9136,
     "metric": 0.9136,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 28,
+    "attacks_per_s": 1.12,
+    "attack_out_of_mode": 0.0714
   },
   {
     "round": "文字标签",
@@ -959,7 +1178,10 @@
     "context_fit": 0.8712,
     "fit_to_opening_mode": 0.9093,
     "metric": 0.9093,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 31,
+    "attacks_per_s": 1.24,
+    "attack_out_of_mode": 0.0323
   },
   {
     "round": "文字标签",
@@ -972,7 +1194,10 @@
     "context_fit": 0.8704,
     "fit_to_opening_mode": 0.8853,
     "metric": 0.8853,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 37,
+    "attacks_per_s": 1.48,
+    "attack_out_of_mode": 0.0
   },
   {
     "round": "文字标签",
@@ -985,7 +1210,10 @@
     "context_fit": 0.8709,
     "fit_to_opening_mode": 0.8536,
     "metric": 0.8536,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 34,
+    "attacks_per_s": 1.36,
+    "attack_out_of_mode": 0.0588
   },
   {
     "round": "文字标签",
@@ -998,7 +1226,10 @@
     "context_fit": 0.6218,
     "fit_to_opening_mode": 0.5748,
     "metric": 0.5748,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 35,
+    "attacks_per_s": 1.4,
+    "attack_out_of_mode": 0.2571
   },
   {
     "round": "文字标签",
@@ -1011,7 +1242,10 @@
     "context_fit": 0.6218,
     "fit_to_opening_mode": 0.5898,
     "metric": 0.5898,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 39,
+    "attacks_per_s": 1.56,
+    "attack_out_of_mode": 0.2308
   },
   {
     "round": "文字标签",
@@ -1024,7 +1258,10 @@
     "context_fit": 0.6205,
     "fit_to_opening_mode": 0.6035,
     "metric": 0.6035,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 48,
+    "attacks_per_s": 1.92,
+    "attack_out_of_mode": 0.3333
   },
   {
     "round": "文字标签",
@@ -1037,7 +1274,10 @@
     "context_fit": 0.6207,
     "fit_to_opening_mode": 0.6153,
     "metric": 0.6153,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 38,
+    "attacks_per_s": 1.52,
+    "attack_out_of_mode": 0.2368
   },
   {
     "round": "文字标签",
@@ -1050,7 +1290,10 @@
     "context_fit": 0.6679,
     "fit_to_opening_mode": 0.6949,
     "metric": 0.6949,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 49,
+    "attacks_per_s": 1.96,
+    "attack_out_of_mode": 0.1837
   },
   {
     "round": "文字标签",
@@ -1063,7 +1306,10 @@
     "context_fit": 0.6688,
     "fit_to_opening_mode": 0.7963,
     "metric": 0.7963,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 47,
+    "attacks_per_s": 1.88,
+    "attack_out_of_mode": 0.0638
   },
   {
     "round": "文字标签",
@@ -1076,7 +1322,10 @@
     "context_fit": 0.6661,
     "fit_to_opening_mode": 0.7198,
     "metric": 0.7198,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 50,
+    "attacks_per_s": 2.0,
+    "attack_out_of_mode": 0.3
   },
   {
     "round": "文字标签",
@@ -1089,7 +1338,10 @@
     "context_fit": 0.6665,
     "fit_to_opening_mode": 0.7634,
     "metric": 0.7634,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 48,
+    "attacks_per_s": 1.92,
+    "attack_out_of_mode": 0.1458
   },
   {
     "round": "文字标签",
@@ -1102,7 +1354,10 @@
     "context_fit": 0.6862,
     "fit_to_opening_mode": 0.4666,
     "metric": 0.4666,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 41,
+    "attacks_per_s": 1.64,
+    "attack_out_of_mode": 0.6585
   },
   {
     "round": "文字标签",
@@ -1115,7 +1370,10 @@
     "context_fit": 0.6841,
     "fit_to_opening_mode": 0.4218,
     "metric": 0.4218,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 44,
+    "attacks_per_s": 1.76,
+    "attack_out_of_mode": 0.7273
   },
   {
     "round": "文字标签",
@@ -1128,7 +1386,10 @@
     "context_fit": 0.6849,
     "fit_to_opening_mode": 0.3918,
     "metric": 0.3918,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 49,
+    "attacks_per_s": 1.96,
+    "attack_out_of_mode": 0.6122
   },
   {
     "round": "文字标签",
@@ -1141,7 +1402,10 @@
     "context_fit": 0.6837,
     "fit_to_opening_mode": 0.4547,
     "metric": 0.4547,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 43,
+    "attacks_per_s": 1.72,
+    "attack_out_of_mode": 0.6977
   },
   {
     "round": "文字标签",
@@ -1154,7 +1418,10 @@
     "context_fit": 0.8797,
     "fit_to_opening_mode": 0.852,
     "metric": 0.852,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 48,
+    "attacks_per_s": 1.92,
+    "attack_out_of_mode": 0.2083
   },
   {
     "round": "文字标签",
@@ -1167,7 +1434,10 @@
     "context_fit": 0.88,
     "fit_to_opening_mode": 0.8187,
     "metric": 0.8187,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 49,
+    "attacks_per_s": 1.96,
+    "attack_out_of_mode": 0.2041
   },
   {
     "round": "文字标签",
@@ -1180,7 +1450,10 @@
     "context_fit": 0.8784,
     "fit_to_opening_mode": 0.8417,
     "metric": 0.8417,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 51,
+    "attacks_per_s": 2.04,
+    "attack_out_of_mode": 0.2157
   },
   {
     "round": "文字标签",
@@ -1193,7 +1466,10 @@
     "context_fit": 0.8785,
     "fit_to_opening_mode": 0.8492,
     "metric": 0.8492,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 51,
+    "attacks_per_s": 2.04,
+    "attack_out_of_mode": 0.098
   },
   {
     "round": "文字标签",
@@ -1206,7 +1482,10 @@
     "context_fit": 0.8468,
     "fit_to_opening_mode": 0.7911,
     "metric": 0.7911,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 28,
+    "attacks_per_s": 1.12,
+    "attack_out_of_mode": 0.5714
   },
   {
     "round": "文字标签",
@@ -1219,7 +1498,10 @@
     "context_fit": 0.8484,
     "fit_to_opening_mode": 0.8058,
     "metric": 0.8058,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 32,
+    "attacks_per_s": 1.28,
+    "attack_out_of_mode": 0.2188
   },
   {
     "round": "文字标签",
@@ -1232,7 +1514,10 @@
     "context_fit": 0.8474,
     "fit_to_opening_mode": 0.822,
     "metric": 0.822,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 29,
+    "attacks_per_s": 1.16,
+    "attack_out_of_mode": 0.2759
   },
   {
     "round": "文字标签",
@@ -1245,7 +1530,10 @@
     "context_fit": 0.8473,
     "fit_to_opening_mode": 0.7955,
     "metric": 0.7955,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 32,
+    "attacks_per_s": 1.28,
+    "attack_out_of_mode": 0.5938
   },
   {
     "round": "文字标签",
@@ -1258,7 +1546,10 @@
     "context_fit": 0.6883,
     "fit_to_opening_mode": 0.3793,
     "metric": 0.3793,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 22,
+    "attacks_per_s": 0.88,
+    "attack_out_of_mode": 0.6364
   },
   {
     "round": "文字标签",
@@ -1271,7 +1562,10 @@
     "context_fit": 0.6889,
     "fit_to_opening_mode": 0.2174,
     "metric": 0.2174,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 13,
+    "attacks_per_s": 0.52,
+    "attack_out_of_mode": 0.8462
   },
   {
     "round": "文字标签",
@@ -1284,7 +1578,10 @@
     "context_fit": 0.6887,
     "fit_to_opening_mode": 0.3939,
     "metric": 0.3939,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 16,
+    "attacks_per_s": 0.64,
+    "attack_out_of_mode": 0.8125
   },
   {
     "round": "文字标签",
@@ -1297,7 +1594,10 @@
     "context_fit": 0.6874,
     "fit_to_opening_mode": 0.5075,
     "metric": 0.5075,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 19,
+    "attacks_per_s": 0.76,
+    "attack_out_of_mode": 0.4211
   },
   {
     "round": "文字标签",
@@ -1310,7 +1610,10 @@
     "context_fit": 0.9118,
     "fit_to_opening_mode": 0.7181,
     "metric": 0.7181,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 9,
+    "attacks_per_s": 0.36,
+    "attack_out_of_mode": 0.1111
   },
   {
     "round": "文字标签",
@@ -1323,7 +1626,10 @@
     "context_fit": 0.9115,
     "fit_to_opening_mode": 0.6091,
     "metric": 0.6091,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 24,
+    "attacks_per_s": 0.96,
+    "attack_out_of_mode": 0.5
   },
   {
     "round": "文字标签",
@@ -1336,7 +1642,10 @@
     "context_fit": 0.9121,
     "fit_to_opening_mode": 0.7255,
     "metric": 0.7255,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 9,
+    "attacks_per_s": 0.36,
+    "attack_out_of_mode": 0.2222
   },
   {
     "round": "文字标签",
@@ -1349,7 +1658,10 @@
     "context_fit": 0.9114,
     "fit_to_opening_mode": 0.6455,
     "metric": 0.6455,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 21,
+    "attacks_per_s": 0.84,
+    "attack_out_of_mode": 0.3333
   },
   {
     "round": "文字标签",
@@ -1362,7 +1674,10 @@
     "context_fit": 0.7706,
     "fit_to_opening_mode": 0.7906,
     "metric": 0.7906,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 46,
+    "attacks_per_s": 1.84,
+    "attack_out_of_mode": 0.3043
   },
   {
     "round": "文字标签",
@@ -1375,7 +1690,10 @@
     "context_fit": 0.7712,
     "fit_to_opening_mode": 0.6336,
     "metric": 0.6336,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 51,
+    "attacks_per_s": 2.04,
+    "attack_out_of_mode": 0.4118
   },
   {
     "round": "文字标签",
@@ -1388,7 +1706,10 @@
     "context_fit": 0.7712,
     "fit_to_opening_mode": 0.6825,
     "metric": 0.6825,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 45,
+    "attacks_per_s": 1.8,
+    "attack_out_of_mode": 0.4222
   },
   {
     "round": "文字标签",
@@ -1401,7 +1722,10 @@
     "context_fit": 0.771,
     "fit_to_opening_mode": 0.7895,
     "metric": 0.7895,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 40,
+    "attacks_per_s": 1.6,
+    "attack_out_of_mode": 0.2
   },
   {
     "round": "文字标签",
@@ -1412,7 +1736,10 @@
     "context": null,
     "own_fit": 0.8485,
     "metric": 0.8485,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 31,
+    "attacks_per_s": 0.89,
+    "attack_out_of_mode": 0.0
   },
   {
     "round": "文字标签",
@@ -1423,7 +1750,10 @@
     "context": null,
     "own_fit": 0.6538,
     "metric": 0.6538,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 55,
+    "attacks_per_s": 1.57,
+    "attack_out_of_mode": 0.2727
   },
   {
     "round": "文字标签",
@@ -1434,7 +1764,10 @@
     "context": null,
     "own_fit": 0.7737,
     "metric": 0.7737,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 48,
+    "attacks_per_s": 1.37,
+    "attack_out_of_mode": 0.125
   },
   {
     "round": "文字标签",
@@ -1445,7 +1778,10 @@
     "context": null,
     "own_fit": 0.8983,
     "metric": 0.8983,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 23,
+    "attacks_per_s": 0.66,
+    "attack_out_of_mode": 0.0
   },
   {
     "round": "文字标签",
@@ -1456,7 +1792,10 @@
     "context": null,
     "own_fit": 0.6276,
     "metric": 0.6276,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 44,
+    "attacks_per_s": 1.26,
+    "attack_out_of_mode": 0.1591
   },
   {
     "round": "文字标签",
@@ -1467,7 +1806,10 @@
     "context": null,
     "own_fit": 0.8613,
     "metric": 0.8613,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 21,
+    "attacks_per_s": 0.6,
+    "attack_out_of_mode": 0.2857
   },
   {
     "round": "文字标签",
@@ -1478,7 +1820,10 @@
     "context": null,
     "own_fit": 0.7339,
     "metric": 0.7339,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 73,
+    "attacks_per_s": 2.09,
+    "attack_out_of_mode": 0.2877
   },
   {
     "round": "文字标签",
@@ -1489,7 +1834,10 @@
     "context": null,
     "own_fit": 0.7987,
     "metric": 0.7987,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 40,
+    "attacks_per_s": 1.14,
+    "attack_out_of_mode": 0.2
   },
   {
     "round": "文字标签",
@@ -1500,7 +1848,10 @@
     "context": null,
     "own_fit": 0.7276,
     "metric": 0.7276,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 48,
+    "attacks_per_s": 1.37,
+    "attack_out_of_mode": 0.1458
   },
   {
     "round": "文字标签",
@@ -1511,7 +1862,10 @@
     "context": null,
     "own_fit": 0.7582,
     "metric": 0.7582,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 25,
+    "attacks_per_s": 0.71,
+    "attack_out_of_mode": 0.4
   },
   {
     "round": "潜空间页SA3",
@@ -1524,7 +1878,10 @@
     "context_fit": 0.7045,
     "fit_to_opening_mode": 0.6152,
     "metric": 0.6152,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 102,
+    "attacks_per_s": 2.04,
+    "attack_out_of_mode": 0.3725
   },
   {
     "round": "潜空间页SA3",
@@ -1537,7 +1894,10 @@
     "context_fit": 0.634,
     "fit_to_opening_mode": 0.5336,
     "metric": 0.5336,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 66,
+    "attacks_per_s": 1.32,
+    "attack_out_of_mode": 0.4848
   },
   {
     "round": "潜空间页SA3",
@@ -1550,7 +1910,10 @@
     "context_fit": 0.741,
     "fit_to_opening_mode": 0.4757,
     "metric": 0.4757,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 44,
+    "attacks_per_s": 0.88,
+    "attack_out_of_mode": 0.5682
   },
   {
     "round": "潜空间页SA3",
@@ -1563,7 +1926,10 @@
     "context_fit": 0.7274,
     "fit_to_opening_mode": 0.5734,
     "metric": 0.5734,
-    "semitone_flag": true
+    "semitone_flag": true,
+    "attacks": 76,
+    "attacks_per_s": 1.52,
+    "attack_out_of_mode": 0.5
   },
   {
     "round": "潜空间页SA3",
@@ -1576,7 +1942,10 @@
     "context_fit": 0.7155,
     "fit_to_opening_mode": 0.7857,
     "metric": 0.7857,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 65,
+    "attacks_per_s": 1.3,
+    "attack_out_of_mode": 0.3385
   },
   {
     "round": "潜空间页SA3",
@@ -1589,6 +1958,9 @@
     "context_fit": 0.7278,
     "fit_to_opening_mode": 0.7444,
     "metric": 0.7444,
-    "semitone_flag": false
+    "semitone_flag": false,
+    "attacks": 81,
+    "attacks_per_s": 1.62,
+    "attack_out_of_mode": 0.1481
   }
 ]
