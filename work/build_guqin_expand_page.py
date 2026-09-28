@@ -30,15 +30,16 @@ def main() -> None:
         f'<button type="button" data-seek="{t}">{t // 60}:{t % 60:02d}</button>' for t in secs) + '</div>'
     chain_cards = [f'<article class="card"><div class="badge">原版 · 35 秒</div><p>上次你评为“绝品”的那段。</p>'
                    f'<audio controls preload="none" src="audio/original_s3_pass14.flac"></audio></article>']
-    for c in sorted(data["chains"], key=lambda c: ("lock_db" not in c, c["file"])):
-        joins = [35 + k * NEW for k in range(len(c["rounds"]))]
+    # Unlocked chains drifted louder and were dropped after listening.
+    for c in sorted((c for c in data["chains"] if "lock_db" in c), key=lambda c: c["file"]):
+        joins = [int(33.5 + k * NEW) for k in range(len(c["rounds"]))]
         levels = "、".join(f'{r["new_rms_dbfs"]}' for r in c["rounds"])
         locked = "lock_db" in c
         title = f'接续版 {c["file"][7]}' + ("（音量锁定）" if locked else "（未锁定，越接越响）")
         note = ("整首先降到 -16 dB，每段接续都按前一段音量对齐。" if locked
                 else "每段越来越响、后半削波明显，保留作对比。")
         chain_cards.append(f'<article class="card"><div class="badge">{title} · {int(c["seconds"] // 60)} 分 {int(c["seconds"] % 60)} 秒</div>'
-                           f'<p>{note}前 35 秒是原版，之后每 30 秒接一段（按钮是各接缝处）。每段音量 dB：{levels}。</p>'
+                           f'<p>{note}前 33.5 秒是原版（去掉了结尾的静音），之后每 30 秒接一段（按钮是各接缝处）。每段音量 dB：{levels}。</p>'
                            f'<audio controls preload="none" src="audio/{c["file"]}"></audio>{seeks(joins)}{rating(c["file"])}</article>')
     take_cards = [f'<article class="card"><div class="badge">第 {k} 版</div><p>种子 {t["seed"]}</p>'
                   f'<audio controls preload="none" src="audio/{t["file"]}"></audio>{rating(t["file"])}</article>'

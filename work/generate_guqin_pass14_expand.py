@@ -29,6 +29,10 @@ RATE = 44100
 FAVOURITE = OUTPUTS / "古琴第14遍对比" / "audio" / "s3_pass14.flac"
 FISHER = f"{HEAD_TEXT} {dict(SCENES)['渔舟晚唱']}"
 CONTEXT, NEW, ROUNDS, FADE = 15, 30, 6, 0.1
+# Every generated clip ends with a fade into ~0.5 s of digital silence.
+# Chaining that tail makes the model 'restart' after a gap, so trim the
+# favourite's end and over-generate each round, dropping the tail.
+HEAD_TRIM, TAIL = 1.5, 3
 CHAINS = {"A": 101, "B": 202}
 TAKE_SEEDS = []  # the user dropped the 20 extra takes
 SHOW_SEEDS = (2027, 31, 808, 4242)
@@ -57,6 +61,7 @@ def extend(model, seed_base: int, lock_db: float | None = None) -> tuple[np.ndar
     loudness of the context before it.
     """
     audio, _ = sf.read(FAVOURITE, dtype="float32", always_2d=True)
+    audio = audio[: len(audio) - int(HEAD_TRIM * RATE)]
     target = 10 ** (lock_db / 20) if lock_db is not None else None
     if target:
         audio = audio * (target / rms(audio))
@@ -66,7 +71,8 @@ def extend(model, seed_base: int, lock_db: float | None = None) -> tuple[np.ndar
     for k in range(ROUNDS):
         context = audio[-CONTEXT * RATE:]
         gain = target / rms(context) if target else 1.0
-        out = generate(model, FISHER, seed_base + k, CONTEXT + NEW, context * gain) / gain
+        out = generate(model, FISHER, seed_base + k, CONTEXT + NEW + TAIL, context * gain) / gain
+        out = out[: (CONTEXT + NEW) * RATE]
         cut = CONTEXT * RATE
         if target:
             out = out * (rms(context) / rms(out[cut:]))

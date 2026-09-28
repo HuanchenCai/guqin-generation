@@ -78,74 +78,74 @@
     },
     {
       "file": "extend_A_lock.flac",
-      "seconds": 215.0,
+      "seconds": 213.5,
       "rounds": [
         {
           "round": 1,
           "seed": 101,
-          "new_rms_dbfs": -15.9
+          "new_rms_dbfs": -15.7
         },
         {
           "round": 2,
           "seed": 102,
-          "new_rms_dbfs": -15.1
+          "new_rms_dbfs": -15.4
         },
         {
           "round": 3,
           "seed": 103,
-          "new_rms_dbfs": -15.1
+          "new_rms_dbfs": -15.2
         },
         {
           "round": 4,
           "seed": 104,
-          "new_rms_dbfs": -15.0
+          "new_rms_dbfs": -15.1
         },
         {
           "round": 5,
           "seed": 105,
-          "new_rms_dbfs": -14.6
+          "new_rms_dbfs": -14.7
         },
         {
           "round": 6,
           "seed": 106,
-          "new_rms_dbfs": -15.8
+          "new_rms_dbfs": -14.2
         }
       ],
       "lock_db": -16.0
     },
     {
       "file": "extend_B_lock.flac",
-      "seconds": 215.0,
+      "seconds": 213.5,
       "rounds": [
         {
           "round": 1,
           "seed": 202,
-          "new_rms_dbfs": -15.9
+          "new_rms_dbfs": -15.7
         },
         {
           "round": 2,
           "seed": 203,
-          "new_rms_dbfs": -16.5
+          "new_rms_dbfs": -15.5
         },
         {
           "round": 3,
           "seed": 204,
-          "new_rms_dbfs": -16.1
+          "new_rms_dbfs": -15.2
         },
         {
           "round": 4,
           "seed": 205,
-          "new_rms_dbfs": -16.1
+          "new_rms_dbfs": -15.3
         },
         {
           "round": 5,
           "seed": 206,
-          "new_rms_dbfs": -15.8
+          "new_rms_dbfs": -14.8
         },
         {
           "round": 6,
           "seed": 207,
-          "new_rms_dbfs": -14.9
+          "new_rms_dbfs": -16.4
         }
       ],
       "lock_db": -16.0
