@@ -1,0 +1,82 @@
+[
+ {
+  "pass": 0,
+  "val": 0.6020366549491882,
+  "checkpoint": null
+ },
+ {
+  "pass": 1,
+  "val": 0.5985512137413025,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass01\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 2,
+  "val": 0.59796142578125,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass02\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 3,
+  "val": 0.5973742008209229,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass03\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 4,
+  "val": 0.5969434380531311,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass04\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 5,
+  "val": 0.5967721343040466,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass05\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 6,
+  "val": 0.5961242914199829,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass06\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 7,
+  "val": 0.595939576625824,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass07\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 8,
+  "val": 0.5959450006484985,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass08\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 9,
+  "val": 0.5958113074302673,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass09\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 10,
+  "val": 0.595678985118866,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass10\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 11,
+  "val": 0.5953107476234436,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass11\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 12,
+  "val": 0.5952571630477905,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass12\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 13,
+  "val": 0.5950025320053101,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass13\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 14,
+  "val": 0.5949963331222534,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass14\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 15,
+  "val": 0.5950638055801392,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass15\\seg_00000\\epoch=1-step=2500.ckpt"
+ }
+]

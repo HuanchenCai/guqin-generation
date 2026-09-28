@@ -1,13 +1,13 @@
 [
  {
-  "name": "训练直到验证误差回升（最多 15 遍）",
+  "name": "训练直到验证误差回升（第 3–15 遍）",
   "kind": "count",
   "log": "guqin_aligned_412/story_run_stdout.log",
-  "pattern": "PASS_DONE [1-9]",
-  "total": 15,
+  "pattern": "PASS_DONE ([3-9]|1[0-5]) ",
+  "total": 13,
   "item_seconds": 3300,
-  "started": "2026-09-27T12:14:57",
+  "started": "2026-09-27T21:14:31",
   "done_file": "guqin_aligned_412/story_run/best.json",
-  "note": "370 首训练、42 首验证；每遍约 55 分钟（训练 + 验证）。验证误差连续 2 遍回升就提前停止，通常用不满 15 遍。断电后双击 work/resume_training.bat 即可从断点继续。"
+  "note": "前两遍已完成（验证误差 0.6020 → 0.5986 → 0.5980）。每遍约 55 分钟；验证误差连续 2 遍回升就提前停止，通常用不满。断电后双击 work/resume_training.bat 从断点继续。"
  }
 ]
