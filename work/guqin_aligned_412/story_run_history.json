@@ -78,5 +78,15 @@
   "pass": 15,
   "val": 0.5950638055801392,
   "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass15\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 16,
+  "val": 0.595027506351471,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass16\\seg_00000\\epoch=1-step=2500.ckpt"
+ },
+ {
+  "pass": 17,
+  "val": 0.5952336192131042,
+  "checkpoint": "C:\\Users\\huanc\\Documents\\Codex\\2026-09-23\\nas-20-mb\\work\\guqin_aligned_412\\story_run\\pass17\\seg_00000\\epoch=1-step=2500.ckpt"
  }
 ]
