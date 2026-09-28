@@ -1,12 +1,13 @@
 [
  {
-  "name": "第 14 遍：渔舟晚唱接续 + 展示 v1",
+  "name": "继续训练，直到连续 3 遍没有新低（第 16–40 遍）",
   "kind": "count",
-  "log": "guqin_pass14_expand.log",
-  "pattern": "\\.flac",
-  "total": 22,
-  "item_seconds": 25,
-  "started": "2026-09-28T23:55:18",
-  "note": "2 条 3 分半接续（最慢）、五个场景各 4 版。"
+  "log": "guqin_aligned_412/story_run_stdout.log",
+  "pattern": "PASS_DONE (1[6-9]|[2-4][0-9]) ",
+  "total": 25,
+  "item_seconds": 3300,
+  "started": "2026-09-29T00:11:25",
+  "done_file": "guqin_aligned_412/story_run/best.json",
+  "note": "目前最佳为第 14 遍（0.59500），第 15 遍 0.59506。连续 3 遍没有刷新最佳就停止，所以若第 16、17 遍都没刷新就会在第 17 遍结束；进度条按上限 40 遍计。断电后双击 work/resume_training.bat 继续。"
  }
 ]

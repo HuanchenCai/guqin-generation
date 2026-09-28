@@ -2,8 +2,9 @@
 
 Each pass trains one epoch over the train+test windows (story captions,
 random start and length), resuming from the previous pass's LoRA weights,
-then scores all validation windows. Stops after the loss has risen for
-`--patience` passes in a row (or at `--max_passes`) and reports the best.
+then scores all validation windows. Stops once `--patience` passes in a
+row fail to set a new best validation loss (or at `--max_passes`), and
+reports the best pass.
 Note: each pass restarts AdamW moments; the learning rate is constant.
 """
 
@@ -58,8 +59,8 @@ def main() -> None:
     parser.add_argument("--save_every", type=int, default=500, help="checkpoint interval within a pass")
     parser.add_argument("--val_batches", type=int, default=276)
     parser.add_argument("--min_seconds", type=float, default=20)
-    parser.add_argument("--max_passes", type=int, default=15)
-    parser.add_argument("--patience", type=int, default=2)
+    parser.add_argument("--max_passes", type=int, default=40)
+    parser.add_argument("--patience", type=int, default=3, help="passes without a new best before stopping")
     args = parser.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
     history_path = args.out / "history.jsonl"
@@ -103,11 +104,10 @@ def main() -> None:
         with history_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(history[-1]) + "\n")
         print(f"PASS_DONE {n} val {val:.5f}", flush=True)
-        best = min(h["val"] for h in history)
-        rises = 0
-        for prev, cur in zip(history, history[1:]):
-            rises = rises + 1 if cur["val"] > prev["val"] else 0
-        if rises >= args.patience:
+        # Early stopping: stop once `patience` passes in a row fail to beat the
+        # best loss so far, so single noisy upticks do not end the run.
+        best_pass = min(history, key=lambda h: h["val"])["pass"]
+        if history[-1]["pass"] - best_pass >= args.patience:
             break
     best = min(history, key=lambda h: h["val"])
     (args.out / "best.json").write_text(json.dumps(best, indent=1), encoding="utf-8")
