@@ -1,0 +1,117 @@
+{
+  "checkpoint": "guqin_aligned_412\\story_run\\pass14\\seg_00000\\epoch=1-step=2500.ckpt",
+  "continuations": [
+    {
+      "file": "open_01.flac",
+      "artist": "龙琴舫",
+      "piece": "捣衣",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Pounding Clothes (捣衣). On an autumn night under the moon, women pound cloth for winter clothes to send to men far away. 秋夜月下妇人捣衣，为远方亲人赶制冬衣，凄婉思念。 Mood: longing, melancholy. Scene: autumn, moonlit night. 意境：思念、忧伤、秋、月夜。 Pentatonic mode, gong on D: D, E, F#, A, B. 五声调式，D 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: longing, melancholy. Scene: autumn, moonlit night. 意境：思念、忧伤、秋、月夜。 Pentatonic mode, gong on D: D, E, F#, A, B. 五声调式，D 宫。"
+      },
+      "index": 1
+    },
+    {
+      "file": "open_02.flac",
+      "artist": "程午嘉",
+      "piece": "秋江夜泊",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Night Mooring on the Autumn River (秋江夜泊). After Zhang Ji's poem: moon setting, crows calling, a traveller's boat moored by maples and fishing lights on an autumn river. 初见松弦馆琴谱，摹张继《枫桥夜泊》诗意：月落乌啼、江枫渔火、客船夜泊。 Mood: lonely. Scene: autumn, river, night. 意境：孤寂、秋、江河、夜。 Pentatonic mode, gong on G#: G#, A#, C, D#, F. 五声调式，G# 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: lonely. Scene: autumn, river, night. 意境：孤寂、秋、江河、夜。 Pentatonic mode, gong on G#: G#, A#, C, D#, F. 五声调式，G# 宫。"
+      },
+      "index": 2
+    },
+    {
+      "file": "open_03.flac",
+      "artist": "喻绍泽",
+      "piece": "跃进歌声1",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Songs of the Great Leap Forward (跃进歌声). A late-1950s composition celebrating the Great Leap Forward: bright and energetic. 二十世纪五十年代末的新创琴曲，歌颂大跃进的热烈气氛。 Mood: joyful, impassioned. 意境：欢快、激昂。 Pentatonic mode, gong on E: E, F#, G#, B, C#. 五声调式，E 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: joyful, impassioned. 意境：欢快、激昂。 Pentatonic mode, gong on E: E, F#, G#, B, C#. 五声调式，E 宫。"
+      },
+      "index": 3
+    },
+    {
+      "file": "open_04.flac",
+      "artist": "邵元复",
+      "piece": "关山月",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Moon over the Mountain Pass (关山月). Moonlight over a frontier pass; soldiers far from home keep watch and think of those they left behind. 借李白乐府诗意，边关明月下征人戍守思乡；梅庵琴谱刊载，诸城派流行曲。 Mood: longing, vast. Scene: frontier desert, moonlit night. 意境：思念、苍茫、塞外大漠、月夜。 Pentatonic mode, gong on B: B, C#, D#, F#, G#. 五声调式，B 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: longing, vast. Scene: frontier desert, moonlit night. 意境：思念、苍茫、塞外大漠、月夜。 Pentatonic mode, gong on B: B, C#, D#, F#, G#. 五声调式，B 宫。"
+      },
+      "index": 4
+    },
+    {
+      "file": "open_05.flac",
+      "artist": "管平湖",
+      "piece": "广陵散2",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Guangling Melody (广陵散). The tale of Nie Zheng avenging his father; Ji Kang played it before his execution. Fierce, proud and tragic. 聂政为父报仇刺韩王的故事；嵇康临刑前奏此曲，叹广陵散于今绝矣。 Mood: sorrowful and indignant, impassioned, majestic. 意境：悲愤、激昂、雄浑。 Pentatonic mode, gong on D: D, E, F#, A, B. 五声调式，D 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: sorrowful and indignant, impassioned, majestic. 意境：悲愤、激昂、雄浑。 Pentatonic mode, gong on D: D, E, F#, A, B. 五声调式，D 宫。"
+      },
+      "index": 5
+    },
+    {
+      "file": "open_06.flac",
+      "artist": "陈阅聪",
+      "piece": "归去来辞",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Returning Home (归去来辞). From Tao Yuanming's poem: leaving office to return to fields and garden, glad and free. 据陶渊明《归去来兮辞》，辞官归隐、回到田园的欣然与自在。 Mood: carefree, tranquil, reclusive. Scene: countryside. 意境：洒脱、恬淡、田园、隐逸。 Pentatonic mode, gong on B: B, C#, D#, F#, G#. 五声调式，B 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: carefree, tranquil, reclusive. Scene: countryside. 意境：洒脱、恬淡、田园、隐逸。 Pentatonic mode, gong on B: B, C#, D#, F#, G#. 五声调式，B 宫。"
+      },
+      "index": 6
+    },
+    {
+      "file": "open_07.flac",
+      "artist": "卢家炳",
+      "piece": "午夜焚修",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Midnight Incense and Devotion (午夜焚修). Burning incense for midnight devotion: stillness of religious practice. 午夜焚香修行，佛道清修的静穆。 Mood: meditative, solemn. Scene: night. 意境：禅意、庄严、夜。 Pentatonic mode, gong on C: C, D, E, G, A. 五声调式，C 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: meditative, solemn. Scene: night. 意境：禅意、庄严、夜。 Pentatonic mode, gong on C: C, D, E, G, A. 五声调式，C 宫。"
+      },
+      "index": 7
+    },
+    {
+      "file": "open_08.flac",
+      "artist": "杨新伦",
+      "piece": "碧涧流泉",
+      "prompts": {
+        "new": "Solo guqin, Chinese seven-string zither. Spring in a Jade Ravine (碧涧流泉). Attributed to Zhu Ziyang; the Lingnan school's signature: clear springs burst from strange rocks, sometimes rushing, sometimes still. 相传宋朱紫阳作，岭南派代表曲：奇峰异石间清泉涌出，时急时缓，闲适疏放。 Mood: lively, reclusive. Scene: flowing water, mountains. 意境：灵动、流水、高山、隐逸。 Pentatonic mode, gong on A#: A#, C, D, F, G. 五声调式，A# 宫。",
+        "C": "Solo guqin, Chinese seven-string zither. Mood: lively, reclusive. Scene: flowing water, mountains. 意境：灵动、流水、高山、隐逸。 Pentatonic mode, gong on A#: A#, C, D, F, G. 五声调式，A# 宫。"
+      },
+      "index": 8
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "scene": "山居夜雨",
+      "seed": 808,
+      "prompt": "Solo guqin, Chinese seven-string zither. Rain on a mountain hut at night; a lone lamp, incense, a hermit sitting alone listening to the rain. 山居夜雨，孤灯焚香，独坐听雨。"
+    },
+    {
+      "index": 2,
+      "scene": "边关月夜",
+      "seed": 31,
+      "prompt": "Solo guqin, Chinese seven-string zither. Moonlight over a frontier fortress; a soldier hears a distant flute and thinks of home. 边关月夜，戍客闻笛思乡。"
+    },
+    {
+      "index": 3,
+      "scene": "渔舟晚唱",
+      "seed": 31,
+      "prompt": "Solo guqin, Chinese seven-string zither. Sunset over a misty lake; an old fisherman rows home, singing quietly to himself. 夕阳烟波，渔翁归舟独唱。"
+    },
+    {
+      "index": 4,
+      "scene": "松下观云",
+      "seed": 808,
+      "prompt": "Solo guqin, Chinese seven-string zither. Sitting under an ancient pine on a high peak, watching clouds drift through the valleys. 高山古松下，看云卷云舒。"
+    },
+    {
+      "index": 5,
+      "scene": "雪夜访友",
+      "seed": 2027,
+      "prompt": "Solo guqin, Chinese seven-string zither. A snowy night; rowing a small boat to visit a friend, then turning back at the door, content. 雪夜乘舟访友，兴尽而返。"
+    }
+  ]
+}
