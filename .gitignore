@@ -40,3 +40,8 @@
 /paper/**/*.log
 !/paper/data/overfit_validation.log
 /paper/tismir/build_*.log
+/paper/**/*.maf
+/paper/**/*.mtc*
+/paper/**/*.toc
+/paper/**/*.ent
+/paper/**/*.xdv
