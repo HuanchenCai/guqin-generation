@@ -1,0 +1,182 @@
+[
+ {
+  "file": "002233ef0f503af4_003.flac",
+  "attacks": 96,
+  "attacks_per_s": 1.6,
+  "attack_out_of_mode": 0.4062
+ },
+ {
+  "file": "00be8ae60b7893b9_003.flac",
+  "attacks": 134,
+  "attacks_per_s": 2.24,
+  "attack_out_of_mode": 0.4179
+ },
+ {
+  "file": "0110426769811756_003.flac",
+  "attacks": 88,
+  "attacks_per_s": 1.47,
+  "attack_out_of_mode": 0.0795
+ },
+ {
+  "file": "0361e2bcb4305fd1_003.flac",
+  "attacks": 217,
+  "attacks_per_s": 3.62,
+  "attack_out_of_mode": 0.1843
+ },
+ {
+  "file": "044ed40e3432d7ea_003.flac",
+  "attacks": 64,
+  "attacks_per_s": 1.07,
+  "attack_out_of_mode": 0.4844
+ },
+ {
+  "file": "047524c9b3750f08_003.flac",
+  "attacks": 90,
+  "attacks_per_s": 1.5,
+  "attack_out_of_mode": 0.1778
+ },
+ {
+  "file": "0475eb980d1c5ccf_003.flac",
+  "attacks": 95,
+  "attacks_per_s": 1.59,
+  "attack_out_of_mode": 0.5053
+ },
+ {
+  "file": "04c039bd5adc103b_003.flac",
+  "attacks": 105,
+  "attacks_per_s": 1.75,
+  "attack_out_of_mode": 0.3333
+ },
+ {
+  "file": "04eb751a7d891a4f_003.flac",
+  "attacks": 101,
+  "attacks_per_s": 1.69,
+  "attack_out_of_mode": 0.1386
+ },
+ {
+  "file": "051ca66197169db0_003.flac",
+  "attacks": 181,
+  "attacks_per_s": 3.02,
+  "attack_out_of_mode": 0.221
+ },
+ {
+  "file": "058007b97bbad34f_003.flac",
+  "attacks": 102,
+  "attacks_per_s": 1.7,
+  "attack_out_of_mode": 0.1961
+ },
+ {
+  "file": "05d52972d40d9cd9_003.flac",
+  "attacks": 132,
+  "attacks_per_s": 2.2,
+  "attack_out_of_mode": 0.1364
+ },
+ {
+  "file": "0630284f4c182001_003.flac",
+  "attacks": 112,
+  "attacks_per_s": 1.87,
+  "attack_out_of_mode": 0.0714
+ },
+ {
+  "file": "06c93d39de5cd1c5_003.flac",
+  "attacks": 117,
+  "attacks_per_s": 1.95,
+  "attack_out_of_mode": 0.1282
+ },
+ {
+  "file": "07ca683b34941456_003.flac",
+  "attacks": 112,
+  "attacks_per_s": 1.87,
+  "attack_out_of_mode": 0.2679
+ },
+ {
+  "file": "093b454d303a563e_003.flac",
+  "attacks": 115,
+  "attacks_per_s": 1.92,
+  "attack_out_of_mode": 0.2348
+ },
+ {
+  "file": "0948a45ffe7b1c35_003.flac",
+  "attacks": 110,
+  "attacks_per_s": 1.84,
+  "attack_out_of_mode": 0.2182
+ },
+ {
+  "file": "0b011848568dd506_003.flac",
+  "attacks": 161,
+  "attacks_per_s": 2.69,
+  "attack_out_of_mode": 0.3789
+ },
+ {
+  "file": "0b0ce885d568579f_003.flac",
+  "attacks": 106,
+  "attacks_per_s": 1.77,
+  "attack_out_of_mode": 0.1604
+ },
+ {
+  "file": "0b11af14419e3e13_003.flac",
+  "attacks": 125,
+  "attacks_per_s": 2.09,
+  "attack_out_of_mode": 0.272
+ },
+ {
+  "file": "0c135dd582bff495_003.flac",
+  "attacks": 112,
+  "attacks_per_s": 1.87,
+  "attack_out_of_mode": 0.1071
+ },
+ {
+  "file": "0c7a8fc305bbf0f4_003.flac",
+  "attacks": 153,
+  "attacks_per_s": 2.55,
+  "attack_out_of_mode": 0.2222
+ },
+ {
+  "file": "0d441327cf08f2eb_003.flac",
+  "attacks": 125,
+  "attacks_per_s": 2.09,
+  "attack_out_of_mode": 0.256
+ },
+ {
+  "file": "0d5346ec9bbe9b9f_003.flac",
+  "attacks": 106,
+  "attacks_per_s": 1.77,
+  "attack_out_of_mode": 0.3774
+ },
+ {
+  "file": "0ed71038eab0c6f3_003.flac",
+  "attacks": 73,
+  "attacks_per_s": 1.22,
+  "attack_out_of_mode": 0.3562
+ },
+ {
+  "file": "0f5ec28f8b89717c_003.flac",
+  "attacks": 91,
+  "attacks_per_s": 1.52,
+  "attack_out_of_mode": 0.2747
+ },
+ {
+  "file": "0fd0088e44c297cd_003.flac",
+  "attacks": 85,
+  "attacks_per_s": 1.42,
+  "attack_out_of_mode": 0.1412
+ },
+ {
+  "file": "0fe2df78cf690ac5_003.flac",
+  "attacks": 113,
+  "attacks_per_s": 1.89,
+  "attack_out_of_mode": 0.3186
+ },
+ {
+  "file": "0ff19f555b5077f0_003.flac",
+  "attacks": 105,
+  "attacks_per_s": 1.75,
+  "attack_out_of_mode": 0.1714
+ },
+ {
+  "file": "1020f007c2adc8bc_003.flac",
+  "attacks": 112,
+  "attacks_per_s": 1.87,
+  "attack_out_of_mode": 0.2232
+ }
+]
