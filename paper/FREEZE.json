@@ -1,6 +1,6 @@
 {
  "frozen_at": "2026-10-05",
- "git_commit_before_freeze": "c7a49d5",
+ "git_commit_before_freeze": "811f57a",
  "base_models": {
   "generator": "stabilityai/stable-audio-3-medium (inference), stable-audio-3-medium-base (training)",
   "autoencoder": "SAME-L",
@@ -73,5 +73,6 @@
    "sha256": "cfbc848a26d2909d6099895e4c6049b86bee092f2f5d965a3a3fe4be91d32c3d",
    "bytes": 578655101
   }
- }
+ },
+ "history_note": "History was rewritten on 2026-10-05 to remove a personal e-mail address before the repository was made public; commit hashes changed (c7a49d5 became 811f57a). File contents other than that address are unchanged."
 }
