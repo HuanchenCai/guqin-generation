@@ -29,5 +29,6 @@ which reads `data/` (listening ratings, validation logs) and the sample records 
 
 ## Data availability
 
-The training recordings are commercially published historical performances and cannot be redistributed, so
+The training recordings come from a personal collection of historical performances that remain under copyright and
+cannot be redistributed, so
 neither the audio, generated audio, nor adapter weights are released. Code, ratings and logs are in this repository.

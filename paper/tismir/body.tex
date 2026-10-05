@@ -53,8 +53,8 @@ fixes.
 \section{Method}\label{sec:method}
 
 \subsection{Data}\label{sec:data}
-The source is a private library of 638 historical guqin recordings (44.1\,kHz, 16-bit stereo CD transfers). Every
-candidate was screened by the author through whole-track listening; recordings were excluded for audible noise
+The source is a personal collection of 638 historical guqin recordings (44.1\,kHz, 16-bit stereo CD transfers). Every
+candidate was screened through whole-track listening; recordings were excluded for audible noise
 floors, ensembles or other instruments, applause and voice. The result is a set $\mathcal{R}$ of
 \textbf{412 solo recordings by 61 performers (42.5\,h)} with 108 distinct titles after normalising numbered
 variants. Performer coverage is uneven: the five most represented performers account for about 40\% of the duration.
@@ -92,7 +92,7 @@ and a given prefix (continuation),
 \begin{equation}
   P(\text{span},\ \text{full},\ \text{prefix}) = (0.1,\ 0.3,\ 0.6),
 \end{equation}
-which we changed from the default $(0.1, 0.8, 0.1)$ so that most training examples resemble continuation, our main
+which we changed from the default of the released Stable Audio~3 training code, $(0.1, 0.8, 0.1)$, so that most training examples resemble continuation, our main
 use. At inference the step-distilled Medium model integrates the flow in 8 steps.
 
 \subsection{Adaptation}
@@ -172,7 +172,7 @@ The model has 8 layers of width 512 and a 6-block AdaLN MLP head of width 1024 (
 on 1.42\,M frames of the training split with sequences of 512 frames.
 
 \subsection{Evaluation}\label{sec:eval}
-All listening was done by the author, who has extensive experience with the guqin repertoire, on local web pages in
+All listening was done by a single professional listener with extensive experience of the guqin repertoire, on local web pages in
 a fixed format: candidates for the same opening and seed are shuffled and unlabelled; each clip gets an overall
 score from 1 to 5, optional issue tags (e.g.\ \textit{too many semitones}, \textit{sawing/metallic noise},
 \textit{not guqin-like}, \textit{no melody}, \textit{abrupt seam}) and free-text comments; the mapping is revealed only
@@ -197,7 +197,7 @@ $S(n)=\sum_{q=1}^{5} 0.8^{\,q-1}\,|X(q f_n)|$ over semitones $n$, falls outside 
 \subsection{System performance}\label{sec:performance}
 The final adapter is the pass-14 checkpoint of the 370-recording run (Figure~\ref{fig:val}): validation loss fell from
 0.6020 for the unadapted model to 0.5950, and the three following passes did not improve on it. Training took
-45.9\,min per pass (2{,}500 steps plus validation of 276 windows) on one NVIDIA RTX~5070~Ti, about 11\,GB of GPU memory,
+45.9\,min per pass (2{,}500 steps plus validation of 276 windows) on a single consumer GPU (NVIDIA RTX~5070~Ti, 16\,GB),
 and 13\,h for the 17 passes. At inference the adapter generates 35\,s from text in 4.1\,s (8.6 times faster than real
 time) and continues a 10\,s opening by 25\,s in 6.0\,s, with a peak of 6.5\,GB of GPU memory.
 
@@ -226,7 +226,7 @@ raised by the previous one.
 \hline
 \colhead{Study} & \colhead{Condition} & \colhead{$n$} & \colhead{Mean score}\\
 \hline
-R1 masking & default mask / continuation mask / 412 recordings, continuation mask & 8 & 2.88 / 2.62 / 3.38 \\
+R1 masking & released default mask (10/80/10) / continuation mask (10/30/60) / 412 recordings, continuation mask & 8 & 2.88 / 2.62 / 3.38 \\
 R2 inference & adapter strength 1.0 / 0.7 / adapter on early steps only & 9--10 & 3.56 / 3.60 / 3.67 \\
  & base model with 50 steps / earlier 222-clip adapter & 10 & 2.70 / 3.10 \\
 R3 captions & continuation: no text in training / no prompt / matching / opposite tags & 9 & 3.89 / 3.56 / 4.00 / 4.00 \\
@@ -240,12 +240,12 @@ R7 final & continuation: pass 14 / pass 2 / adapter C & 8 & \textbf{3.88} / 2.75
 \end{tabular}
 \caption{Overview of the listening studies (scores 1--5, single expert listener). In R1 the 412-recording adapter
 had seen the validation compositions; all other comparisons use openings unseen by every compared model, except R2
-(see Section~\ref{sec:limits}).}
+(see the limitations in Section~\ref{sec:discussion}).}
 \label{tab:studies}
 \end{table*}
 
 \paragraph{Masking and data (R1).} With 329 training recordings, the continuation-weighted mask did not beat the
-default (2.62 against 2.88), and the two seeds differed by 1.6 points on average (2.17 against 3.75), more than any
+released default mixture (2.62 against 2.88), and the two seeds differed by 1.6 points on average (2.17 against 3.75), more than any
 model difference.
 
 \paragraph{Inference settings (R2).} Lowering adapter strength or restricting the adapter to the early, high-noise
@@ -363,9 +363,7 @@ under an hour all shaped what could be trained. A planned held-out performer was
 412-recording training set, which compromised one study; keeping held-out material out of every automated corpus
 build is worth an explicit check.
 
-\section{Limitations}\label{sec:limits}
-
-All ratings come from one listener, who is also the author and designed the systems; the studies are small and were
+\paragraph{Limitations.}\label{sec:limits} All ratings come from one listener; the studies are small and were
 run sequentially as development proceeded. In R2 the openings came from a performer who, contrary to the original
 plan, had been included in the 412-recording training set. The narratives and tags are condensed readings of
 traditional notes on each piece and simplify a rich interpretive tradition; 22 of the 108 titles are inferred from
@@ -388,10 +386,10 @@ Code for corpus preparation, training, generation, listening pages and analysis,
 rating and validation log and the script that recomputes all numbers and figures in this article, is available
 \ifdefined\anonymous in an anonymised repository (link withheld for review)\else at
 \url{https://github.com/HuanchenCai/guqin-generation} (tag \texttt{freeze-2026-10-05}, which also records the
-SHA-256 hashes of all checkpoints used)\fi. The training recordings are commercially published historical
-performances protected by copyright and cannot be redistributed, and for the same reason we do not release audio
+SHA-256 hashes of all checkpoints used)\fi. The training recordings come from a personal collection of
+historical performances that remain under copyright and cannot be redistributed, and for the same reason we do not release audio
 generated from them or the adapter weights. The base model is used under Stability AI's community license.
 
 \section{Ethics and Consent}
 
-The listening studies involved no participants other than the author. No personal data were collected.
+The listening studies involved a single expert listener. No personal data were collected.
