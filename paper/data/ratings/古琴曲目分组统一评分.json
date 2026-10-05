@@ -1,0 +1,102 @@
+{
+  "schema": "guqin-piece-comparison-v1",
+  "ratings": {
+    "validation_01.flac|84917|B": {
+      "score": 2,
+      "fault": false
+    },
+    "validation_01.flac|84917|A": {
+      "score": 2,
+      "fault": false
+    },
+    "validation_01.flac|84917|C": {
+      "score": 2,
+      "fault": false
+    },
+    "validation_01.flac|94017|B": {
+      "score": 1,
+      "fault": false
+    },
+    "validation_01.flac|94017|A": {
+      "score": 2,
+      "fault": false
+    },
+    "validation_01.flac|94017|C": {
+      "score": 3,
+      "fault": false
+    },
+    "validation_02.flac|84917|A": {
+      "score": 1,
+      "fault": false
+    },
+    "validation_02.flac|84917|B": {
+      "score": 3,
+      "fault": false
+    },
+    "validation_02.flac|84917|C": {
+      "score": 3,
+      "fault": false
+    },
+    "validation_02.flac|94017|A": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_02.flac|94017|B": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_02.flac|94017|C": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_03.flac|84917|A": {
+      "score": 1,
+      "fault": false
+    },
+    "validation_03.flac|84917|B": {
+      "score": 2,
+      "fault": false
+    },
+    "validation_03.flac|84917|C": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_03.flac|94017|A": {
+      "score": 5,
+      "fault": false
+    },
+    "validation_03.flac|94017|B": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_03.flac|94017|C": {
+      "score": 5,
+      "fault": false
+    },
+    "validation_04.flac|84917|A": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_04.flac|84917|B": {
+      "score": 1,
+      "fault": false
+    },
+    "validation_04.flac|84917|C": {
+      "score": 1,
+      "fault": false
+    },
+    "validation_04.flac|94017|A": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_04.flac|94017|B": {
+      "score": 4,
+      "fault": false
+    },
+    "validation_04.flac|94017|C": {
+      "score": 5,
+      "fault": false
+    }
+  },
+  "generated_at": "2026-09-25T13:38:12.444Z"
+}

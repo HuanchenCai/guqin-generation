@@ -1,0 +1,139 @@
+{
+  "experiment": "guqin_story_v1",
+  "scoring": "1-5 higher is better",
+  "state": {
+    "o01_C.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "后面有点静音"
+    },
+    "o01_new.flac": {
+      "score": "",
+      "issues": [
+        "半音多"
+      ],
+      "comment": ""
+    },
+    "o02_new.flac": {
+      "score": "3",
+      "issues": [
+        "半音多"
+      ],
+      "comment": ""
+    },
+    "o02_C.flac": {
+      "score": "3",
+      "issues": [
+        "半音多",
+        "拉锯/金属杂音"
+      ],
+      "comment": "10s仿佛砸琴，比前面 好一些"
+    },
+    "o03_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_new.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o04_C.flac": {
+      "score": "4",
+      "issues": [
+        "半音多"
+      ],
+      "comment": ""
+    },
+    "o04_new.flac": {
+      "score": "3",
+      "issues": [
+        "半音多"
+      ],
+      "comment": "最后有一个莫名不和谐"
+    },
+    "o05_new.flac": {
+      "score": "2",
+      "issues": [
+        "拉锯/金属杂音",
+        "没旋律",
+        "音量不稳"
+      ],
+      "comment": ""
+    },
+    "o05_C.flac": {
+      "score": "4",
+      "issues": [
+        "半音多",
+        "音量不稳"
+      ],
+      "comment": ""
+    },
+    "o06_new.flac": {
+      "score": "3",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o06_C.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o07_C.flac": {
+      "score": "3",
+      "issues": [
+        "重复开头",
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o07_new.flac": {
+      "score": "4",
+      "issues": [
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o08_new.flac": {
+      "score": "1",
+      "issues": [
+        "半音多",
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o08_C.flac": {
+      "score": "1",
+      "issues": [
+        "半音多",
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "t01_new.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "t02_new.flac": {
+      "score": "",
+      "issues": [
+        "不符合描述"
+      ],
+      "comment": "不够激昂"
+    },
+    "t05_new.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "前面四个其实听感大差不离，这个前面好一点，后面也相似了。"
+    },
+    "t06_new.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "听感效果更好，以这个为基点，开始考虑展示，v0版，生成类似这样的片段五段"
+    }
+  }
+}

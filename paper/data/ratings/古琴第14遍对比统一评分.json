@@ -1,0 +1,202 @@
+{
+  "experiment": "guqin_pass14_v1",
+  "scoring": "1-5 higher is better",
+  "state": {
+    "o01_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o01_C.flac": {
+      "score": "4",
+      "issues": [
+        "接缝突兀"
+      ],
+      "comment": "18s左右半音多"
+    },
+    "o01_pass2.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_pass2.flac": {
+      "score": "1",
+      "issues": [
+        "半音多",
+        "拉锯/金属杂音"
+      ],
+      "comment": "12s处放炮一样"
+    },
+    "o02_C.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": "12s一样在放炮，31秒后静音了"
+    },
+    "o02_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "虽然半音还是有一些，但是总体旋律流畅"
+    },
+    "o03_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_pass2.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o04_pass2.flac": {
+      "score": "3",
+      "issues": [
+        "半音多"
+      ],
+      "comment": ""
+    },
+    "o04_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o04_pass14.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o05_pass2.flac": {
+      "score": "2",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o05_C.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": ""
+    },
+    "o05_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o06_pass14.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o06_pass2.flac": {
+      "score": "3",
+      "issues": [
+        "拉锯/金属杂音",
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o06_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o07_C.flac": {
+      "score": "2",
+      "issues": [
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o07_pass14.flac": {
+      "score": "2",
+      "issues": [
+        "没旋律",
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o07_pass2.flac": {
+      "score": "2",
+      "issues": [
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o08_pass2.flac": {
+      "score": "2",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o08_pass14.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "o08_C.flac": {
+      "score": "2",
+      "issues": [],
+      "comment": ""
+    },
+    "s1_pass14.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "s1_pass2.flac": {
+      "score": "1",
+      "issues": [
+        "半音多",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "s2_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "s2_pass2.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "s3_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "绝品，记录好，这个肯定拿出来用的。此外，能不能在此基础上拓展。"
+    },
+    "s3_pass2.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "像喝醉酒，其实也不错"
+    },
+    "s4_pass14.flac": {
+      "score": "4",
+      "issues": [
+        "半音多"
+      ],
+      "comment": ""
+    },
+    "s4_pass2.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "s5_pass2.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "s5_pass14.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "旋律更多样"
+    }
+  }
+}

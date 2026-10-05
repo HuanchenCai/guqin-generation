@@ -1,0 +1,77 @@
+{
+ "frozen_at": "2026-10-05",
+ "git_commit_before_freeze": "c7a49d5",
+ "base_models": {
+  "generator": "stabilityai/stable-audio-3-medium (inference), stable-audio-3-medium-base (training)",
+  "autoencoder": "SAME-L",
+  "stable_audio_3_repo_commit": "7f3a3a0"
+ },
+ "corpus": {
+  "recordings": 412,
+  "windows": 2764,
+  "silent_windows_skipped": 9,
+  "recordings_per_split": {
+   "train": 329,
+   "test": 41,
+   "validation": 42
+  },
+  "windows_per_split": {
+   "train": 2217,
+   "test": 271,
+   "validation": 276
+  },
+  "performers": 61
+ },
+ "checkpoints": {
+  "final_story_pass14": {
+   "path": "work/guqin_aligned_412/story_run/pass14/seg_00000/epoch=1-step=2500.ckpt",
+   "sha256": "4ff5e5b752f9667e3e618f2d4877e7a634b2b7a425a39a9ec0b0c8b3209ec80e",
+   "bytes": 86590945
+  },
+  "story_pass2": {
+   "path": "work/guqin_aligned_412/story_run/pass02/seg_00000/epoch=1-step=2500.ckpt",
+   "sha256": "1a02ed72aad5ffa5f1cbf301f9e17219666e4b3cbec64d6ec5a44dd32d2ef6f6",
+   "bytes": 86590945
+  },
+  "C_tags_mode_3pass_329": {
+   "path": "work/guqin_aligned_412/pilot3x_tags_mode/epoch=2-step=6624.ckpt",
+   "sha256": "bf9d77b82c3cdb21824a4081c21bb50318c8f59426783f03467ed72f2060bdd3",
+   "bytes": 86590945
+  },
+  "B_tags_3pass_329": {
+   "path": "work/guqin_aligned_412/pilot3x_tags/epoch=2-step=6624.ckpt",
+   "sha256": "c785848f22b9f2cbc59137ccb827bd05df95ecf98fc56cf12c01ca02b9e8b5bd",
+   "bytes": 86590945
+  },
+  "A_pilot_continuation_1pass_329": {
+   "path": "work/guqin_aligned_412/pilot_continuation/epoch=1-step=2217.ckpt",
+   "sha256": "9647134d9a4d4b6c1735a5934401b8a61ad290a16ca892e02486adf0518405ad",
+   "bytes": 86590945
+  },
+  "pilot_default_mask_1pass_329": {
+   "path": "work/guqin_aligned_412/pilot_default/epoch=1-step=2217.ckpt",
+   "sha256": "ccb6f09a268122fd60c66fa1318ab1d1fceaae667fe49f682204300611c5dc2b",
+   "bytes": 86590945
+  },
+  "full_412_untagged": {
+   "path": "work/guqin_aligned_412/full_412/epoch=1-step=2764.ckpt",
+   "sha256": "fcb6609e14654e87df5013d24f5c94b904632a68c25334508fdb0e096cd1f941",
+   "bytes": 86590945
+  },
+  "full_412_captioned": {
+   "path": "work/guqin_aligned_412/full_412_captioned/epoch=1-step=2764.ckpt",
+   "sha256": "8e76b36201e9b045b871972812a259f42997d9874b6402c769a4a72bedb5e579",
+   "bytes": 86590945
+  },
+  "old_222_clip_adapter": {
+   "path": "work/sa3_feedback_bulk/medium_run/epoch=4-step=1000.safetensors",
+   "sha256": "e28b12dee46284b263cab7735e4c83578882b4597ea4310ee50f4c63eaaffb80",
+   "bytes": 86439528
+  },
+  "latent_lm_d512_step10000": {
+   "path": "work/guqin_aligned_412/latent_lm_d512/step010000.pt",
+   "sha256": "cfbc848a26d2909d6099895e4c6049b86bee092f2f5d965a3a3fe4be91d32c3d",
+   "bytes": 578655101
+  }
+ }
+}

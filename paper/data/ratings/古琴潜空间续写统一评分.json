@@ -1,0 +1,132 @@
+{
+  "experiment": "guqin_latent_lm_v1",
+  "scoring": "1-5 higher is better",
+  "state": {
+    "c01_sa3.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": "旋律不稳，半音"
+    },
+    "c01_latent_lm.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "c02_latent_lm.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "不像古琴",
+        "没旋律",
+        "音量不稳"
+      ],
+      "comment": ""
+    },
+    "c02_sa3.flac": {
+      "score": "1",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": "半音，但是音色稍微好一些"
+    },
+    "c03_sa3.flac": {
+      "score": "1",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": "全是半音"
+    },
+    "c03_latent_lm.flac": {
+      "score": "1",
+      "issues": [
+        "没旋律",
+        "音量不稳"
+      ],
+      "comment": "甲好歹像古琴，这个完全没有"
+    },
+    "c04_latent_lm.flac": {
+      "score": "1",
+      "issues": [
+        "音量不稳"
+      ],
+      "comment": "后面突然静音"
+    },
+    "c04_sa3.flac": {
+      "score": "3",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": "除了旋律有点奇怪，像在练琴，不是在演奏，音色其实不错"
+    },
+    "c05_latent_lm.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "c05_sa3.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": "还不错，稍微旋律不够丰富"
+    },
+    "c06_latent_lm.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": "就没有音色"
+    },
+    "c06_sa3.flac": {
+      "score": "3",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": "旋律差一些，两个音之间太快了"
+    },
+    "endless_t0.8.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "不像古琴",
+        "没旋律",
+        "音量不稳"
+      ],
+      "comment": ""
+    },
+    "endless_t1.0.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "不像古琴",
+        "没旋律",
+        "音量不稳"
+      ],
+      "comment": ""
+    },
+    "free_1.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "free_2.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "free_3.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "没旋律"
+      ],
+      "comment": ""
+    }
+  }
+}

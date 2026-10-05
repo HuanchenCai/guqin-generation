@@ -1,0 +1,276 @@
+{
+  "experiment": "guqin_inference_sweep_v4",
+  "scoring": "1-5 higher is better",
+  "state": {
+    "o01_84917_C07.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "音色前面非常完美，但是后面几个转音转得很鬼畜。"
+    },
+    "o01_84917_CBase.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": "其他乐器也有"
+    },
+    "o01_84917_C10.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "偶尔有点不稳"
+    },
+    "o01_84917_D222.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": "后面开始唱歌了"
+    },
+    "o01_84917_CEarly.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "还是有几个转音很鬼畜"
+    },
+    "o01_94017_CBase.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "旋律有点不稳"
+    },
+    "o01_94017_D222.flac": {
+      "score": "1",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o01_94017_CEarly.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": ""
+    },
+    "o01_94017_C07.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": "旋律不稳，音色很对"
+    },
+    "o01_94017_C10.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": "旋律不稳，音色很对，比前面好一点点"
+    },
+    "o01_20260925_CBase.flac": {
+      "score": "1",
+      "issues": [
+        "没旋律",
+        "音量不稳"
+      ],
+      "comment": ""
+    },
+    "o01_20260925_C07.flac": {
+      "score": "1",
+      "issues": [
+        "重复"
+      ],
+      "comment": ""
+    },
+    "o01_20260925_C10.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "接缝突兀"
+      ],
+      "comment": ""
+    },
+    "o01_20260925_CEarly.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o01_20260925_D222.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_84917_CEarly.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "旋律有点差，音色很好"
+    },
+    "o02_84917_C07.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "后半段旋律很跳跃"
+    },
+    "o02_84917_C10.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "旋律好一些些"
+    },
+    "o02_84917_D222.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_84917_CBase.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音",
+        "不像古琴"
+      ],
+      "comment": ""
+    },
+    "o02_94017_D222.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "旋律有点差，音色很好"
+    },
+    "o02_94017_C07.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_94017_C10.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_94017_CBase.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_20260925_C07.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_20260925_CBase.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_20260925_D222.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_20260925_CEarly.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "旋律不太稳"
+    },
+    "o03_84917_C07.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_84917_C10.flac": {
+      "score": "2",
+      "issues": [],
+      "comment": "有点意思这个旋律，但是不太真实"
+    },
+    "o03_84917_CBase.flac": {
+      "score": "1",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o03_84917_CEarly.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_84917_D222.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_94017_C10.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "完美"
+    },
+    "o03_94017_CBase.flac": {
+      "score": "3",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o03_94017_CEarly.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_94017_C07.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_94017_D222.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_20260925_D222.flac": {
+      "score": "3",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o03_20260925_C10.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_20260925_CBase.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_20260925_CEarly.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_20260925_C07.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o04_84917_CBase.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "o04_84917_CEarly.flac": {
+      "score": "4",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o04_84917_C07.flac": {
+      "score": "4",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o04_84917_D222.flac": {
+      "score": "3",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o04_84917_C10.flac": {
+      "score": "3",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    }
+  }
+}

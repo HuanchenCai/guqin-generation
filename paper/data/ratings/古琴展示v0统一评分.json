@@ -1,0 +1,41 @@
+{
+  "experiment": "guqin_showcase_v0",
+  "scoring": "1-5 higher is better",
+  "state": {
+    "s1_808.flac": {
+      "score": "",
+      "issues": [],
+      "comment": "入选"
+    },
+    "s2_31.flac": {
+      "score": "",
+      "issues": [],
+      "comment": "入选"
+    },
+    "s3_2027.flac": {
+      "score": "",
+      "issues": [],
+      "comment": ""
+    },
+    "s3_31.flac": {
+      "score": "",
+      "issues": [],
+      "comment": "入选"
+    },
+    "s4_2027.flac": {
+      "score": "",
+      "issues": [],
+      "comment": ""
+    },
+    "s4_808.flac": {
+      "score": "",
+      "issues": [],
+      "comment": "入选"
+    },
+    "s5_2027.flac": {
+      "score": "",
+      "issues": [],
+      "comment": "入选"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "experiment": "guqin_semitone_v1",
+  "scoring": "1-5 higher is better",
+  "state": {
+    "o01_s7_B.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "12 14 秒有点半音不自然"
+    },
+    "o01_s7_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "12 14 秒有点半音不自然"
+    },
+    "o01_s7_A.flac": {
+      "score": "3",
+      "issues": [],
+      "comment": "12 14 秒有点半音更糟糕，不行"
+    },
+    "o02_s7_A.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "完全就是真实"
+    },
+    "o02_s7_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o02_s7_B.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o03_s7_B.flac": {
+      "score": "4",
+      "issues": [
+        "没旋律"
+      ],
+      "comment": "半音问题没有，旋律接不上，音质也差一些"
+    },
+    "o03_s7_C.flac": {
+      "score": "4",
+      "issues": [
+        "半音多"
+      ],
+      "comment": ""
+    },
+    "o03_s7_A.flac": {
+      "score": "2",
+      "issues": [
+        "半音多",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o04_s7_C.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o04_s7_A.flac": {
+      "score": "5",
+      "issues": [
+        "半音多"
+      ],
+      "comment": "14-17都是半音，但是后面还不错"
+    },
+    "o04_s7_B.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": "14-17都是半音，但是后面还不错"
+    },
+    "o05_s7_A.flac": {
+      "score": "5",
+      "issues": [
+        "重复开头",
+        "接缝突兀"
+      ],
+      "comment": "接缝处很奇怪，后面还好"
+    },
+    "o05_s7_C.flac": {
+      "score": "5",
+      "issues": [
+        "重复开头"
+      ],
+      "comment": "22s半音的走向不对"
+    },
+    "o05_s7_B.flac": {
+      "score": "1",
+      "issues": [
+        "半音多",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o06_s7_A.flac": {
+      "score": "2",
+      "issues": [],
+      "comment": ""
+    },
+    "o06_s7_B.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "o06_s7_C.flac": {
+      "score": "1",
+      "issues": [],
+      "comment": ""
+    },
+    "o07_s7_C.flac": {
+      "score": "4",
+      "issues": [
+        "拉锯/金属杂音"
+      ],
+      "comment": ""
+    },
+    "o07_s7_B.flac": {
+      "score": "5",
+      "issues": [],
+      "comment": ""
+    },
+    "o07_s7_A.flac": {
+      "score": "4",
+      "issues": [
+        "不像古琴",
+        "没旋律"
+      ],
+      "comment": ""
+    },
+    "o08_s7_A.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "28s旋律有点半音"
+    },
+    "o08_s7_B.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "28s旋律有点半音"
+    },
+    "o08_s7_C.flac": {
+      "score": "4",
+      "issues": [],
+      "comment": "28s旋律有点半音，这三个都是，但其实也还好。"
+    }
+  }
+}
