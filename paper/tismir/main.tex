@@ -1,0 +1,109 @@
+% TISMIR submission, named build (to check the typeset layout): latexmk -pdf main.tex
+% The anonymised build for double-blind review is main_review.tex, which sets the
+% anonymous flag and inputs this file. arxiv.tex shares body.tex and statements.tex.
+\documentclass[ProofPDF]{./Styles/Jnls-Template-V3}
+\usepackage{CJKutf8}
+\newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+
+\input{statements}
+
+\begin{document}
+
+\jname{Transactions of the International Society for Music Information Retrieval }
+\jvol{00}
+\jissue{00}
+\jmonth{season}
+\jyear{xxx}
+\jid{doi}
+\artid{xx.xxxx/xxxx.xx}
+\filename{main}
+\def\MSFirstPage{\pageref{startPage_Label}}
+\def\MSLastPage{\pageref{endPage_Label}}
+\graphicspath{{../generated/}}
+\label{startPage_Label}
+\title{Adapting a Latent Audio Diffusion Model to Historical Guqin Recordings: A Listening-Driven Case Study}
+
+\articletype{RESEARCH ARTICLE}
+
+\ifdefined\anonymous
+\author[1]{Anonymous Author}
+\howtociteauthor[1]{Anonymous}
+\rhauthor[1]{Anonymous}
+\aff[1]{Anonymous affiliation}
+\else
+\author[1]{Huanchen Cai}
+\howtociteauthor[1]{H. Cai}
+\rhauthor[1]{H. Cai}
+\aff[1]{Division of Speech, Music and Hearing (TMH), KTH Royal Institute of Technology, Stockholm, Sweden; Spr\aa kbanken project, \href{mailto:huanchen@kth.se}{huanchen@kth.se}}
+\fi
+\afflnote{*Author affiliations can be found in the back matter of this article}
+
+\begin{history}
+\submitted{\submittedday{xxx}\submittedmonth{xxx}\submittedyear{xxx}}
+\accepted{\acceptedday{xxx}\acceptedmonth{xxx}\acceptedyear{xxx}}
+\published{\publishedday{xxx}\publishedmonth{xxx}\publishedyear{xxx}}
+\end{history}
+
+\begin{abstract}[ABSTRACT]
+We report a small-data case study in adapting a pretrained latent audio diffusion model to the guqin, the
+seven-string Chinese zither, aiming at an ``AI radio'' that plays guqin-style music without end. From a library
+of historical recordings we curate 412 solo performances (42.5\,h, 61 performers) and split them by composition.
+We fine-tune a rank-16 DoRA adapter on Stable Audio~3 Medium using its continuous latents, masking weighted
+towards continuation, captions that combine researched notes on each piece with mood tags and an automatically
+estimated pentatonic mode, and random-length crops, stopping when held-out loss stops improving. Seven blind
+listening studies by one expert listener guided every decision. The final adapter was rated highest for
+continuing unseen pieces (3.9/5, against 3.4 for the best earlier adapter) and 4.6/5 for generating from
+free-written scene descriptions. Negative results are equally informative: a from-scratch autoregressive model
+over the same latents produced no recognisable timbre, a signal-level friction-noise measure correlated with the
+listener's complaints in the wrong direction, and a pentatonic-fit measure tracked ratings overall but barely
+within a group of candidates. Chaining continuations for long playback exposed a silent tail on every generated
+clip and a loudness feedback loop, both with simple fixes. With one listener and at most ten clips per condition,
+no paired difference is statistically significant; we present an exploratory record of what helped, what did
+not, and why.
+\end{abstract}
+
+\begin{keyword}[KEYWORDS:]
+guqin, music generation, latent diffusion, low-resource fine-tuning, listening evaluation
+\end{keyword}
+
+\maketitle
+
+% comment out after review
+\linenumbers
+
+\input{body}
+
+\nolinenumbers
+% \theendnotes  % this article has no endnotes; the call fails without a .ent file
+
+\begin{acknowledgements}[Acknowledgements]
+\ifdefined\anonymous
+Acknowledgements withheld for review.
+\else
+\ackText
+\fi
+\end{acknowledgements}
+
+\section*{Competing Interests}
+The author has no competing interests to declare.
+
+\section*{Authors' Contributions}
+\ifdefined\anonymous
+Withheld for review.
+\else
+\contribText
+\fi
+
+\subsection*{Use of AI tools}
+\aiText
+
+\begin{authoraff}[AUTHOR AFFILIATIONS]
+% automatically filled
+\end{authoraff}
+\clearpage
+
+\bibliographystyle{apaTISMIR}
+\bibliography{references}
+\label{endPage_Label}
+
+\end{document}

@@ -39,3 +39,4 @@
 /paper/**/*.synctex.gz
 /paper/**/*.log
 !/paper/data/overfit_validation.log
+/paper/tismir/build_*.log

@@ -1,0 +1,68 @@
+% arXiv version: same body and statements as the TISMIR submission (main.tex),
+% in a plain article layout without journal branding.
+%   latexmk -pdf arxiv.tex
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[round,authoryear]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{CJKutf8}
+\newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+\newcommand{\colhead}[1]{\textbf{#1}}
+\graphicspath{{../generated/}{generated/}}
+\input{statements}
+
+\title{Adapting a Latent Audio Diffusion Model to Historical Guqin Recordings:\\
+A Listening-Driven Case Study}
+\author{Huanchen Cai\\
+\small Division of Speech, Music and Hearing (TMH), KTH Royal Institute of Technology, Stockholm, Sweden\\
+\small Spr\aa kbanken project \quad \href{mailto:huanchen@kth.se}{huanchen@kth.se}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report a small-data case study in adapting a pretrained latent audio diffusion model to the guqin, the
+seven-string Chinese zither, aiming at an ``AI radio'' that plays guqin-style music without end. From a library
+of historical recordings we curate 412 solo performances (42.5\,h, 61 performers) and split them by composition.
+We fine-tune a rank-16 DoRA adapter on Stable Audio~3 Medium using its continuous latents, masking weighted
+towards continuation, captions that combine researched notes on each piece with mood tags and an automatically
+estimated pentatonic mode, and random-length crops, stopping when held-out loss stops improving. Seven blind
+listening studies by one expert listener guided every decision. The final adapter was rated highest for
+continuing unseen pieces (3.9/5, against 3.4 for the best earlier adapter) and 4.6/5 for generating from
+free-written scene descriptions. Negative results are equally informative: a from-scratch autoregressive model
+over the same latents produced no recognisable timbre, a signal-level friction-noise measure correlated with the
+listener's complaints in the wrong direction, and a pentatonic-fit measure tracked ratings overall but barely
+within a group of candidates. Chaining continuations for long playback exposed a silent tail on every generated
+clip and a loudness feedback loop, both with simple fixes. With one listener and at most ten clips per condition,
+no paired difference is statistically significant; we present an exploratory record of what helped, what did
+not, and why.
+\end{abstract}
+
+\noindent\textbf{Keywords:} guqin, music generation, latent diffusion, low-resource fine-tuning, listening
+evaluation
+
+\input{body}
+
+\section*{Acknowledgements}
+\ackText
+
+\section*{Competing Interests}
+The author has no competing interests to declare.
+
+\section*{Author Contributions}
+\contribText
+
+\section*{Use of AI Tools}
+\aiText
+
+\bibliographystyle{apaTISMIR}
+\bibliography{references}
+
+\end{document}
