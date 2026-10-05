@@ -2,19 +2,19 @@
 
 Results are frozen at git tag `freeze-2026-10-05` (`FREEZE.json` lists the SHA-256 of every checkpoint used).
 
-## Versions
+## The preprint
 
-All three share `tismir/body.tex` (main text) and `tismir/statements.tex` (contributions, AI use, acknowledgements).
+`tismir/arxiv.pdf` is the arXiv preprint. It follows the conventions of the Transactions of the International
+Society for Music Information Retrieval (TISMIR): APA author-year references with DOIs, contribution and AI-use
+statements, but in a plain layout without journal branding.
 
-| File | Purpose | Build (in `tismir/`) |
-|---|---|---|
-| `tismir/arxiv.pdf` | arXiv preprint, plain layout, named | `latexmk -pdf arxiv.tex` |
-| `tismir/main_review.pdf` | TISMIR submission, anonymised for double-blind review | `latexmk -pdf main_review.tex` |
-| `tismir/main.pdf` | TISMIR layout with author details, for checking typesetting | `latexmk -pdf main.tex` |
+- Build: `latexmk -pdf arxiv.tex` in `tismir/`
+- Self-contained arXiv source package: `arxiv_submission.zip` (tested to build on its own)
 
-`arxiv_submission.zip` is the self-contained arXiv source package (tested to build on its own).
-The TISMIR template files in `tismir/` come from <https://github.com/ismir/paper_templates_TISMIR_new> (CC BY 4.0).
-Building with MiKTeX needs the `sttools` package.
+The text lives in `tismir/body.tex` and `tismir/statements.tex`. `tismir/main.tex` (TISMIR layout) and
+`tismir/main_review.tex` (anonymised) wrap the same text for a possible later journal submission; their PDFs are
+not part of the preprint. Template files come from <https://github.com/ismir/paper_templates_TISMIR_new>
+(CC BY 4.0); building them with MiKTeX needs the `sttools` package.
 
 ## Numbers and figures
 
