@@ -1,132 +1,228 @@
 % Shared body of the article (TISMIR submission and arXiv versions).
 \section{Introduction}\label{sec:intro}
 
-Text-to-music and audio continuation models are trained mostly on Western popular and library music.
-The guqin is a poor fit for that prior: its repertoire is largely pentatonic, its expressive vocabulary
-lives in left-hand slides and vibrato (\zh{吟猱绰注}) whose passing semitones are idiomatic only in specific
-places, and the best-known performances survive mainly as mid-twentieth-century recordings with tape hiss and
-limited bandwidth. The amount of usable solo audio is also small: tens of hours, not thousands.
+The guqin (\zh{古琴}) is a seven-string fretless zither with a documented history of more than two thousand
+years and an exceptionally rich written tradition: its repertoire survives in hundreds of handbooks written in
+\emph{jianzipu} (\zh{减字谱}), a tablature that records finger actions rather than pitches and rhythms. Three kinds of
+sound define its idiom: open strings (\emph{sanyin}), harmonics (\emph{fanyin}) and stopped notes (\emph{anyin}),
+the latter shaped by left-hand slides and vibrato (\zh{吟猱绰注}) whose passing semitones and friction noise are
+part of the style rather than errors. The repertoire is predominantly pentatonic, and the best-known performances
+survive as mid-twentieth-century recordings with tape hiss and limited bandwidth.
 
-Our practical goal is an ``AI radio'': a system that keeps producing guqin-like music for hours, either
-continuing from a recorded opening or following a short textual description of a scene. This article documents
-how we got from a general-purpose model to an adapter that a guqin-literate listener rates as convincing, and
-records the dead ends along the way, because in a domain this small the negative results are a large part of
-what was learned.
+\paragraph{Computational guqin research.} Engineering work on the guqin has so far concentrated on analysis,
+notation and synthesis rather than on generation; \cite{hui2024retrospective} reviews its development in the
+digital humanities. On the acoustic side, \cite{penttinen2006guqin} built a model-based synthesiser using
+commuted digital waveguides that reproduces inharmonicity, glides, harmonics and the friction sound of sliding
+fingers, and \cite{liu2024dataset} describe the construction of an acoustic dataset of the instrument. For
+performance analysis, \cite{huang2020guqin} jointly model mode and playing technique on note-annotated historical
+recordings (GQ39); GuqinSonGest \citep{han2025guqinsongest} provides audio and video of playing techniques derived
+from a ninth-century treatise; and \cite{zhang2025techniques} apply machine learning to technique analysis.
+Technique detection for the related guzheng \citep{li2022guzheng} shows the same need for onset-aware modelling of
+plucked Chinese zithers. A second strand digitises jianzipu: image recognition of historical scores
+\citep{chen2025jianzipu}, zero-shot recognition of its open, compositional glyph system \citep{li2026jianzi},
+language-model-based transcription of note durations \citep{shi2024qinbert}, pitch generation from string and
+\emph{hui} positions \citep{wang2025jianzipu}, deep-learning restoration of guqin music from notation
+\citep{kuremoto2024restoration}, and a symbolic dataset of transcribed scores \citep{guqindataset}. Interactive and
+embodied systems complete the picture: projected augmentation for learning \citep{zhang2015chinar} and, recently,
+robotic guqin playing \citep{zhang2026hapticfinger,wang2026robotguqin}. To our knowledge no published work generates
+guqin \emph{audio} with a modern neural generative model.
 
-Our contributions are:
-\begin{itemize}
-  \item A curation and evaluation protocol for a small historical corpus: listening screening of every
-        recording, composition-level splits so that test pieces are never heard in another performer's version,
-        and blind, shuffled listening with free-text comments (Sections~\ref{sec:data} and~\ref{sec:eval}).
-  \item A fine-tuning recipe for Stable Audio~3 Medium~\citep{evans2026stableaudio3} on 42\,h of audio:
-        DoRA~\citep{liu2024dora} on the base model with inference on the distilled model, masking weighted towards
-        prefix continuation, captions that mix researched notes on each composition with mood tags and an
-        estimated pentatonic mode, random-length crops, and early stopping on held-out loss
-        (Section~\ref{sec:method}).
-  \item Seven listening studies and the decisions they drove, including clear negative results for a
-        from-scratch latent language model and for two automatic quality measures (Section~\ref{sec:results}).
-  \item Two practical failure modes of chained continuation for long playback, with fixes
-        (Section~\ref{sec:chain}).
-\end{itemize}
+\paragraph{Neural audio generation.} Latent diffusion models such as Stable Audio \citep{evans2024fast}, Stable Audio
+Open \citep{evans2024open} and Stable Audio~3 \citep{evans2026stableaudio3} generate variable-length audio in the
+latent space of an autoencoder and support inpainting and continuation; training window length matters for musical
+structure \citep{evans2024longform}. Autoregressive token models such as MusicGen \citep{copet2023musicgen} and live
+streaming models \citep{lyria2025live} generate indefinitely by construction, while continuous-latent autoregression
+with a diffusion or flow head \citep{li2024mar} avoids quantisation, and context noise augmentation reduces error
+accumulation \citep{pasini2024continuous}. These models are trained mostly on Western popular and library music,
+which is a poor prior for an instrument whose idiomatic noises and semitones are concentrated in specific gestures.
+Low-rank adaptation \citep{hu2021lora,liu2024dora} makes it possible to adapt them with tens of hours of audio, and
+repeating data for several epochs is nearly as useful as fresh data when data are scarce
+\citep{muennighoff2023scaling}. For generated music, replication of training material is a central concern
+\citep{batlleroca2024replication}.
 
-\section{Related Work}\label{sec:related}
-
-\subsection{Latent audio diffusion}
-Stable Audio~\citep{evans2024fast} generates variable-length audio by diffusion in the latent space of an
-autoencoder, conditioned on text and timing; Stable Audio Open~\citep{evans2024open} and Stable
-Audio~3~\citep{evans2026stableaudio3} extend this with open weights, inpainting and continuation. Work on
-long-form generation with latent diffusion~\citep{evans2024longform} shows that the training window length
-matters for musical structure. We build directly on Stable Audio~3 Medium and its continuous SAME-L autoencoder.
-
-\subsection{Autoregressive music models}
-Token-based language models such as MusicGen~\citep{copet2023musicgen} and streaming systems such as Magenta
-RealTime~\citep{lyria2025live} generate indefinitely by construction. Continuous-latent autoregression with a
-diffusion or flow head~\citep{li2024mar} avoids quantisation, and noise augmentation of the context reduces error
-accumulation~\citep{pasini2024continuous}. We test a small model of this kind trained from scratch
-(Section~\ref{sec:latentlm}).
-
-\subsection{Adaptation from small data}
-LoRA~\citep{hu2021lora} and DoRA~\citep{liu2024dora} adapt large models with few trainable parameters. For
-data-constrained training, repeating data for a few epochs is nearly as useful as fresh
-data~\citep{muennighoff2023scaling}, which motivates our multi-pass schedule with early stopping.
-
-\subsection{Guqin and evaluation}
-Prior guqin MIR work analyses mode and playing technique from historical recordings~\citep{huang2020guqin}. For
-generated music, replication of training data is a central concern~\citep{batlleroca2024replication}; we keep
-evaluation pieces out of training at the composition level.
-
-\section{Data}\label{sec:data}
-
-\subsection{Source and screening}
-The source is a private library of 638 historical guqin recordings (44.1\,kHz, 16-bit stereo CD transfers). Every
-candidate was screened by the author, a guqin-literate listener, through a whole-track listening page; recordings
-were excluded for audible noise floors, ensembles or non-guqin instruments, and voice. The result is
-\textbf{412 solo recordings by 61 performers, 42.5\,h}, with 108 distinct titles after normalising numbered
-variants (a few titles are alternative names of the same piece). Performer coverage is uneven: the five most
-represented performers account for about 40\% of the duration.
-
-\subsection{Splits}
-We split by composition rather than by performer, so that no version of a test composition is heard in training:
-329 recordings for training, 42 for validation and 41 for test. Each recording is cut into aligned windows of the
-model's native length (59.9\,s) that together cover the whole performance, giving 2{,}764 windows
-(2{,}217/276/271); nine windows of pure digital silence are dropped. The final run trains on the training and
-test recordings together (370 recordings) and keeps the 42 validation recordings out for early stopping and
-listening.
-
-\subsection{Captions}
-For each composition we compiled a short narrative from published notes on the piece (e.g.\ \textit{Liushui},
-Boya and his true listener Ziqi; \textit{Guangling San}, Nie Zheng's revenge and Ji Kang's last performance),
-assigned two to five tags from a closed vocabulary of 37 moods and scenes (e.g.\ \textit{calm, lonely, vast,
-reclusive, autumn, river, frontier desert}), and recorded our confidence: 55 notes are well sourced, 31 partly,
-and 22 inferred from the title. A pentatonic mode (the \textit{gong} pitch and its five notes) is estimated
-automatically for every window from a tuning-corrected pitch-class histogram. Captions are written in English
-with the Chinese text appended and never exceed 160 tokens of the 256-token encoder limit.
+\paragraph{This work.} Our goal is an ``AI radio'': a system that keeps producing guqin-like music for hours, either
+continuing a recorded opening or following a short description of a scene. We adapt Stable Audio~3 Medium to 42.5\,h
+of screened historical solo recordings and let a guqin-literate listener judge every step. The contributions are:
+(i)~a curation and evaluation protocol for a small historical corpus, with composition-level splits and blind
+listening with free-text comments; (ii)~a fine-tuning recipe with continuation-weighted masking, captions combining
+researched notes on each piece with mood tags and an estimated pentatonic mode, random-length crops and early
+stopping; (iii)~seven listening studies, including clear negative results for a from-scratch latent language model
+and for two automatic quality measures; and (iv)~two failure modes of chained continuation for long playback, with
+fixes.
 
 \section{Method}\label{sec:method}
 
-\subsection{Model}
-Stable Audio~3 Medium~\citep{evans2026stableaudio3} is a diffusion transformer over SAME-L latents (256
-dimensions at about 10.8 frames per second) conditioned on T5Gemma text embeddings and on an inpainting mask.
-Following the released recipe, we train a rank-16 DoRA adapter (21.6\,M trainable parameters) on the
-\emph{base} model and apply it to the step-distilled \emph{Medium} model at inference (8 sampling steps). All
-latents are pre-encoded once.
+\subsection{Data}\label{sec:data}
+The source is a private library of 638 historical guqin recordings (44.1\,kHz, 16-bit stereo CD transfers). Every
+candidate was screened by the author through whole-track listening; recordings were excluded for audible noise
+floors, ensembles or other instruments, applause and voice. The result is a set $\mathcal{R}$ of
+\textbf{412 solo recordings by 61 performers (42.5\,h)} with 108 distinct titles after normalising numbered
+variants. Performer coverage is uneven: the five most represented performers account for about 40\% of the duration.
 
-\subsection{Objective, masking and text}
-Training uses the model's rectified-flow objective~\citep{liu2022rectified} with its inpainting conditioning. We
-change the masking mixture from the default 10/80/10 (random spans / fully masked / prefix continuation) to
-10/30/60, so that most training examples resemble our main use, continuing a given opening. Each window receives
-one caption style by a stable hash: 40\% tags and mode, 40\% narrative, tags and mode, 20\% narrative only; the
-trainer additionally drops 10\% of captions.
+Recordings are grouped by composition and the groups are randomly assigned to training, validation and test
+($|\mathcal{R}_{\mathrm{tr}}|=329$, $|\mathcal{R}_{\mathrm{va}}|=42$, $|\mathcal{R}_{\mathrm{te}}|=41$), so that no
+version of an evaluated composition is heard in training. Each recording $x$ of length $N$ samples is covered by
+$\lceil N/W \rceil$ aligned windows of the model's native length $W = 2{,}641{,}920$ samples (59.9\,s), the last
+window ending at the end of the recording; this gives 2{,}764 windows (2{,}217/276/271), of which nine windows of
+digital silence are dropped. The final model trains on $\mathcal{R}_{\mathrm{tr}}\cup\mathcal{R}_{\mathrm{te}}$
+(370 recordings) and keeps $\mathcal{R}_{\mathrm{va}}$ for early stopping and listening.
 
-\subsection{Crops and schedule}
-Each sample keeps a random span of 20--60\,s at a random start inside its window, padded with the silence latent
-and with the timing condition set to the kept length. One training pass is 2{,}500 steps at batch size 1 (about
-one epoch), learning rate $10^{-4}$, AdamW. After each pass we compute the model's validation loss at five fixed
-noise levels on all 276 validation windows and stop when three consecutive passes fail to improve on the best.
-Checkpoints every 500 steps make the run resumable after interruptions.
+\subsection{Latent representation and generator}
+A frozen autoencoder (SAME-L) maps a stereo window $x$ to a latent sequence
+\begin{equation}
+  \mathbf{z} = E(x) \in \mathbb{R}^{T \times 256}, \qquad T = W / 4096 = 645,
+\end{equation}
+about 10.8 frames per second, and a decoder $D$ maps latents back to audio. The generator of Stable Audio~3
+Medium \citep{evans2026stableaudio3} is a diffusion transformer \citep{peebles2022dit} $v_\theta$ trained with a
+rectified-flow objective \citep{liu2022rectified}. With $\boldsymbol{\epsilon}\sim\mathcal{N}(0,I)$ and
+$t\in[0,1]$,
+\begin{equation}
+  \mathbf{z}_t = (1-t)\,\mathbf{z} + t\,\boldsymbol{\epsilon},
+\end{equation}
+and the network predicts the velocity $\boldsymbol{\epsilon}-\mathbf{z}$ conditioned on text $c$, on the duration
+$\ell$ and on an inpainting mask $\mathbf{m}\in\{0,1\}^{T}$ ($m_i=1$ for frames that are given):
+\begin{equation}
+  \mathcal{L}(\theta) = \mathbb{E}_{\mathbf{z},t,\boldsymbol{\epsilon},\mathbf{m}}
+  \left\| v_\theta\!\left(\mathbf{z}_t,\, t,\, c,\, \ell,\, \mathbf{m}\odot\mathbf{z},\, \mathbf{m}\right)
+  - (\boldsymbol{\epsilon}-\mathbf{z}) \right\|_2^2 .
+  \label{eq:loss}
+\end{equation}
+The mask is drawn from a mixture of three types: random spans, a fully masked sequence (unconditional generation)
+and a given prefix (continuation),
+\begin{equation}
+  P(\text{span},\ \text{full},\ \text{prefix}) = (0.1,\ 0.3,\ 0.6),
+\end{equation}
+which we changed from the default $(0.1, 0.8, 0.1)$ so that most training examples resemble continuation, our main
+use. At inference the step-distilled Medium model integrates the flow in 8 steps.
 
-\subsection{Inference}
-Continuation keeps a 10\,s opening and generates the next 25\,s; text-only generation produces 35\,s from a
-description. For long playback we chain continuations (Section~\ref{sec:chain}).
+\subsection{Adaptation}
+We train a DoRA adapter \citep{liu2024dora} on the non-distilled \emph{base} model and apply it to the distilled
+model at inference, following the released recipe. For a frozen weight $W_0\in\mathbb{R}^{d\times k}$, DoRA learns
+a low-rank update and a per-row magnitude,
+\begin{equation}
+  W' = \mathbf{g} \odot \frac{W_0 + \tfrac{\alpha}{r} BA}{\left\| W_0 + \tfrac{\alpha}{r} BA \right\|_{\mathrm{row}}},
+  \qquad B\in\mathbb{R}^{d\times r},\ A\in\mathbb{R}^{r\times k},
+\end{equation}
+with $r=\alpha=16$ (21.6\,M trainable parameters). All latents are pre-encoded once.
 
-\section{Evaluation Protocol}\label{sec:eval}
+\subsection{Text conditioning}
+For each composition we compiled a short narrative from published notes on the piece (for example
+\textit{Liushui}, Boya and his true listener Ziqi; \textit{Guangling San}, Nie Zheng's revenge and Ji Kang's last
+performance) and assigned two to five tags from a closed vocabulary $\mathcal{V}$ of 37 moods and scenes (e.g.\
+\textit{calm, lonely, vast, reclusive, autumn, river, frontier desert}); 55 notes are well sourced, 31 partly and 22
+inferred from the title. A pentatonic mode is estimated for every window as follows. Spectral peaks $k$ between
+60\,Hz and 2\,kHz, with magnitudes $a_k$ and frequencies $f_k$, are folded into a 120-bin pitch-class histogram
+(10-cent bins),
+\begin{equation}
+  h(b) = \sum_{k} a_k \,\mathbb{1}\!\left[\left\lfloor \tfrac{1}{10}\left(1200\log_2\tfrac{f_k}{440} \bmod 1200\right)\right\rfloor = b\right],
+\end{equation}
+the tuning offset of the historical recording is estimated as
+$o^\ast = \arg\max_{o\in\{0,\dots,9\}} \sum_{j=0}^{11}\sum_{\delta=-1}^{1} h(10j+o+\delta)$, and the folded
+12-class profile $p(j)\propto \sum_{\delta=-5}^{4} h(10j+o^\ast+\delta)$ defines the pentatonic fit and the
+\emph{gong} (tonic) pitch
+\begin{equation}
+  F = \max_{r} \sum_{s\in P} p\big((s+r) \bmod 12\big), \qquad
+  r^\ast = \arg\max_{r} \sum_{s\in P} p\big((s+r) \bmod 12\big), \qquad P = \{0,2,4,7,9\}.
+  \label{eq:fit}
+\end{equation}
+Each window receives one caption style by a stable hash: 40\% tags and mode, 40\% narrative, tags and mode, and 20\%
+narrative only, in English with the Chinese text appended (at most 160 tokens of the 256-token encoder limit); the
+trainer additionally replaces 10\% of captions by the empty string.
 
-All listening was done by the author, who has extensive experience with the guqin repertoire, on local web pages
-in a fixed format: candidates for the same opening and seed are shuffled and unlabelled; each clip gets an overall
+\subsection{Training}
+Each sample keeps a random span of the window,
+\begin{equation}
+  L \sim \mathcal{U}\{L_{\min}, \dots, T\},\quad s \sim \mathcal{U}\{0, \dots, T-L\}, \quad L_{\min} = 215\ (20\,\mathrm{s}),
+\end{equation}
+pads the rest with the latent of silence, and sets the duration condition to $\ell = L/10.77$\,s. One pass is
+2{,}500 steps of batch size 1 (about one epoch), AdamW with learning rate $10^{-4}$. After pass $n$ we compute the
+validation loss at five fixed noise levels $\tau\in\{0.1,0.3,0.5,0.7,0.9\}$ over all validation windows,
+\begin{equation}
+  V_n = \frac{1}{5}\sum_{\tau} \frac{1}{|\mathcal{W}_{\mathrm{va}}|}\sum_{w\in\mathcal{W}_{\mathrm{va}}}
+  \mathcal{L}_\tau(\theta_n; w),
+\end{equation}
+and stop at the first pass $n$ with $n - \arg\min_{k\le n} V_k \ge 3$, keeping
+$\theta^\ast = \theta_{\arg\min_k V_k}$. Checkpoints every 500 steps make the run resumable.
+
+\subsection{Inference and long playback}
+Continuation keeps a 10\,s opening ($\mathbf{m}=1$ on its frames) and generates the next 25\,s; text-only generation
+produces 35\,s from a description with $\mathbf{m}=0$. For long playback, segment $k$ is generated from the last
+15\,s of the piece so far, $C_k$. Because generated clips end in a short silent tail, each segment is
+over-generated by 3\,s and only the 30\,s that follow the context are kept; and because levels drift upwards from
+segment to segment (Section~\ref{sec:chain}), the context is fed at a fixed level and the new part is matched to
+the context:
+\begin{equation}
+  g_k = \frac{\rho}{\mathrm{RMS}(C_k)},\quad
+  y_k = \frac{1}{g_k} G\!\left(g_k C_k\right)_{[15,\,45]\,\mathrm{s}},\quad
+  \hat{y}_k = y_k \cdot \frac{\mathrm{RMS}(C_k)}{\mathrm{RMS}(y_k)},\quad \rho = 10^{-16/20},
+\end{equation}
+where $G$ denotes 48\,s generation conditioned on the given context; consecutive segments are joined with a 0.1\,s
+crossfade.
+
+\subsection{Baseline: a latent language model}
+As an alternative to adapting a large generator, we trained a causal transformer from scratch that predicts the
+next latent frame. With context noise augmentation \citep{pasini2024continuous},
+$\tilde{\mathbf{z}}_{<i} = \mathbf{z}_{<i} + \sigma\boldsymbol{\eta}$ with $\sigma\sim\mathcal{U}(0,0.5)$ on half of
+the samples, the transformer produces a state $\mathbf{h}_i = f_\phi(\tilde{\mathbf{z}}_{<i}, \sigma)$ and a
+flow-matching head $u_\psi$ samples the frame \citep{li2024mar}:
+\begin{equation}
+  \mathcal{L}(\phi,\psi) = \mathbb{E}\left\| u_\psi\!\left((1-t)\boldsymbol{\epsilon} + t\,\mathbf{z}_i,\, t,\, \mathbf{h}_i\right) - (\mathbf{z}_i - \boldsymbol{\epsilon}) \right\|_2^2 .
+\end{equation}
+The model has 8 layers of width 512 and a 6-block AdaLN MLP head of width 1024 (72\,M parameters), and is trained
+on 1.42\,M frames of the training split with sequences of 512 frames.
+
+\subsection{Evaluation}\label{sec:eval}
+All listening was done by the author, who has extensive experience with the guqin repertoire, on local web pages in
+a fixed format: candidates for the same opening and seed are shuffled and unlabelled; each clip gets an overall
 score from 1 to 5, optional issue tags (e.g.\ \textit{too many semitones}, \textit{sawing/metallic noise},
-\textit{not guqin-like}, \textit{no melody}, \textit{abrupt seam}) and free-text comments; the mapping is revealed
-only after rating. Openings come from compositions the compared models did not train on, with each study using
-different performers and pieces where possible. For paired comparisons we report exact two-sided sign-flip
-permutation tests over openings and percentile bootstrap intervals; with eight or fewer pairs these tests have
-little power and we treat them as descriptive.
+\textit{not guqin-like}, \textit{no melody}, \textit{abrupt seam}) and free-text comments; the mapping is revealed only
+after rating. Openings come from compositions that the compared models did not train on, with different performers
+and pieces across studies where possible. For paired score differences $d_1,\dots,d_n$ over openings we report the
+exact two-sided sign-flip permutation test
+\begin{equation}
+  p = 2^{-n}\sum_{\mathbf{s}\in\{\pm1\}^n} \mathbb{1}\!\left[\left|\tfrac{1}{n}\textstyle\sum_i s_i d_i\right| \ge \left|\bar{d}\right|\right]
+\end{equation}
+and percentile bootstrap intervals of means; with eight or fewer pairs these tests have little power and we treat
+them as descriptive.
+
+Two automatic measures were tested against the ratings. The \emph{noisy-frame fraction} is the share of active
+frames (within 45\,dB of the clip maximum) whose 2.5--10\,kHz band has spectral flatness above 0.25 and lies within
+30\,dB of the 60--2500\,Hz band, aiming at the listener's ``sawing'' complaints. The \emph{pentatonic fit} $F$ of
+Eq.~(\ref{eq:fit}) is computed on generated audio, and its onset-restricted variant counts the share of note onsets
+whose attack pitch, estimated 30--120\,ms after a spectral-flux peak by harmonic summation
+$S(n)=\sum_{q=1}^{5} 0.8^{\,q-1}\,|X(q f_n)|$ over semitones $n$, falls outside the opening's mode.
 
 \section{Results}\label{sec:results}
 
-Table~\ref{tab:studies} summarises the seven studies. Scores are means over clips; $n$ is clips per condition.
+\subsection{System performance}\label{sec:performance}
+The final adapter is the pass-14 checkpoint of the 370-recording run (Figure~\ref{fig:val}): validation loss fell from
+0.6020 for the unadapted model to 0.5950, and the three following passes did not improve on it. Training took
+45.9\,min per pass (2{,}500 steps plus validation of 276 windows) on one NVIDIA RTX~5070~Ti, about 11\,GB of GPU memory,
+and 13\,h for the 17 passes. At inference the adapter generates 35\,s from text in 4.1\,s (8.6 times faster than real
+time) and continues a 10\,s opening by 25\,s in 6.0\,s, with a peak of 6.5\,GB of GPU memory.
+
+In the final listening study (R7 in Table~\ref{tab:studies}) the adapter scored a mean of \textbf{3.88} for
+continuing eight unseen validation compositions, against 3.38 for the best previous adapter and 2.75 for an early
+checkpoint of the same run, and \textbf{4.60} for five scene descriptions written after training, against 3.60 for
+the early checkpoint. It received no ``sawing'' tags. One take (``sunset over a misty lake; an old fisherman rows
+home, singing quietly to himself'') was singled out by the listener as exceptional and was extended to 3.5 minutes
+by chained continuation (Section~\ref{sec:chain}).
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{val_loss.pdf}
+  \caption{Validation loss per training pass of the final run (276 held-out windows, five fixed noise levels).}
+  \label{fig:val}
+\end{figure}
+
+\subsection{Listening studies}
+Table~\ref{tab:studies} summarises the seven studies in the order they were run; each study answered a question
+raised by the previous one.
 
 \begin{table*}[t]
 \centering
-\begin{tabular}{llcl}
+\small
+\begin{tabular}{p{0.16\textwidth}p{0.5\textwidth}cp{0.17\textwidth}}
 \hline
 \colhead{Study} & \colhead{Condition} & \colhead{$n$} & \colhead{Mean score}\\
 \hline
@@ -143,115 +239,148 @@ R7 final & continuation: pass 14 / pass 2 / adapter C & 8 & \textbf{3.88} / 2.75
 \hline
 \end{tabular}
 \caption{Overview of the listening studies (scores 1--5, single expert listener). In R1 the 412-recording adapter
-had seen the validation compositions; all other comparisons use openings unseen by every compared model, except
-R2 (see Section~\ref{sec:limits}).}
+had seen the validation compositions; all other comparisons use openings unseen by every compared model, except R2
+(see Section~\ref{sec:limits}).}
 \label{tab:studies}
 \end{table*}
 
-\subsection{Seed and opening dominate}
-In R1 the two seeds differed by 1.6 points on average (2.17 against 3.75), more than any model difference; in R2
-the mean per opening-and-seed group ranged from 1.0 to 4.75 while inference settings moved the mean by at most 0.1
-(except the base model). The same semitone often appeared at the same second in all candidates sharing an opening
-and seed. This variance motivates generating several takes and selecting, and it is why per-condition means over
-a handful of clips must be read cautiously.
+\paragraph{Masking and data (R1).} With 329 training recordings, the continuation-weighted mask did not beat the
+default (2.62 against 2.88), and the two seeds differed by 1.6 points on average (2.17 against 3.75), more than any
+model difference.
 
-\subsection{Inference settings and text conditioning}
-Lowering adapter strength or restricting the adapter to early denoising steps made no difference. Using the base
-model with 50 steps, the configuration matching training, was clearly worse (2.70, five scores of 1, comments
-about extra instruments), confirming that the distilled model is the better renderer. Training with mood tags left
-continuation unchanged (matching and deliberately opposite tags both scored 4.0: the opening dominates) but
-improved generation from text alone from 2.0 to 3.8 ($p=0.06$, $n=5$).
+\paragraph{Inference settings (R2).} Lowering adapter strength or restricting the adapter to the early, high-noise
+steps changed the mean by at most 0.1. Running the base model for 50 steps, the configuration that matches training,
+was clearly worse (2.70, five scores of 1, comments about extra instruments). The mean per opening-and-seed group
+ranged from 1.0 to 4.75.
 
-\subsection{Training length and early stopping}
-On the 329-recording split, held-out loss decreased monotonically over three passes (0.5387 for the base model,
-then 0.5351, 0.5343 and 0.5337) with no sign of overfitting; captions and mode text did not change the loss. In
-the final run (Figure~\ref{fig:val}) the loss fell from 0.6020 to a minimum of 0.5950 at pass~14 and did not
-improve over the next three passes, triggering early stopping. The pass-14 adapter improved continuation over the
-pass-2 checkpoint of the same run (3.88 against 2.75, $p=0.16$) and over adapter~C (3.38, $p=0.63$), and received
-no ``sawing'' tags against three for pass~2. Bootstrap 95\% intervals are wide ([2.75, 4.75] for pass~14). For
-scene descriptions written after training, pass~14 scored 4.6 against 3.6 ($p=0.31$); one take was singled out by
-the listener as exceptional.
+\paragraph{Text conditioning (R3).} Training with mood tags left continuation unchanged (matching and deliberately
+opposite tags both scored 4.0) but improved generation from text alone from 2.0 to 3.8 ($p=0.06$, $n=5$).
+
+\paragraph{From-scratch latent language model (R4).} Validation loss of the baseline reached its minimum at 10k steps
+and rose by 8\% by 40k steps (Figure~\ref{fig:lm}). All 11 of its clips, including continuations, 5-minute endless
+generation and unconditioned generation, received the lowest score, with comments such as ``no timbre at all''; the
+SA3 adapter scored 2.0 on the same openings.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=\columnwidth]{val_loss.pdf}
-  \caption{Validation loss per training pass of the final run (276 held-out windows, five fixed noise levels).}
-  \label{fig:val}
-\end{figure}
-
-\subsection{Negative result: a from-scratch latent language model}\label{sec:latentlm}
-We trained a causal transformer (8 layers, width 512) with a flow-matching MLP head that predicts the next SAME-L
-frame, with context noise augmentation~\citep{pasini2024continuous} (72\,M parameters, 1.42\,M training frames).
-Validation loss reached its minimum at 10k steps and rose by 8\% by 40k steps (Figure~\ref{fig:lm}). Every one of
-its 11 clips received the lowest score, including endless and unconditioned generation, with comments such as
-``no timbre at all'': independently sampled frames left the region that the decoder renders as guqin. The same
-openings continued by the SA3 adapter scored 2.0. At this data scale, a frame-level autoregressive model over
-continuous latents is not competitive with adapting a large pretrained generator.
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\columnwidth]{latent_lm_val.pdf}
+  \includegraphics[width=0.7\columnwidth]{latent_lm_val.pdf}
   \caption{Validation loss of the from-scratch latent language model; it rises after 10k steps (dashed line).}
   \label{fig:lm}
 \end{figure}
 
-\subsection{Automatic quality measures}
-The listener's most frequent complaint was ``sawing'': left-hand friction noise that is idiomatic in moderation but
-grating when overused. A measure of noisy high-band frames correlated with the score in the wrong direction
-(Spearman $\rho=+0.39$ over 48 clips), and the nine clips tagged as sawing had \emph{lower} noisy-frame fractions
-than the rest (0.0006 against 0.0017).
+\paragraph{Training length and mode (R5, R6, R7).} On the 329-recording split, held-out loss decreased monotonically
+over three passes (0.5387 for the base model, then 0.5351, 0.5343 and 0.5337), and neither tags nor mode text changed
+it. Listening favoured three passes with tags and mode (4.12 against 3.75 for one pass, $p=0.50$). The story-caption
+run was rated below that adapter after two passes (3.00 against 3.50) but above it after fourteen (3.88 against 3.38,
+$p=0.63$; against pass~2, $p=0.16$). Bootstrap 95\% intervals of these means span about two points (pass~14:
+[2.75, 4.75]).
 
-The fraction of tonal energy on the best-fitting pentatonic set tracked scores over 124 rated clips ($\rho=0.52$,
-positive in each study) but only weakly among candidates for the same opening ($\rho=0.31$ after removing group
-means). Choosing the best-fitting candidate raised the mean from 3.41 to 3.52; discarding the worst raised it to
-3.58. Restricting the measure to pitches at note onsets, motivated by the listener's observation that idiomatic
-semitones occur in slides rather than at the pluck, was weaker still ($\rho=0.19$ within groups), although
-generated clips did place more onsets outside the mode than real recordings (33\% against a median of 22\%; 39\%
-in clips flagged for semitones). The measure also disagreed with R5, where it predicted that longer training
-worsened modal fit while the listener preferred the longer-trained model.
+\paragraph{Automatic measures.} The noisy-frame fraction correlated with the score in the wrong direction (Spearman
+$\rho=+0.39$ over 48 clips), and the nine clips tagged as sawing had \emph{lower} values than the rest (0.0006 against
+0.0017). The pentatonic fit tracked scores over 124 rated clips ($\rho=0.52$, positive in each study) but only weakly
+among candidates for the same opening ($\rho=0.31$ after removing group means); choosing the best-fitting candidate
+raised the mean from 3.41 to 3.52, discarding the worst raised it to 3.58. The onset-restricted variant was weaker
+still ($\rho=0.19$ within groups), although generated clips did place more onsets outside the mode than real
+recordings (33\% against a median of 22\%; 39\% in clips flagged for semitones).
 
-\subsection{Rater consistency}
-Fifteen clips from R6 were rated again, unknowingly, in R7. Six scores were identical, twelve within one point, and
-the mean absolute difference was 0.8. A clip chosen for the showcase in one session received a 1 in the next when
-heard next to an alternative. Context effects of this size are comparable to the differences between our models
-and are the main reason we do not claim significance.
+\paragraph{Rater consistency.} Fifteen clips from R6 were rated again, unknowingly, in R7: six scores were identical,
+twelve within one point, and the mean absolute difference was 0.8.
 
-\section{Long Playback by Chained Continuation}\label{sec:chain}
+\subsection{Long playback by chained continuation}\label{sec:chain}
+Extending the favourite take exposed two problems. Every generated clip ends with about 0.5\,s of digital silence
+($-87$\,dBFS) as the requested duration runs out; fed back as context, the tail made the model insert a further two
+seconds of silence at every seam. And each segment came out slightly louder than its context, so that over six
+rounds the level rose from $-10$ to $-5.5$\,dBFS with up to 10\% of samples clipped. Tail trimming and level locking
+(Section~\ref{sec:method}) removed the gaps and kept a 3.5-minute piece between $-13.8$ and $-16.7$\,dBFS per 30\,s
+with no clipping. Of two locked chains the listener accepted one and rejected the other for a sudden breakdown after
+82\,s.
 
-To extend the favourite 35\,s clip, we repeatedly fed its last 15\,s as an opening and appended 30\,s of new
-material. Two problems appeared.
+\section{Discussion}\label{sec:discussion}
 
-\subsection{Silent tails}
-Every generated clip ends with about 0.5\,s of digital silence ($-87$\,dBFS) as the requested duration runs out.
-When that tail is part of the next opening, the model treats the piece as ended and inserts a further two seconds
-of silence at the seam. Trimming the source's last 1.5\,s and over-generating each segment by 3\,s, then
-discarding the tail, removed the gaps.
+\paragraph{Randomness dominates; selection is part of the system.} In every study the opening and the random seed
+moved scores more than any setting we varied. The same semitone often appeared at the same second in all candidates
+sharing an opening and seed, which locates the error in the sampled trajectory rather than in a particular adapter.
+For a radio this has a practical consequence: generating several takes and choosing among them is not an
+afterthought but a component of the system, and the quality of that choice is bounded by the quality of the
+selection criterion, which we did not yet find automatically.
 
-\subsection{Loudness feedback}
-Each segment came out slightly louder than its opening, and that segment became the next opening: over six rounds
-the level rose from $-10$ to $-5.5$\,dBFS with up to 10\% of samples clipped. Feeding every opening at a fixed level
-($-16$\,dBFS) and matching each new segment to the level of the 15\,s before it kept the 3.5-minute result between
-$-13.8$ and $-16.7$\,dBFS per 30\,s with no clipping. Of two locked chains, the listener accepted one and rejected
-the other for a sudden breakdown after 82\,s, a reminder that long-range stability is not solved.
+\paragraph{The pretrained prior carries the timbre.} The from-scratch latent language model produced no recognisable
+guqin at all, even though the same decoder renders guqin well from encoded recordings. Sampling 256-dimensional frames
+one at a time from 1.4\,M training frames left the trajectory off the region of latent space that the decoder renders
+as guqin; noise augmentation of the context did not prevent it, and its validation loss began to rise after a quarter
+of an epoch-scale run. Adapting a generator pretrained on far more audio, by contrast, kept timbre largely intact from
+the first adapter on: the listener's complaints were about melody and noise, not about the instrument. In a domain of
+tens of hours, the question is not which architecture to train but which prior to adapt. A related lesson concerns the
+two Stable Audio~3 models: the base model, which matches the training configuration of the adapter, rendered worse
+than the distilled model, which the adapter was never trained on.
+
+\paragraph{What text does and does not control.} Captions had no measurable effect on held-out loss and none on
+continuation, where the ten-second opening determines key, register and texture. They mattered only when there was no
+opening: text-only generation improved from 2.0 to 3.8 after training with mood tags, and the narrative captions
+produced the highest-rated pieces of the project from scene descriptions that appear nowhere in training. Narratives
+attached to one composition each risk being learned as composition identifiers, whereas tags shared across
+compositions force the model to associate words with sound; mixing both, as we did, keeps the shared vocabulary
+while letting free text reach the encoder.
+
+\paragraph{Why the automatic measures failed.} The friction noise of slides is part of the guqin's sound, which
+\cite{penttinen2006guqin} model as a separate excitation component; what made the listener hear ``sawing'' was not its
+amount but where it occurred and how it was articulated. A frame-level noise statistic cannot see that, and it
+correlated with the score in the wrong direction because noisier clips were often livelier ones. The pentatonic fit
+captured a real property, and generated clips did place more attacks outside the mode than real recordings, but the
+listener's own description, that idiomatic semitones occur inside slides rather than at the pluck, calls for
+technique-aware analysis of the kind developed for playing-technique detection
+\citep{huang2020guqin,li2022guzheng}. The measure also disagreed with the listener about the effect of longer
+training, which is the strongest warning against using it to make decisions. We therefore treat both measures as
+negative results and use the listener's ratings as the only criterion.
+
+\paragraph{Training longer helped, but loss is a weak signal.} Held-out loss decreased by only 1.2\% from the unadapted
+model to the best pass, and the differences between late passes were of the order of $10^{-5}$, yet the pass-14
+adapter was the best-rated model of the project. Most of the diffusion loss is irreducible noise, so a small and
+monotone decrease can coincide with a large perceptual change. Loss is nevertheless the right instrument for one
+question, when to stop, because it is measured on held-out compositions; it would have been tempting, and wrong, to
+stop at the first noisy uptick (passes 8 and 15) instead of waiting for three passes without a new best.
+
+\paragraph{Long playback is an engineering problem first.} The two failures of chained continuation, silent tails and
+loudness feedback, are properties of how a fixed-length generator ends and of how its output level relates to its
+context, not of musical modelling, and both disappeared with a few lines of signal processing. The remaining failure,
+a sudden breakdown after 82\,s in one of two chains, is musical and is the real obstacle to hours of playback; it is
+the natural target for selection between candidate continuations and for preference-based fine-tuning on the
+collected ratings \citep{wallace2023diffusiondpo}.
+
+\paragraph{Evaluation with one expert.} A single guqin-literate listener made fast iteration possible and produced
+detailed, actionable comments (``the hook repeats the original'', ``semitones like a beginner practising'',
+``sounds like a cowboy guitar''), several of which turned directly into method changes. The cost is reliability:
+repeated ratings of the same clips differed by 0.8 points on average and a showcase take was rated 1 in a later
+session, effects as large as the differences between our models. None of our comparisons is significant, and the
+studies were sequential, so later choices depended on earlier ratings. Multi-listener evaluation is the first
+requirement for stronger claims.
+
+\paragraph{Data curation was the decisive step.} Automatic screening with audio tagging and audio-text models served
+only as a first pass; the final decision on every recording was made by whole-track listening. Composition-level
+splits, a check of a 10-hour DVD collection against the CD library (which turned out to be
+mostly new but full of applause and ensemble playing), and the discovery that openly licensed guqin audio amounts to
+under an hour all shaped what could be trained. A planned held-out performer was, by mistake, included in the
+412-recording training set, which compromised one study; keeping held-out material out of every automated corpus
+build is worth an explicit check.
 
 \section{Limitations}\label{sec:limits}
 
-All ratings come from one listener, who is also the author and designed the systems; the studies are small and
-were run sequentially as development proceeded, so later studies are not independent of earlier decisions. In R2
-the openings came from a performer who, contrary to the original plan, had been included in the 412-recording
-training set. The narratives and tags are condensed readings of traditional notes on each piece and simplify a
-rich interpretive tradition; 22 of the 108 titles are inferred from the title alone. Multi-listener studies,
-objective measures validated against them, and checks for replication of training
-material~\citep{batlleroca2024replication} are needed before stronger claims.
+All ratings come from one listener, who is also the author and designed the systems; the studies are small and were
+run sequentially as development proceeded. In R2 the openings came from a performer who, contrary to the original
+plan, had been included in the 412-recording training set. The narratives and tags are condensed readings of
+traditional notes on each piece and simplify a rich interpretive tradition; 22 of the 108 titles are inferred from
+the title alone. We did not test for replication of training material \citep{batlleroca2024replication}, and the
+pitch and noise measures were validated only against the same listener.
 
 \section{Conclusion}\label{sec:conclusion}
 
-A pretrained latent diffusion model, a few tens of hours of carefully screened historical recordings, a small
-adapter and a single attentive listener were enough to produce guqin continuations and scene-driven pieces that
-the listener rated highly, while training a generator from scratch on the same data failed completely. The
-strongest effects came not from architecture but from data curation, held-out early stopping, and simple
-engineering of the generation loop. The next steps are multi-listener evaluation, preference-based fine-tuning on
-the collected ratings~\citep{wallace2023diffusiondpo}, and stable long-form generation for continuous playback.
+A pretrained latent diffusion model, 42.5\,h of carefully screened historical recordings, a 21.6\,M-parameter adapter
+and a single attentive listener were enough to produce guqin continuations and scene-driven pieces that the listener
+rated highly, at more than eight times real time on a consumer GPU, while training a generator from scratch on the
+same data failed completely. The strongest effects came not from architecture but from data curation, the choice of
+prior, held-out early stopping and simple engineering of the generation loop. The next steps are multi-listener
+evaluation, technique-aware selection between candidate takes, preference-based fine-tuning on the collected ratings,
+and stable long-form generation for continuous playback.
 
 \section{Reproducibility}
 
