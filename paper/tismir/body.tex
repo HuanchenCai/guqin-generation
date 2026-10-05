@@ -114,7 +114,7 @@ inferred from the title. A pentatonic mode is estimated for every window as foll
 60\,Hz and 2\,kHz, with magnitudes $a_k$ and frequencies $f_k$, are folded into a 120-bin pitch-class histogram
 (10-cent bins),
 \begin{equation}
-  h(b) = \sum_{k} a_k \,\mathbb{1}\!\left[\left\lfloor \tfrac{1}{10}\left(1200\log_2\tfrac{f_k}{440} \bmod 1200\right)\right\rfloor = b\right],
+  h(b) = \sum_{k} a_k \,\mathbf{1}\!\left[\left\lfloor \tfrac{1}{10}\left(1200\log_2\tfrac{f_k}{440} \bmod 1200\right)\right\rfloor = b\right],
 \end{equation}
 the tuning offset of the historical recording is estimated as
 $o^\ast = \arg\max_{o\in\{0,\dots,9\}} \sum_{j=0}^{11}\sum_{\delta=-1}^{1} h(10j+o+\delta)$, and the folded
@@ -144,7 +144,7 @@ validation loss at five fixed noise levels $\tau\in\{0.1,0.3,0.5,0.7,0.9\}$ over
 and stop at the first pass $n$ with $n - \arg\min_{k\le n} V_k \ge 3$, keeping
 $\theta^\ast = \theta_{\arg\min_k V_k}$. Checkpoints every 500 steps make the run resumable.
 
-\subsection{Inference and long playback}
+\subsection{Inference and long playback}\label{sec:longplay}
 Continuation keeps a 10\,s opening ($\mathbf{m}=1$ on its frames) and generates the next 25\,s; text-only generation
 produces 35\,s from a description with $\mathbf{m}=0$. For long playback, segment $k$ is generated from the last
 15\,s of the piece so far, $C_k$. Because generated clips end in a short silent tail, each segment is
@@ -180,7 +180,7 @@ after rating. Openings come from compositions that the compared models did not t
 and pieces across studies where possible. For paired score differences $d_1,\dots,d_n$ over openings we report the
 exact two-sided sign-flip permutation test
 \begin{equation}
-  p = 2^{-n}\sum_{\mathbf{s}\in\{\pm1\}^n} \mathbb{1}\!\left[\left|\tfrac{1}{n}\textstyle\sum_i s_i d_i\right| \ge \left|\bar{d}\right|\right]
+  p = 2^{-n}\sum_{\mathbf{s}\in\{\pm1\}^n} \mathbf{1}\!\left[\left|\tfrac{1}{n}\textstyle\sum_i s_i d_i\right| \ge \left|\bar{d}\right|\right]
 \end{equation}
 and percentile bootstrap intervals of means; with eight or fewer pairs these tests have little power and we treat
 them as descriptive.
@@ -222,7 +222,7 @@ raised by the previous one.
 \begin{table*}[t]
 \centering
 \small
-\begin{tabular}{p{0.16\textwidth}p{0.5\textwidth}cp{0.17\textwidth}}
+\begin{tabular}{p{0.14\textwidth}p{0.47\textwidth}cp{0.23\textwidth}}
 \hline
 \colhead{Study} & \colhead{Condition} & \colhead{$n$} & \colhead{Mean score}\\
 \hline
@@ -232,7 +232,7 @@ R2 inference & adapter strength 1.0 / 0.7 / adapter on early steps only & 9--10 
 R3 captions & continuation: no text in training / no prompt / matching / opposite tags & 9 & 3.89 / 3.56 / 4.00 / 4.00 \\
  & text only: adapter trained without / with captions & 5 & 2.00 / 3.80 \\
 R4 latent LM & from-scratch latent LM / SA3 adapter & 11 / 6 & 1.00 / 2.00 \\
-R5 training length & 1 pass / 3 passes + tags / 3 passes + tags + mode & 8 & 3.75 / 3.75 / 4.12 \\
+R5 length & 1 pass / 3 passes + tags / 3 passes + tags + mode & 8 & 3.75 / 3.75 / 4.12 \\
 R6 narratives & pass 2 / adapter C from R5 & 7 / 8 & 3.00 / 3.50 \\
 R7 final & continuation: pass 14 / pass 2 / adapter C & 8 & \textbf{3.88} / 2.75 / 3.38 \\
  & scene descriptions: pass 14 / pass 2 & 5 & \textbf{4.60} / 3.60 \\
@@ -291,7 +291,7 @@ Extending the favourite take exposed two problems. Every generated clip ends wit
 ($-87$\,dBFS) as the requested duration runs out; fed back as context, the tail made the model insert a further two
 seconds of silence at every seam. And each segment came out slightly louder than its context, so that over six
 rounds the level rose from $-10$ to $-5.5$\,dBFS with up to 10\% of samples clipped. Tail trimming and level locking
-(Section~\ref{sec:method}) removed the gaps and kept a 3.5-minute piece between $-13.8$ and $-16.7$\,dBFS per 30\,s
+(Section~\ref{sec:longplay}) removed the gaps and kept a 3.5-minute piece between $-13.8$ and $-16.7$\,dBFS per 30\,s
 with no clipping. Of two locked chains the listener accepted one and rejected the other for a sudden breakdown after
 82\,s.
 
@@ -307,8 +307,8 @@ selection criterion, which we did not yet find automatically.
 \paragraph{The pretrained prior carries the timbre.} The from-scratch latent language model produced no recognisable
 guqin at all, even though the same decoder renders guqin well from encoded recordings. Sampling 256-dimensional frames
 one at a time from 1.4\,M training frames left the trajectory off the region of latent space that the decoder renders
-as guqin; noise augmentation of the context did not prevent it, and its validation loss began to rise after a quarter
-of an epoch-scale run. Adapting a generator pretrained on far more audio, by contrast, kept timbre largely intact from
+as guqin; noise augmentation of the context did not prevent it, and its validation loss began to rise after 10k of
+40k training steps. Adapting a generator pretrained on far more audio, by contrast, kept timbre largely intact from
 the first adapter on: the listener's complaints were about melody and noise, not about the instrument. In a domain of
 tens of hours, the question is not which architecture to train but which prior to adapt. A related lesson concerns the
 two Stable Audio~3 models: the base model, which matches the training configuration of the adapter, rendered worse
@@ -383,10 +383,10 @@ and stable long-form generation for continuous playback.
 \section{Reproducibility}
 
 Code for corpus preparation, training, generation, listening pages and analysis, together with every listening
-rating and validation log and the script that recomputes all numbers and figures in this article, is available
+rating and validation log and the scripts that produce all numbers and figures in this article, is available
 \ifdefined\anonymous in an anonymised repository (link withheld for review)\else at
-\url{https://github.com/HuanchenCai/guqin-generation} (tag \texttt{freeze-2026-10-05}, which also records the
-SHA-256 hashes of all checkpoints used)\fi. The training recordings come from a personal collection of
+\url{https://github.com/HuanchenCai/guqin-generation} (tag \texttt{arxiv-v1}; results were frozen at tag
+\texttt{freeze-2026-10-05}, whose \texttt{FREEZE.json} records the SHA-256 hashes of all checkpoints used)\fi. The training recordings come from a personal collection of
 historical performances that remain under copyright and cannot be redistributed, and for the same reason we do not release audio
 generated from them or the adapter weights. The base model is used under Stability AI's community license.
 

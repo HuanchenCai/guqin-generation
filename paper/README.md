@@ -1,6 +1,6 @@
 # Preprint: Adapting a Latent Audio Diffusion Model to Historical Guqin Recordings
 
-Results are frozen at git tag `freeze-2026-10-05` (`FREEZE.json` lists the SHA-256 of every checkpoint used).
+Results are frozen at git tag `freeze-2026-10-05` (`FREEZE.json` lists the SHA-256 of every checkpoint used); the submitted preprint is tag `arxiv-v1`.
 
 ## The preprint
 
