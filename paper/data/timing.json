@@ -1,0 +1,18 @@
+{
+ "gpu": "NVIDIA GeForce RTX 5070 Ti",
+ "continuation_10s_plus_25s": {
+  "median_seconds": 5.99,
+  "runs": 5,
+  "peak_vram_gb": 6.54
+ },
+ "text_only_35s": {
+  "median_seconds": 4.05,
+  "runs": 5,
+  "peak_vram_gb": 6.54
+ },
+ "real_time_factor_text_only": 8.6,
+ "minutes_per_training_pass_including_validation": 45.9,
+ "training_steps_per_pass": 2500,
+ "observed_training_vram_gb": 10.7,
+ "note": "Training VRAM is the nvidia-smi reading during training (10941 MiB), not a peak measurement."
+}
