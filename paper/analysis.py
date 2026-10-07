@@ -209,6 +209,7 @@ ax.legend(frameon=False, fontsize=8)
 ax.grid(alpha=0.3)
 fig.tight_layout()
 fig.savefig(GEN / "val_loss.pdf")
+fig.savefig(GEN / "val_loss.png", dpi=200)  # README copy
 
 # Figure 2: from-scratch latent LM validation loss (overfitting after 10k steps).
 fig, ax = plt.subplots(figsize=(4.6, 2.6))
@@ -219,4 +220,5 @@ ax.set_ylabel("validation loss")
 ax.grid(alpha=0.3)
 fig.tight_layout()
 fig.savefig(GEN / "latent_lm_val.pdf")
+fig.savefig(GEN / "latent_lm_val.png", dpi=200)  # README copy
 print(json.dumps(N, ensure_ascii=False, indent=1))
